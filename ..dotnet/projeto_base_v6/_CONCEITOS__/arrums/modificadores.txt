@@ -1,0 +1,9 @@
+
+
+modificadores:
+  modificador: out
+  significado: saida modificada
+  sintaxe: out <tiposaida> varivelQueVaiReceberASaidaModificada
+
+  exemplo:
+    out int convertidoEmNumero

@@ -1,0 +1,37 @@
+signinificados: 
+-m == modulo
+
+obs: posso criar ilimitados ambientes virtuis na mesma pasta d eprojeto
+
+no diretorio desejado:
+python -m venv <NOME_DO_AMBIENTE>   ### diga: python -modulo venv <NomeAmbiente>
+### vai criar a pasta do projeto
+ativar_env_digite: source <caminho ate a pasta /bin >/activate
+
+# onde esta guardando as libs com o venv ativado :: na pasta lib/versaoPy/site-packages
+
+posso conferir no menu interativo : python    ## com
+import site
+site.getsitepackages()
+vai mostrar o caminho : /lib/python3.10/site-packages # dentro do proprio local estara salvando as libs..obs: se eu desativar e ver com o site.getsitepackages() de novo vai mostrar o python global.
+
+...
+PREPARAR PIP PARA INSTALAR PACOTES SÓ NO PROJETO ATUAL
+python -m pip install --upgrade pip
+
+.....
+AGORA SIM PODE INSTALAR PACOTES PIP ...
+e depois que tiver desativado o ambiente pode conferir que nao instalou no pip global
+...
+DESATIVAR AMBIENTE VIRTUAL
+digite: deactivate
+
+###
+Arquivos:
+pyvenv.cfg  ## arquivo de configuracoa do projeto com env
+### abrindo com cat pyvenv.cfg  ## vai mostrar que dentro dele esta assim configurado:
+
+home= ### nde esta o python global que esta usando este arquivod e configuracao
+include-system-site-packages = ## pergunat se quer trazer modulos pra cá ..esta false
+version = 3.10.2 ## versao python em uso neste projeto, ele pega aversoa em uso do py
+

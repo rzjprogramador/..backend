@@ -1,0 +1,20 @@
+import (
+	"fmt"
+	"bufio"
+	"log"
+	"os"
+)
+
+
+func main() {
+	fmt.Println("input text:")
+    reader := bufio.NewReader(os.Stdin)
+    line, err := reader.ReadString('\n')
+    if err != nil {
+        log.Fatal(err)
+    }
+    fmt.Printf("foi digitado: %s-\n", line)
+}
+
+
+tutorial: https://gosamples.dev/read-user-input/

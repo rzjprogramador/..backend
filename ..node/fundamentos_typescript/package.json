@@ -1,0 +1,21 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "description": "foo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only --ignore-watch node_modules --no-notify src/Criacional/CriacaoEntity_Classe_Construtor_Vazio/Tester.ts",
+    "start": "tsnd --respawn --transpile-only --ignore-watch node_modules --no-notify src/Criacional/CriacaoEntity_Classe_Construtor_Obj/Tester.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "*",
+    "ts-node-dev": "*",
+    "nodemon": "*",
+    "typescript": "*",
+    "@types/node": "*"
+  },
+  "dependencies": {}
+}

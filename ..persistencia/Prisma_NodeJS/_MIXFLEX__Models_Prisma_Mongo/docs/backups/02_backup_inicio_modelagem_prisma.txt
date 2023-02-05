@@ -1,0 +1,119 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "mongodb"
+    url      = env("DATABASE_URL")
+}
+
+model Cliente {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    email String @unique
+
+    usernome    String
+    nome        String
+    password    String
+    tipoCliente String
+
+    createdAt   DateTime @default(now())
+    updatedAt   DateTime @updatedAt
+    ultimoLogin DateTime @default(now())
+
+    Pedidos Pedido[]
+
+    @@map("clientes")
+}
+
+model Pedido {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    codigo String? @unique
+
+    cliente   Cliente @relation(fields: [clienteId], references: [id])
+    clienteId String  @db.ObjectId
+
+    produtos Produto[]
+
+    @@map("pedidos")
+}
+
+model Produto {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    nome  String @unique
+    preco Float
+
+    dadosEntrega   DadosEntrega @relation(fields: [dadosEntregaId], references: [id])
+    dadosEntregaId String       @db.ObjectId
+
+    Pedido   Pedido @relation(fields: [pedidoId], references: [id])
+    pedidoId String @db.ObjectId
+
+    @@map("produtos")
+}
+
+model DadosEntrega {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    remetente    String
+    destinatario String
+
+    enderecoEntrega Endereco @relation(fields: [enderecoId], references: [id])
+    enderecoId      String   @db.ObjectId
+
+    Produto Produto[]
+
+    @@map("dados_entregas")
+}
+
+model Endereco {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    cep         String
+    logradouro  String
+    numero      String
+    complemento String
+
+    cidade   Cidade @relation(fields: [cidadeId], references: [id])
+    cidadeId String @db.ObjectId
+
+    DadosEntregas DadosEntrega[]
+
+    @@map("enderecos")
+}
+
+model Cidade {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    nome          String @unique
+    cep_inico_fim String
+
+    estado   Estado @relation(fields: [estadoId], references: [id])
+    estadoId String @db.ObjectId
+
+    Endereco Endereco[]
+
+    @@map("cidades")
+}
+
+model Estado {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    nome    String   @unique
+    uf      String
+    cidades Cidade[]
+
+    @@map("estados")
+}

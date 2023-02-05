@@ -1,0 +1,27 @@
+
+estruturando_dados_em_classe:
+
+resumo: estruturando um objeto de informacoes primitivas ou criando um novo tipo personalizado.
+
+conceito: centralizacao de dados/membros primitivos e comportamentos gerando unica representacao Objeto que gera uma informacao.
+
+possiveis: [ 
+  class para objeto de primitivos, 
+  tiposPersonalizados que agrupará diversos campos de tipos primitivos em um unico tipoPersonalizado. , 
+  json o mesmo que tipoPersonalizado só que serealizados para outros receptores acessarem as informacoes. 
+  ]
+
+classe_para_objeto_de_primitivos:
+conceito: classe gera um objeto de valores primitivos com os membros :: propriedades/campos e comportamentos/metodos de herancaPrototipe e personalizados.
+
+usabilidade_membros: as informacoes/dados do objetoFinal podem serem usados para leitura e os metodos para escrita e leitura se forem de visibilidade publica.
+
+visibilidade_campos_e_metodos: [ 
+  padrao: keyword: sem informar, conceito: se nao informar o padrao é private ,
+
+  privada: keyword: private, conceito: é o padrao se nao inserir nada nao podera ser acessado este membro fora da classe de criacao,
+
+  protegida: keyword: protected, conceito: só podera ser acessado os membros pela classeOriginaria ou que a herdam/á extendem.
+
+  publica: keyword: public, conceito: podem ser acessados as propriedades/membros de fora da classe para uso de leitura e escrita.
+  ]

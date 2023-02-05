@@ -1,0 +1,13 @@
+poetry init -n
+
+definir versao py do projeto
+
+pyenv local 3.10.5
+
+poetry install
+poetry env use 3.10.2 ### Quando nao esta compativel as versoes do shell
+poetry shell
+
+poetry add fastapi
+
+poetry add tinydb

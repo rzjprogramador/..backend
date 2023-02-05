@@ -1,0 +1,6 @@
+
+delimitadores:
+  de_parametros: 
+    em aplicacoes de bloco () parenteses
+    para genericos <> 
+    para console -- dois hifens e espaço

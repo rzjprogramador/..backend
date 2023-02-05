@@ -1,0 +1,33 @@
+    /**
+    tecnica_programa:
+     * - pergunta: a quem vai usar o programa.
+     * - estado: definicao DeValor Fixo Pela App.
+     * - resposta: em de uma operacao entre a pergunta <operacao intervessao que traz resultado> e o o item de valor fixo.
+     */
+
+// exemplo :
+
+
+namespace aula1 {
+  class Program 
+  {
+  static void Main() 
+  {
+  // ENTRADA DINAMICA:
+  Console.WriteLine("Digite o valor para operacao: ");
+  var pergunta = Convert.ToInt32(Console.ReadLine()); 
+  var valorPresente = 50.0;
+  var resposta = pergunta - valorPresente; 
+  
+  Console.WriteLine($"O valor enviado foi {pergunta} do item que tem o estado fixo de {valorPresente} respondo que a operacao da pergunta que entrou com o estado presente é {resposta} .");  
+  } 
+  }
+}
+
+
+  /**
+  // feita a pergunta com comando de entrada, feito casting para conversao ja que a entrada é sempre texto conventemos para int que vamos usar no tipo de valor da resposta
+
+  ex: Convert.ToInt32(Console.ReadLine()); // converteu apra int32 a entradaDinamica sempre texto.
+  * 
+  */  

@@ -1,0 +1,24 @@
+
+  Valor: [
+    { 
+      quantidade: singular,
+      nomeValor: de referencia,
+        conceito: 
+        tipos: [
+          {
+            nome: texto, 
+            representacao: [], 
+            valorZero: null, 
+            semValor: null 
+            conceitos: ,
+            membrosDNAPrototipo: [
+              { de_leitura: [ { nome: , essencia: , conceitos: ,beneficios: , exemplos: , } ] },
+
+              { de_escrita: [ { nome: , essencia: , conceitos: ,beneficios: , exemplos: , } ] }
+            ],
+          
+          },
+    };
+
+  
+     

@@ -1,0 +1,24 @@
+
+
+uso_panic_recover:
+conceito: panico e recuperacao :: acao que consiste em abortar estorando panico e recuperar a execucao com recover recuperador...com as funcoes panic(mensagemPanico) e recover()
+
+passos:
+
+funcaoPrincipal:
+- faz sua funcao principal que vai receber um input
+- para abortar o fluxo: avalia o input se ele é exatamente o que nao deseja.
+- obs: escopo :: a var a ser avalida tem que estar no mesmo escopo da funcao panic que vai abortar e mostrar uma mensagem feedback.
+senao da escopo inacessivel :: com o erro : unreachable codeunreachable
+
+- obs: ao abortar o panic vai procurar para executar as funcoes adiadas com defer, entao vamos ja deixar uma por perto para ser chamada apos o panico e recuperar a execucao.
+
+- entao antes ja deixa definido com defer o adiamento de uma funcao que vai recuperar a execucao o aborto.
+- use a funcao panic( com o feedback do motivo do aborto ) // ela é tipo o throw do js ela interrompe a execucao se der exatamente o que vc avaliou para nao dar.
+---
+funcaoQueVaiRecuperarExecucao:
+- na funcao que vai recuperar a execucao:
+- na auxiliar r deiga que ela é uma funcao recover(); e se este recover tiver algo ou seja diferente de nulo faça algo.
+
+funcaoExecutadoraDaPrincipal:
+- agora sim ...execute sua funcao.

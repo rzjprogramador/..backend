@@ -1,0 +1,23 @@
+###
+GET {{host}}/api/exemplo1-get
+Content-Type: application/json
+
+###
+GET {{host}}/api/exemplo1-error
+Content-Type: application/json
+
+###
+GET {{host}}/api/exemplo1-get-test2
+Content-Type: application/json
+
+###
+POST {{host}}/api/create-exemplo
+Content-Type: application/json
+
+{
+  "dado1": null,
+  "dado2": 11
+}
+
+
+###

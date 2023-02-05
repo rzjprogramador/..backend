@@ -1,0 +1,11 @@
+para_variaveis_de_ambiente_em_projeto:
+ decouple: '
+  instalar >> poetry add python-decouple
+
+  # usar
+  from decouple import config
+
+  MINHA_VAR = config('MONGO_URL')  
+  ### VAI LER A VAR QUE ESTA DENTRO DO CONFIG QUE VEM DO .ENV
+
+  ',

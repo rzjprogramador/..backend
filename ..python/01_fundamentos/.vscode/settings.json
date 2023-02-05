@@ -1,0 +1,8 @@
+{
+  "python.formatting.provider": "black",
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "python.analysis.extraPaths": [
+    "./mini_projetos/conta_banco/modules/auxiliares"
+  ]
+}

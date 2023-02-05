@@ -1,0 +1,92 @@
+model Cliente {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    email String @unique
+
+    usernome String
+    nome      String
+    password  String
+    tipoCliente String
+
+    createdAt   DateTime @default(now())
+    updatedAt   DateTime @updatedAt
+    ultimoLogin DateTime @default(now())
+
+    @@map("clientes")
+}
+
+model Pedido {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    codigo String @unique
+    
+    cliente Cliente?
+    produtos Produto[]
+
+
+    @@map("pedidos")
+}
+
+model Produto {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    nome String @unique
+    preco Float
+
+    dadosEntrega DadosEntrega
+
+    @@map("produtos")
+}
+
+model DadosEntrega {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    remetente String
+    destinatario String
+
+    enderecoEntrega Endereco
+
+   
+    @@map("dados_entregas")
+}
+
+model Endereco {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    cep String
+    logradouro String
+    numero String
+    complemento String
+
+    cidade Cidade
+
+
+    @@map("enderecos")
+}
+
+model Cidade {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    nome String @unique
+    cep_inico_fim String
+
+    estado Estado
+
+    @@map("cidades")
+}
+
+model Estado {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    nome String @unique
+    uf String 
+
+    @@map("estados")
+}

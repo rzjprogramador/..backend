@@ -1,0 +1,7 @@
+erro: Method Not Allowed
+traducao: Metodo nao permitido
+possivel_causa: esta usando o metodo errado an rota ao inves de post pra criar pode estar usando get pra consultar
+correcao: usar o metodo correto.
+
+---
+

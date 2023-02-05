@@ -1,0 +1,16 @@
+# VIEW TODOS CRIADOS
+GET {{host}}/clientes
+Content-Type: application/json
+
+###
+# CRIAR 1º
+POST {{host}}/criar-exemplo
+Content-Type: application/json
+
+{
+  "nome": "admin",
+  "idade": 444
+}
+
+###
+# 

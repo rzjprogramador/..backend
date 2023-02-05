@@ -1,0 +1,11 @@
+podemos fazer:
+
+declaracoes_multiplas_em_justa_ordem:
+  significado: podemos declarar varias variaveis somente do memsmo tipo na mesma linha e dar seus valores em justa posicao tambem na mesma linha.
+
+  observacao: tambem pode ser feita essas declaracoes multiplas ao declarar campos de struct.
+
+  exemplo: var num1, num2, num3 uint = 10, 20, 50
+
+  ---
+

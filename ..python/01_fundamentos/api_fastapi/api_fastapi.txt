@@ -1,0 +1,4 @@
+
+documentacao_da_api: em host/docs
+exemplo: http://localhost:5000/docs
+

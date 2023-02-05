@@ -1,0 +1,21 @@
+###
+GET {{host}}/api/registro-cliente
+Content-Type: application/json
+
+
+###
+GET {{host}}/api/tester-cliente
+Content-Type: application/json
+
+
+###
+POST {{host}}/api/create-cliente
+Content-Type: application/json
+
+{
+  "dado1": null,
+  "dado2": 11
+}
+
+
+###

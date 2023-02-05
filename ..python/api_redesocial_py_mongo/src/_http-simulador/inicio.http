@@ -1,0 +1,19 @@
+# INICIO
+
+GET http://localhost:5000/api/usuario/all
+
+
+
+###
+# CRIAR
+POST {{host}}/api/usuario/create
+Content-Type: application/json
+
+{
+  "nome": "Nome_Via_Http_1",
+  "email": "user@example.com",
+  "password": "string",
+  "foto": "string"
+}
+
+###

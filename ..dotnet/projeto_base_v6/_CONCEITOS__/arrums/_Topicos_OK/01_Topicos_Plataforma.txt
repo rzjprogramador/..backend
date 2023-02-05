@@ -1,0 +1,41 @@
+plataforma: .NET conhecida pelo comando dotnet
+paginaOficial: "https://dotnet.microsoft.com/pt-br/"
+verificar_versao: dotnet --list-sdks
+instalacao:  este script vai instalar a versao LTS : wget https://dot.net/v1/dotnet-install.sh && chmod +x ./dotnet-install.sh && sudo ./dotnet-install.sh
+ferramentas_da_plataforma: https://github.com/dotnet/cli-lab/
+atualizar_plataforma: sudo apt update   // ainda nao esta desinstalando por commandLine
+desinstalar: dotnet-core-uninstall remove --sdk <versao completa ex: 6.0.405>  tutorial: https://www.youtube.com/watch?v=wU5yhvh-h_M
+linguagem_plataforma: C#
+diretorios: nao posso renomear diretorios ha varios arquivos de configuracao com props com o nome do diretorio criado.
+
+editor: 
+  {
+    extensoes: no vscode: C# by Microsoft && C# extensions by jchannon para criar classes ..obs: ao abrir priemira vez projeto vai pedir para add assisntentes da extensao clique em yes.
+
+    playground: https://sharplab.io/
+  }
+
+comandos_cli: {
+  ver_comandos: dotnet -h
+  iniciar_projeto: dotnet new <coloque o shortcurt do template que deseja de inicio voud e "console"> ex: dotnet new console -- ele vai criar vinculando o nome da pasta aos arquivos do projeto.
+  rodar_arquivo: dotnet run
+}
+sintaxe: 
+  {
+    extensao: .cs,
+    arquivoPrincipal: Program.cs,
+    funcao_principal: Main(),
+    obrigatorio_ponto_e_virgula_apos_instrucao: sim,
+    aspas: somente aspas duplas,
+    delimitador_objeto: {},
+    delimitador_array: {},
+  }
+
+links_plataformas:
+  dotenv:
+    recurso:
+      resolucao_de_problemas_erros: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/compiler-messages/nullable-warnings#possible-null-assigned-to-a-nonnullable-reference
+
+
+
+---

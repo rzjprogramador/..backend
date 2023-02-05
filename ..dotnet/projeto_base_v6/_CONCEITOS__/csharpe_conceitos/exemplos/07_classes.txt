@@ -1,0 +1,27 @@
+classe_exemplos:
+// -exemplo inicial: --------------------------------
+{
+    // uso_das_classes: instancias
+    ClasseA a1 = new ClasseA();
+    ClasseA a2 = new ClasseA();
+    // inserir valor aos campos manualmente.
+    a1.nome = "Reinaldo";
+    a1.idade = 45;
+    a2.nome = "Renata";
+    a2.idade = 40;
+
+    Console.WriteLine(a1.nome);
+    Console.WriteLine(a1.idade);
+    Console.WriteLine(a2.nome);
+    Console.WriteLine(a2.idade);
+  }
+
+  
+}
+
+public class ClasseA {
+  public string nome;
+  public int idade;
+  
+}
+// ---------------------------------

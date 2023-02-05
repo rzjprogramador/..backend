@@ -1,0 +1,14 @@
+{
+  "rest-client.environmentVariables": {
+     "Local Env": {
+         "host": "http://localhost:5000"
+     },
+ }
+ /*  
+  VARIAVEIS DE AMBIENTE PARA TEST HTTP
+
+  - PARA USAR F1 / rest Cliente Switch Enviroment ESCOLHA A VARIAVEL ENV QUE DENTRO DELA NO ARQUIVO.HTTP VAMOS USA-LA COMO HOST
+  
+   */
+     
+}

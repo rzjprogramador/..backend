@@ -1,0 +1,14 @@
+
+loop_for:
+conceito: o loop for é como um contador passara pela colecao igual um relogio e a cada iteracao,para cada item da colecao fazer algo
+sintaxe: funcao for( contadorInicio ; condicaoParaContinuarIteracao ; passosContadorACadaIteracaoAteSeTornarFalso)
+
+acessar_items_da_colecao: colecao[ iteradorVariavel]
+
+exemplo:
+string[] colecao1 = {"reinaldo", "guga", "leo"};
+
+    for (int i = 0; i < colecao1.Length;i++) 
+    {
+      Console.WriteLine(colecao1[i]);
+    }

@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "ES6",
+    "module": "CommonJS",
+    "lib": ["esnext"],
+    "outDir": "./dist",
+    "typeRoots": ["node_modules/@types"],
+    "removeComments": true,
+    "noEmitOnError": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "rootDir": ".",
+    "baseUrl": "./src",
+    "paths": {
+      "@src/*": ["*"]
+    },
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+
+  "include": [
+    "src"
+  ],
+  "exclude": []
+}

@@ -1,0 +1,20 @@
+version: "3.3"
+
+services:
+  #POSTGRES
+  postgres_global_pgm-compose:
+    image: postgres:12.4-alpine
+    container_name: postgres_global_pgm
+    environment:
+      POSTGRES_PASSWORD: "senha"
+    ports:
+      - "5440:5432"
+    volumes:
+      - "./dockerizando/postgres_global_pgm:/var/lib/dockerizando-pc/postgres_global_pgm"
+    networks:
+      - "postgres_global_pgm"
+
+#REDE
+networks:
+  postgres_global_pgm:
+    driver: "bridge"

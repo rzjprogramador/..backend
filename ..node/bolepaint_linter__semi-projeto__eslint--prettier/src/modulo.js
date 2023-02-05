@@ -1,0 +1,1 @@
+export const hello = () => `Alo Mundo >> 2  <<< !`;

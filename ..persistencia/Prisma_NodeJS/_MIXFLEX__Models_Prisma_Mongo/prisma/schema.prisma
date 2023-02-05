@@ -1,0 +1,82 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "mongodb"
+    url      = env("DATABASE_URL")
+}
+
+model Cliente {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    email String @unique
+
+    usernome    String
+    nome        String
+    password    String
+    tipoCliente String
+
+    createdAt   DateTime @default(now())
+    updatedAt   DateTime @updatedAt
+    ultimoLogin DateTime @default(now())
+
+    compraProduto    CompraProduto[] @relation(fields: [compraProduto_id], references: [id])
+    compraProduto_id String[]        @db.ObjectId
+
+    @@map("clientes")
+}
+
+model Produto {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    nome  String @unique
+    preco Float
+
+    CompraProduto CompraProduto[]
+
+    @@map("produtos")
+}
+
+model Entrega {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    codigo String @unique
+
+    cep         String
+    logradouro  String
+    numero      String
+    complemento String
+
+    destinatario String
+    remetente    String
+
+    CompraProduto CompraProduto[]
+
+    @@map("entregas")
+}
+
+model CompraProduto {
+    id  String  @id @default(auto()) @map("_id") @db.ObjectId
+    uid String?
+
+    codigo String @unique
+
+    clientes   Cliente[] @relation(fields: [cliente_id], references: [id])
+    cliente_id String[]  @db.ObjectId
+
+    Produto Produto? @relation(fields: [produtoId], references: [id])
+
+    Entrega Entrega? @relation(fields: [entregaId], references: [id])
+
+    produtoId String? @db.ObjectId
+    entregaId String? @db.ObjectId
+
+    @@map("compra_produtos")
+}

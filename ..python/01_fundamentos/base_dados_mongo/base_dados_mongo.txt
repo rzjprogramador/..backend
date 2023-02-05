@@ -1,0 +1,7 @@
+acesso_mongo_vscode: 
+  extensao: MongoDB for VS Code
+  link: https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode
+
+ instalacoes_poetry_para_mongo:
+  poetry add pydantic[email]    ### para tipar email da classe Model
+  poetry add motor   ### ja tem o pymongo

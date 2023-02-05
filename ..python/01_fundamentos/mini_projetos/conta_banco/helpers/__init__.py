@@ -1,0 +1,1 @@
+# print('iniciei no arquivo init -- antes de chamar os modulos que tenho nesta pagina')

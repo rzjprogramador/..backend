@@ -1,0 +1,18 @@
+
+pydantic fastapi uvicorn[standard] 
+
+# BY MONGO COM ODM odmantic :
+poetry add odmantic
+
+# OBSERVACAO DO DOCKER USAR IMAGE PRA CPU ANTIGAS
+image: mongo:4.4.7-focal   ### SENAO NAO SOBE A IMAGE MAIS RECENTE DO MONGO
+
+# ACESSAR MONGO EXPRESS ## ESTA CONFIGURADO A PORTA NO COMPOSE TBM
+http://localhost:8081/
+
+###### PASSOS odmantic
+tutorial: https://art049.github.io/odmantic/engine/
+
+# 1 - CRIAR A MAQUINA DE CONEXAO 
+client = AsyncIOMotorClient("mongodb://localhost:27017/")
+engine = AIOEngine(motor_client=client, database="exemplo_01")

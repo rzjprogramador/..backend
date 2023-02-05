@@ -1,0 +1,7 @@
+# ferramentas_python :
+
+rodar_arquivo_via_cli: python <arquivo.py>
+
+interpolar_string_em_console: print(f'texto texto {variavelInterpolada} outros textos.')
+
+numerar_posicoes_dos_items_na_lista: enumerate(lista)

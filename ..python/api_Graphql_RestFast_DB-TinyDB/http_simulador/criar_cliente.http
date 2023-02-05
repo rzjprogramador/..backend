@@ -1,0 +1,27 @@
+# VIEW TODOS CRIADOS
+GET {{host}}/clientes
+Content-Type: application/json
+
+###
+# CRIAR 1º
+POST {{host}}/criar_cliente
+Content-Type: application/json
+
+{
+  "id": "1",
+  "nome": "admin",
+  "email": "admin@email.com",
+  "password": "123"
+}
+
+###
+# CRIAR 2º
+POST {{host}}/criar_cliente
+Content-Type: application/json
+
+{
+  "id": "2",
+  "nome": "clienteDOIS",
+  "email": "clienteDOIS@email.com",
+  "password": "123"
+}
