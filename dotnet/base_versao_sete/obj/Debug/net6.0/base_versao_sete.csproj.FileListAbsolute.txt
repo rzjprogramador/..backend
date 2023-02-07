@@ -1,0 +1,15 @@
+/home/rzj/..backend/dotnet/base_versao_sete/bin/Debug/net6.0/base_versao_sete
+/home/rzj/..backend/dotnet/base_versao_sete/bin/Debug/net6.0/base_versao_sete.deps.json
+/home/rzj/..backend/dotnet/base_versao_sete/bin/Debug/net6.0/base_versao_sete.runtimeconfig.json
+/home/rzj/..backend/dotnet/base_versao_sete/bin/Debug/net6.0/base_versao_sete.dll
+/home/rzj/..backend/dotnet/base_versao_sete/bin/Debug/net6.0/base_versao_sete.pdb
+/home/rzj/..backend/dotnet/base_versao_sete/obj/Debug/net6.0/base_versao_sete.csproj.AssemblyReference.cache
+/home/rzj/..backend/dotnet/base_versao_sete/obj/Debug/net6.0/base_versao_sete.GeneratedMSBuildEditorConfig.editorconfig
+/home/rzj/..backend/dotnet/base_versao_sete/obj/Debug/net6.0/base_versao_sete.AssemblyInfoInputs.cache
+/home/rzj/..backend/dotnet/base_versao_sete/obj/Debug/net6.0/base_versao_sete.AssemblyInfo.cs
+/home/rzj/..backend/dotnet/base_versao_sete/obj/Debug/net6.0/base_versao_sete.csproj.CoreCompileInputs.cache
+/home/rzj/..backend/dotnet/base_versao_sete/obj/Debug/net6.0/base_versao_sete.dll
+/home/rzj/..backend/dotnet/base_versao_sete/obj/Debug/net6.0/refint/base_versao_sete.dll
+/home/rzj/..backend/dotnet/base_versao_sete/obj/Debug/net6.0/base_versao_sete.pdb
+/home/rzj/..backend/dotnet/base_versao_sete/obj/Debug/net6.0/base_versao_sete.genruntimeconfig.cache
+/home/rzj/..backend/dotnet/base_versao_sete/obj/Debug/net6.0/ref/base_versao_sete.dll
