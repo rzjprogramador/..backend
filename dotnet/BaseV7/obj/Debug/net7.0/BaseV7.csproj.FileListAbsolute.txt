@@ -1,0 +1,15 @@
+/home/rzj/..backend/dotnet/BaseV7/obj/Debug/net7.0/BaseV7.csproj.AssemblyReference.cache
+/home/rzj/..backend/dotnet/BaseV7/obj/Debug/net7.0/BaseV7.GeneratedMSBuildEditorConfig.editorconfig
+/home/rzj/..backend/dotnet/BaseV7/obj/Debug/net7.0/BaseV7.AssemblyInfoInputs.cache
+/home/rzj/..backend/dotnet/BaseV7/obj/Debug/net7.0/BaseV7.AssemblyInfo.cs
+/home/rzj/..backend/dotnet/BaseV7/obj/Debug/net7.0/BaseV7.csproj.CoreCompileInputs.cache
+/home/rzj/..backend/dotnet/BaseV7/bin/Debug/net7.0/BaseV7
+/home/rzj/..backend/dotnet/BaseV7/bin/Debug/net7.0/BaseV7.deps.json
+/home/rzj/..backend/dotnet/BaseV7/bin/Debug/net7.0/BaseV7.runtimeconfig.json
+/home/rzj/..backend/dotnet/BaseV7/bin/Debug/net7.0/BaseV7.dll
+/home/rzj/..backend/dotnet/BaseV7/bin/Debug/net7.0/BaseV7.pdb
+/home/rzj/..backend/dotnet/BaseV7/obj/Debug/net7.0/BaseV7.dll
+/home/rzj/..backend/dotnet/BaseV7/obj/Debug/net7.0/refint/BaseV7.dll
+/home/rzj/..backend/dotnet/BaseV7/obj/Debug/net7.0/BaseV7.pdb
+/home/rzj/..backend/dotnet/BaseV7/obj/Debug/net7.0/BaseV7.genruntimeconfig.cache
+/home/rzj/..backend/dotnet/BaseV7/obj/Debug/net7.0/ref/BaseV7.dll
