@@ -1,5 +1,5 @@
 
-namespace modulo_um;
+namespace modulo;
 
 public class ClasseModulo1 {
   public static string Execute1() {

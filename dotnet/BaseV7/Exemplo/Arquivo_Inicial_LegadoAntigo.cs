@@ -2,7 +2,7 @@
 // estrutura Legado ababixo do dotnet7 2022
 
 
-// namespace principal;
+// namespace exemplo;
 
 // public class Arquivo_Inicial_LegadoAntigo {
 //   public static void Main(string[] args) 
