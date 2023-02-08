@@ -2,9 +2,9 @@
 namespace formatacao;
 
 public class Interpolacao {
-  public static string Execute() {
+  // public static string Execute() {
     // concatenar interpolar strings com variaveis
-    var variavel = "ValorDaVar";
+    // var variavel = "ValorDaVar";
 
     // var interpolada_ou_concatenada = $"o valor da minha variavel é :: {variavel}";
 
@@ -24,12 +24,12 @@ public class Interpolacao {
     // chega !!!
     // """;
 
-    var interpolada_ou_concatenada = $$"""
-    escapar template json escapando chaves e interpolacao ao copiar para a string o json :
-    solucao usar 2 $$ dolar ants das aspas  e 2  na chaves nal interpolada onde tem json na string
-      exemplo de json aqui na string  {"chave": "valor" } ele sozinho nao consegue escapar as chaves ...este foi um json ou objetoLiteral esta é uma var agora cque tem json {{varNovaOndeTemJson}}
-    """;
+  //   var interpolada_ou_concatenada = $$"""
+  //   escapar template json escapando chaves e interpolacao ao copiar para a string o json :
+  //   solucao usar 2 $$ dolar ants das aspas  e 2  na chaves nal interpolada onde tem json na string
+  //     exemplo de json aqui na string  {"chave": "valor" } ele sozinho nao consegue escapar as chaves ...este foi um json ou objetoLiteral esta é uma var agora cque tem json {{varNovaOndeTemJson}}
+  //   """;
 
-    return interpolada_ou_concatenada;
-  }
+  //   return interpolada_ou_concatenada;
+  // }
 }
