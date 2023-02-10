@@ -1,0 +1,22 @@
+// Este arquivo ja é a classe principal executando o metodo Main
+
+// importacoes :
+using segurancaRecebimentoValor;
+using metodosDeTipos;
+
+// -----------------
+// chamadas
+
+// seguranca recebimento de dados
+    CamposDeClasse campo1 = new CamposDeClasse() { campoObrigatorioNaInstanciacao = "foo"}; 
+    // passando valor do campo obrigatorio required é um objeto oom o valor que passei.
+    Console.WriteLine(campo1);
+
+    // metodos de tipos Textos :
+    // MetodosDeTextos.Execute();
+
+    // Console.WriteLine(formatacao.Interpolacao.Execute());
+
+  // Console.WriteLine(modulo.ClasseModulo1.Execute1());
+  // Console.WriteLine(modulo.ClasseModulo2.Execute2());
+  // Console.WriteLine("Oi");
