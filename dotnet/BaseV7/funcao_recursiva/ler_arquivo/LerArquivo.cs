@@ -22,7 +22,8 @@ namespace recursivas
         }
         string proximoArquivo = @"/home/rzj/..backend/dotnet/BaseV7/funcao_recursiva/diretorio_01/arquivo"+(numeroArquivo+1)+".txt";
         if (File.Exists(proximoArquivo)) {
-          LerArquivo(numeroArquivo+1);
+          LerArquivo(numeroArquivo+1); 
+          // chamo recursivamente esta emsma funcao aqui pra nao chmar diversas vezes la fora.
         }
 
         
