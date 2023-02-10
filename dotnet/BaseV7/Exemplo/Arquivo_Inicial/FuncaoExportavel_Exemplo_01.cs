@@ -14,6 +14,8 @@ public static class ClasseFuncao
 /*
  exemplo: funcao que retorna um numero_inteiro
  
+ resumo: nao deixa importar uma funcao que nao pertença a uma classe só pode importar metodos, obriga a ter public static para ser importavel, o nome do arquivo nao importa usa o namespace para acessar o objeto e a chamada da classe para acessar o metodo.
+
  importar: chamar o keyword "using" <nomeDo_namespace_do_alvo> e dentro do bloco instanciar caso nao statica ou chamar a classe alvo caso statica. e usar o emtodo membro dela;
 
 tornar_exportavel: explicitar ser publica e statica ex: public static
