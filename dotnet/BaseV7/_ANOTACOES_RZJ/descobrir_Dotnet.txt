@@ -1,0 +1,12 @@
+
+debugger: como configurar vscode para debugger dotnet core
+tutorial: https://www.youtube.com/watch?v=oov6aCXiwMQ
+
+inicio: ir no menu barata debugger, clicar em create lauch (lançador) json file - para criar um arquivo json na raiz do projeto na pasta .vscode , escolhe NET Core 
+obs: criar o arquivo task.json que sao as tarefas o lauch lancador vai precisar deste arquivo de tarefas.
+
+no arquivo_json_lauch:
+no campo configurations [ dentro do array de configuracao dar ctr+barra e escolher o tipo da sua app pra ser depurada ex: a terceira opcao criara para console ex: .NET Core Launch (console)]
+
+so_mudar: para encontrar certo a pasat do projeto: porque ele esta procurando o bunario e tem que ser a pasat do projeto.
+"program": "${workspaceFolder}/bin/Debug/<target-framework>/<project-name.dll>",
