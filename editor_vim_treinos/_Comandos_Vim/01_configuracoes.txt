@@ -1,0 +1,5 @@
+
+
+# configuracoes_set_navegador:
+conceito: posso configurar direto no navegador , somente uma vez que vai sempre funcionar
+ignorar_caseSensitive_para_pesquisas: set ic 
