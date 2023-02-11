@@ -1,0 +1,5 @@
+# conceito_vim:
+
+vim tem os modos: [ de comando, edicao ]
+
+conceito: tudo é no modo de comando, somente escrita é no decedicao , e selecao, e recortes do visual, por padrao ao abrir arquivo ja comeca no modo de comando.

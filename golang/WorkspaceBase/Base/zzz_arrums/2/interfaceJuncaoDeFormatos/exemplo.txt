@@ -1,8 +1,0 @@
-
-/*
- * 1º crie os struct
- * 2º crie a interface com a assinatura do metodo que serao implementsImplicitamente pelas funcoesAnonimos que receberam via Param o struct ..obs: este metodo vai ter que ser declarado como retorno nas funcoesAnonimas que vao implementar;
- * 3º fazer a funcao que vai receber a interface e vamos dar um retorno do que vai retornar o metodo dela a ser usado na principalExecutadora
- * 4º na Executadora instanciamos os struct e passamos como arg para o metodo que recebe a interface
-*/
-

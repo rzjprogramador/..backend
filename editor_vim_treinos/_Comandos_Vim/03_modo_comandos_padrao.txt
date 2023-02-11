@@ -1,0 +1,15 @@
+# modo_de_comandos:
+
+• comecar: tecla i de insert, vai poder inserir text,, mantem o que esta e em purra texto pra frente.
+• sub_modo_comando: 
+• sobrescrita: tecla i de novo sobreescreve onde esta o ponteiro.
+
+---
+
+• desfazer: 
+ u  ::  desfaz 
+U   :: desfaz todas as mudanças na última linha editada
+CTRL-R  :: refaz as mudanças desfeitas (isto é, um "undo do undo")
+---
+
+comando_navegador: 2 pontos e o comando,

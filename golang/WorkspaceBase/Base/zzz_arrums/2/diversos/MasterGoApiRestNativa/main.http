@@ -1,7 +1,0 @@
-### 
-GET {{ host }}/home
-Content-Type: application/json
-
-
-
-### 
