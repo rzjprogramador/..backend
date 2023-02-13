@@ -1,0 +1,19 @@
+significados_api_rest:
+  http: 'http é o protocolo d ecomunicacao - base de comunicacao web <-> servidor',
+
+  processo: 'cliente (faz a requisicao/pedido) , servidor (processa e envia a resposta/response)',
+
+  rotas: '
+  URI > é o identificador do recurso o endereco a URL onde esta rota estara disponivel ao cliente,
+  METODO > GET (BUSCAR), POST (ENVIAR), PUT (ATUALIZAR), DELETE (REMOVER)
+  '
+
+  processo: '
+  - subir_o_servidor: rodar listen do servidor definir a porta
+  - definir_rotas: {
+    definir a URI
+    definir o metodo
+  } 
+  - 
+  
+  ',

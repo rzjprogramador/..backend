@@ -1,0 +1,4 @@
+# Variaveis Ambiente Go
+
+tutorial: https://www.youtube.com/watch?v=ZuM47gzhMgQ
+

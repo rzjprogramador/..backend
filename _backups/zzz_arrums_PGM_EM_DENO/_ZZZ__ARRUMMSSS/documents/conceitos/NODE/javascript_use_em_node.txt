@@ -1,0 +1,10 @@
+Usar_import_export_no_NOde_com_javascript:
+
+    no_package_json_adicionar: '"type": "module"',
+
+    'onde for usar >. importar o modulo com a extensao .js',
+
+    exemplo: `import { soma, sub } from '../matematica/calculos.js'`,
+
+---
+

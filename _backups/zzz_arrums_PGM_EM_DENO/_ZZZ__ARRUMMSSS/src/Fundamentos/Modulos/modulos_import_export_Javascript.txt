@@ -1,0 +1,11 @@
+// Modulos JS
+
+para funcionar modulos import/export com JS tem 2 opcoes pode escolher 1 delas:
+no package.json adiciona >> "type": "module",
+ou ao criar um arquivo js use a extensao .mjs
+obs: ao importar apra fazer uso tem que importar com a extensao.
+
+---
+
+
+

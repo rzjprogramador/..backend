@@ -1,0 +1,49 @@
+injecao dependencia via container tsryngue
+ criar o container ***
+ uso: {
+   local: 'controller',
+   entrada: `import { container } from 'tsyringe'`,
+
+   processamento: {
+     cenarios: ['obter', 'usar_obtido', 'retornar_sucesso_da_funcao', 'retornar_falha_funcao'],
+
+     obter: `
+      nao faz a composicao de integracao do Servico no construtor ao inves disso::
+
+   para ter a variavelIntegrada: cria_e_guarda a importacao do servico chamando o container.resolve(CLASSE_SERVICO_A_SER_USADO)
+   exemplo:
+   const createUsersService = container.resolve(CreateUsersService)
+   seria o mesmo de private readonly variavelClasse: IInterfaceClasse
+     `,
+
+     usar_obtido: `
+     USANDO O SERVICO COMO SE FOSSE MINHA THIS.VARIAVEL .METODO_EXPORTADO E VOU GUARDAR_RESULTADO
+     `,
+
+     retornar_obtido_pra_sucesso_prometido_da_funcao: `
+     RETORNAR PROMETIDO PARA SUCESSO_DA FUNCAO
+     retornar a espera com o resultado status code sucesso no formato padrao de resposta json. 
+     
+     exemplo: 
+     return await res.status(200).json(users)
+    
+     `,
+   }
+   
+   `
+   
+   
+   `,
+
+   exemplo: `
+    const listUsersService = container.resolve(ListUsersService) 
+    // OBTIVE E AGORA TENHO O SERVICO
+
+    const users = listUsersService.execute()
+    // TO USANDO O SERVICO COMO SE FOSSE MINHA THIS.VARIAVEL .METODO_EXPORTADO E VOU GUARDAR_RESULTADO
+
+    return await res.status(200).json(users)
+    // RETORNAR PROMETIDO PARA SUCESSO_DA FUNCAO
+
+      `,
+ }

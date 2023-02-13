@@ -1,0 +1,8 @@
+###
+
+GET {{host}}/api/list-promocao-entrega
+Content-Type: application/json
+
+
+###
+

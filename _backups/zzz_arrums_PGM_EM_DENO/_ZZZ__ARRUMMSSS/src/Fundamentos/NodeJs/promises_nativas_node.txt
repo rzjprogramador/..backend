@@ -1,0 +1,5 @@
+
+// setTimeout assincrono nativo do node
+import { setTimeout } from 'node:timers/promises'
+// usar
+await  setTimeout(1000)

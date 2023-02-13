@@ -1,0 +1,19 @@
+# Operacoes
+
+conceito:
+operacoes sao modificacoes em algum item ou grupo de items...estas modificacoes pode virar uma funcao.
+
+funcao: uma funcao é construida por operacoes que retorna ou somente executa estas operacoes construidas.
+
+como_pode_ser_feito:
+operacoes sao feitas com (metodosProntos ou metodosPropriosConstruidos da linguagem) para o tipo de item.
+
+construindo_funcoesProprias:
+  conceito: faço operacoes com o tipo do alvo.
+
+  em_textos:
+    operar_em_conjuntos:
+      adicionar: com += "mais igual"
+      remover: com -= "menos igual" 
+
+

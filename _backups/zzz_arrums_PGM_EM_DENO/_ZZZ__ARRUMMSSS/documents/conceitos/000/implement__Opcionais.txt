@@ -1,0 +1,14 @@
+# OPCIONAIS
+
+Campos Opcionais : Para que o Cliente possa enviar ou nao o valor - senao enviar o sistema preenche automaticamente ...faça:
+no Modelo Entidade Typescript :: campo?: <number> | null
+no Modelo Entidade Prisma :: campo Int? 
+
+## PREENCHER VALOR DE CAMPO OPCIONAL PELO SISTEMA NA ENTIDADE :
+no construtor da Entidade:
+logica: Se o campo nao tiver valor, da ao campo este valor
+if(!this.campo) { this.campo = makeDate() } 
+
+disponibilizando ao cliente via app: Nao passe via param os campos opcionais para o client preencher via argumentos ... deixe que o sistema preencha.
+O que passar via param tem que ser preenchido no formulario de Requisicao pelos args do client.
+---

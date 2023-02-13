@@ -1,0 +1,23 @@
+# Iniciar projeto :: pode ser em qualquer local
+
+estrutura_pastas: 
+root_workspace: criar pastaRoot que sera o nome do pacotePrincipalRoot as importacoes terao que comecar atraves do nome deste root_workspace ex: projetoTal/
+
+gerenciador_pacotes: 
+```go mod init <nomeRootDoProjeto>```
+o arquivo go.mod tera visao geral dos pacotes e registro das dependencias.
+
+pastas_de_modulos:
+
+---
+
+gerenciador_de_dependencias:
+// comecar projeto pelo gerenciador de dependencias que vai criar um go.mod
+```go mod init <nomeProjeto>```
+// semelhante package.json
+
+comando_app_go:
+run: rodar ler arquivo no console :: 
+```go run <arquivo.go>```
+
+

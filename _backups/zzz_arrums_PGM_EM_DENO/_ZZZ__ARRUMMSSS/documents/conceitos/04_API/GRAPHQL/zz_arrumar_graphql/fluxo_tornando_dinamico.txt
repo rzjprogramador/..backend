@@ -1,0 +1,85 @@
+receber_dado_via_parametro: {
+  forma_hardcode: {
+    contexto: 'ainda hardCode_recebendo dado via parametro'
+
+    no_backend: 'na funcao_mutacao: @Args('nome') nome: string  :: no objeto criado da funcao aponta esta var do param como sua propriedade.',
+
+    no_frontend: 'no uso da funcao_mutacao: createGraph(nome: "nome via param")',
+  },
+
+  forma_dinamica: {
+    contexto: 'fazer o front receber dinamicamente do seu client os dados via parametros',
+
+    _no_frontend: {
+      sintaxe_parametros_dinamicos: {
+        detalhe: `a posicao dos parametros criados tem que ser em justa posicao >> igual do schema. no CASO DO MUTATION COPIAR OS TIPOS IGUAL DA DOC DO SCHEMA`,
+
+        definindo_o_parametro: '$variavel e como seu valor o tipo de retorno e prioridade ex: String!  exemplo : ($nome: String!) ',
+
+        repassando_para_funcao: 'cria o param na funcao e passa esta variavel criada exemplo: (nome: $nome) ',
+
+        recebendo_dinamicamente_do_client_via_json: `em QUERY VARIABLES: receber um json com os valores dos campos de paramtros esperados ... exemplo: 
+
+        {
+          "nome": "nome via query variavel"
+        }
+                
+        `,
+
+       exemplo: `
+        mutation CREATE_GRAPH($nome: String!) {
+          createGraph(nome: $nome) {
+            // ...dados que quer visualizar
+        `,
+
+        exemplo_completo: `
+
+        // CLIENT DO FRONTEND >> CRIANDO UM OBJETO DINAMICAMENTE :
+
+        mutation CREATE_GRAPH(
+          $codigo: String!
+          $numero_inteiro: Float!
+          $numero_decimal: Float!
+          $nome: String!
+          $texto: String!
+          $logico: Boolean!
+          ) {
+          createGraph(
+            codigo: $codigo
+            numero_inteiro: $numero_inteiro
+            numero_decimal: $numero_decimal
+            nome: $nome
+            texto: $texto  
+            logico: $logico
+            
+          ) {
+            id
+            codigo
+            nome
+            texto
+            numero_inteiro
+            numero_decimal
+            logico
+          }
+        }
+
+        // PASSANDO VALORES PARA OS PARAMS VIA JSON E ASSIM CRIANDO "UM DE MUITOS" OBJETO ::
+        // CRIANDO UM OBJETO VIA QUERY VARIABLES
+
+        {
+          "codigo": "11111",
+          "numero_inteiro": 10,
+          "numero_decimal": 10.1,
+          "nome": "nome1",
+          "texto": "foo",
+          "logico": true
+        }
+
+        
+        `,
+        },
+
+      },
+  }
+
+}

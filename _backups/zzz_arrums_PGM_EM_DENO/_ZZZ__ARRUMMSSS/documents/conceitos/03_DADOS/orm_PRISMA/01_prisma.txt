@@ -1,0 +1,10 @@
+estrutura_geradora_prisma = {
+  models: ``,
+  configuracao_campos: ``,
+  obrigatoridade_campos: [ 'O campo id tem que tem que ter @id ',  ],
+
+}
+
+erros_evitar = {
+  seed: `cuidado: a cada seed HardCode o id nao ṕode se repetir senao dar erro`,
+}

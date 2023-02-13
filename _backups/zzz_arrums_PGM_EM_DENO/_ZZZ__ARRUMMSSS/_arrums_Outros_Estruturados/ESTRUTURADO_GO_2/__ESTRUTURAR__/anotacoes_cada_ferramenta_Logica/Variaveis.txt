@@ -1,0 +1,16 @@
+# Variaveis
+
+variavel_mutavel_livre:
+  conceito: se modelada sem clasula de visibilidade a variavel esta livre apra ser modificado seu valor.
+  obs: nao posso mudar o tipo uma vez modelado ser de um tipo especificado.
+
+exemplo:
+  // exemplo dart
+  String mutavel = 'valor texto';
+
+  mutavel = 'mudei';
+  // mutavel = 11; // obs: nao posso mudar o tipo uma vez modelado
+
+  print(mutavel);
+
+---

@@ -1,0 +1,141 @@
+/* * variavel , usa como expressao  *--------------------------------- */
+// int foo2 = 10;
+
+// inserir valor Magico ou variavel é uma expressao ..modo de expressar <esteAqui>.
+
+// instrucao : ordem com ; ponto e virgula no final
+// 11; // inserir um valor literal sem a capsula da variavel como instrucao , nao pode porque é uma expressao.
+// foo2; // inserir somente uma variavel como insttucao nao pode porque ela é somente uma expressao.
+
+/* *************************************************** */
+/* * acesso membros prototipo   *--------------------------------- */
+// string.Empty; // no c# podemos acessar mebros prototipo pelo tipo, por tudo ser objeto no c#
+// "meu texto".ToUpper(); // no c# podemos acessar mebros de INSTANCIA pelo valorMagico, por tudo ser objeto no c#
+
+// membros prototipo
+// temos os membros staticos que sao da classeTipo
+// temos os membros de instancia de um tipoClasse que sao do objetoValorMagico 
+
+/* * leitura  *--------------------------------- */
+/* * saidaLeitura / console  *--------------------------------- */
+// Console.WriteLine("Hello Word!"); 
+// da classe Statica Console desencadeammos o metodo WriteLine() que lê qualquer valor que for passado e pula uma linha por causa do Line == Linha
+
+/* * escrita  *--------------------------------- */
+/* * comando de entrada de dado via console : Console.ReadLine()      *--------------------------------- */
+// string? inputTextoViaConsole = Console.ReadLine();
+// Console.WriteLine(inputTextoViaConsole);
+
+/* *************************************************** */
+
+/* * tiposPrimitivos   *--------------------------------- */
+// sintaxe: os tipos tem origem de classe do sistema ex: class System.String podem ser declarados com primeira Maiuscula ou usar o alias/apelido tudo em minusculo
+
+/* * texto / interpolacao_de_texto / metodosProto deste tipo / operadorParaTexto&Objeto*/
+// string texto = "Meu Texto";
+// Console.WriteLine(texto);
+// Console.WriteLine($"interpolando este texto >> {texto}");
+
+// // operador para valores_texto_objeto : ==, 
+// string texto2 = "vtexto 2";
+// bool resTexto = texto == texto2;
+// Console.WriteLine(resTexto);
+
+/* *************************************************** */
+
+/* * numeros / metodos deste tipo *--------------------------------- */
+// int numeroInt; // instrucao/statement
+// int statementExpression = numeroInt = 100; // statement com expression
+// Console.WriteLine(statementExpression);
+// Console.WriteLine(10.Equals(20));
+
+int numero = 10;
+int numero2 = 10;
+// string numeroString = numero.ToString(); // numero e string nao sao de classeStatica por isto instanciamos numa var para usar seu resultado ao usar seus membros
+
+// *** operador para valores_numeros : menor <, maior >,
+bool resNumero = numero <= numero2; 
+// Console.WriteLine(resNumero);
+
+/*
+ operador para este tipo numero [ 
+  operadoresParaNumeros: exemplo: os matematicos *+-/ , maior&MenorQue ><,
+  
+  unario_SoTemUmOperando: operando++ incrementa(aumenta +1 ao numero), operando-- decrementa(diminuiu menos 1 no numero)
+  
+  ]
+*/
+
+// exemplo operador unario:
+numero++; // operador unario ++ para incremento em numero , é o mesmo de numero = numero + 1, ou numero += 1> <o numero mais um>
+numero += 1; // R: 12  // melhor usar o operador unario numero++
+numero++; // 13
+// Console.WriteLine(numero);
+numero--; // operador unario ++ para decremento em numero , é o mesmo de numero = numero - 1, ou numero -= 1> <o numero menos um>
+numero -= 1; // R: 11 // melhor usar o unario : numero--
+numero--; // 10
+// Console.WriteLine(numero);
+
+// exemplo operacao ternaria:
+string foo = "bar1";
+string resultTernario = foo == "bar" ? "foo tem valor" : "foo nao tem valor";
+// Console.WriteLine(resultTernario);
+
+/* *************************************************** */
+
+/* * conversao
+  para conversoes instruimos o tipo do alvo desencadeamos o metodo de parse para o tipo que queremos.
+ *--------------------------------- */
+// 
+// double inputNumero1 = System.Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine($"Foi digitado o numero {inputNumero1}");
+
+// // conversao string para numero : metodo de int :: int.Parse(targetString)
+// Console.WriteLine("Digite sua idade: ");
+// int idade = int.Parse(Console.ReadLine());
+// int resultIdade = 2023 - idade;
+// Console.WriteLine($"Seu ano de nascimento foi {resultIdade}");
+
+/* *************************************************** */
+
+// explorando membros do Tipo Console
+// Console.WriteLine(Console.ReadKey()); // lê uma tecla // R: ao apertar a tecla p responde:: ppSystem.ConsoleKeyInfo
+
+// Char caractere = 'a';
+// Console.WriteLine(caractere);
+
+// Double decimalDoble = 10.11;
+// Console.WriteLine(decimalDoble);
+
+/* *************************************************** */
+
+/* * Condicional  *--------------------------------- */
+/* if else 
+sintaxe: funcao if(perguntaCondicaoLogica) { consequenciaSeACondicaoForVerdade} else { consequenciaSeACondicaoForFalsa}
+*/
+int idade = 50;
+if (idade <= 17) 
+{
+  Console.WriteLine("Voce é menor de idade");
+}
+else if (idade == 50) 
+{
+  Console.WriteLine("Voce ja esta partindo para a melhor idade com 50 anos");
+}
+else 
+{
+  Console.WriteLine("Você é maior de idade");
+}
+
+/* *************************************************** */
+// operadores logicos && e ||
+// string nome = "bar";
+// if (idade == 17 && nome == "Reinaldo" || nome == "foo") Console.WriteLine("tem algo errado");
+
+/* *************************************************** */
+
+/* * Array Vetor Colecao de dados *--------------------------------- */
+// array colecao de dados primitivos, objeto , sintaxe: tipoClasseDoRetorno[] variavel que vai guardar os dados = { diferente do js aqui no C# o delimitador de array sao chaves {} e nao colchetes[] }
+string[] nomes = {"Reinaldo", "Gustavo", "Leonardo"};
+// Console.WriteLine(nomes);
+

@@ -1,0 +1,18 @@
+
+estrutura_nativa_programa: 
+
+  porta_de_entrada_app: metodo Main() é o primeiro codigo a ser executado pelo runTime do dotnet, detalhe Main com M maiusculo.
+
+ declaracoes: visibilidade tipoDoRetorno nome escopo
+ sintaxe: namespace {} -> class Program {} -> Main(){} // o metodo Main sera statico porque sera UNICO na app.
+
+ exemplo: 
+namespace FooNome 
+{
+  class Program
+  {
+    static void Main()
+    {}
+  }
+    
+}

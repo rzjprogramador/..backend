@@ -1,0 +1,30 @@
+// ConstructorFunction Produto =======
+
+/*
+// SINTAXE DA CRIACAO ENTIDADE VIA FUNCTION:
+
+function Product(add) {
+  this.nome = add.nome
+  this.quant = add.quant  
+  this.preco = add.preco
+  this.objeto = {
+    prop1: add.objeto.prop1,
+    prop2: add.objeto.prop2
+  }
+}
+
+// ADD METODO NO PROTO DO PRODUCT
+
+Product.prototype.novoMetodo =  function() {
+  return `Neste metodo ${this.nome} ..fez algo`
+}
+
+
+/*
+  A FUNCAO CONSTRUTORA É O MESMO DO CONSTRUCTOR DE UMA CLASSE QUE VAI VIRAR O OBJETO AO SER INSTANCIADO COM NEW E SEUS ARGS VIRARAM PROPS NO NOVO OBJETO.
+
+PARA CRIAR ENTIDADES: RZJ PREFERIR "CLASSE" QUE PODERIA CRIAR VIA CONSTRUCTOR ... QUE SERIA O MESMO DA CONSTRUCTOR_FUNCTIONS...
+
+#preferencia rzj : Crie entidade com classe e o objeto crie com metodo create na classe pra ficar melhor pra testar fazendo do sut a instancia da classe sem dependencia.
+
+*/   

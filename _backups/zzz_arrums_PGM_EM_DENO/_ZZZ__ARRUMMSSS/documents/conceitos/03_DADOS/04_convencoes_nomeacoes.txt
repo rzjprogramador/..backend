@@ -1,0 +1,35 @@
+# NOMEAÇÕES
+
+nomeacoes: {
+   entidade_exe: 'entidadeA  || EntidadeA ',
+   contexto: 'O mesmo nome em camelcase e PascalCase',
+   conceito_plural_singular: `Estruturas geradoras use PLURAL`
+
+  objeto_e_tabela: 'camelCase'
+
+  model_e_classe: 'PascalCase',
+
+  metodo_mostrar_todos :'com "s" no fim',
+
+  metodo_servico : adiciona o metodo que se propõem realizar e depois Pascalcase
+  ex: getEntidadeA // createEntidadeA //
+
+  crud: {
+    conceito: `
+    SERVICO (QUANDO O RESOLVER ME PEDE PRA ...) EU RESOLVER FAÇO: ()
+    o resolver faz algo quando o servico fizer para ele
+    - ex: resolver vai remover quando o servico deletar...`,
+
+    aplicar: `Funcao do servico > usar mesmo nome da funcao do Orm`,
+
+    criar: { servico: 'create', resolver: 'create<ENTIDADE>'},
+
+    buscar_todos: { servico: 'findAll', resolver: 'list<ENTIDADE>'},
+
+    buscar_unico: { servico: 'findOne', resolver: 'getOne<ENTIDADE>'},
+
+    editar: { servico: 'update', resolver: 'update<ENTIDADE>'},
+
+    deletar: { servico: 'remove', resolver: 'delete<ENTIDADE>'},
+  }
+ }

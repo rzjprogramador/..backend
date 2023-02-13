@@ -1,0 +1,9 @@
+mutation DELETE_CLIENTEPJ ($email: String) {
+  deleteClientePjResolver (email: $email)
+}
+
+// =================
+
+{
+  "email": "tres@email.com"
+}

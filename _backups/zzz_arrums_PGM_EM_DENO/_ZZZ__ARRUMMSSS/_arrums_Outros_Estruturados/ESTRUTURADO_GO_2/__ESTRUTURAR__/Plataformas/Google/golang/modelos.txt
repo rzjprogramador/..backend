@@ -1,0 +1,11 @@
+modelo: rzj implementar
+conceito: {
+  passo: ,
+  conceito: "", 
+  nomeacao: "",
+  explicacao: "",
+  exemplo: "",
+ }
+ 
+ ---
+

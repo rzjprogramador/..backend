@@ -1,0 +1,25 @@
+iniciar_projeto: {
+  gerenciador_de_dependencias: {
+    nome: `package json`,
+    comando: ` yarn init -y`,
+    conceito: `vai criar o gerenciador de dependencias package.json`,
+  },
+
+  linguagem: {
+    nome: `typescript`,
+    comando: `yarn add -D typescript @types/node @types/typescript
+`,
+    conceito: `vai instalar o typescript e sua tipagem`,
+  },
+
+  apelido_caminhos: {
+    nome: `path-mapping`,
+    comando: `
+    yarn add module-alias tsconfig-paths
+
+`,
+    conceito: ``,
+  },
+
+
+}

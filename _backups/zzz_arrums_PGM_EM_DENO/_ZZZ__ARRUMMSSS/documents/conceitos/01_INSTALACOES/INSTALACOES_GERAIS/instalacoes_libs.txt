@@ -1,0 +1,53 @@
+install_dev_desenvolvimento: {
+  para_tests: {
+    nome: 'jest',
+    instalar: 'yarn add -D jest',
+    detalhes: ``,
+  },
+
+  variaveis_de_ambiente_projeto: {
+
+    unico_env: {
+    doc: `https://www.npmjs.com/package/dotenv`,
+    nome: `dotenv`,
+    instalacao: `yarn add -D dotenv`,
+    importacao: `import 'dotenv/config'`,
+    uso: `process.env.VARIAVEL_NO_ENV`
+  },
+
+  multiplos_env: {
+    doc: `https://www.npmjs.com/package/custom-env`,
+    nome: `custom-env`,
+    instalacao: `yarn add custom-env`,
+    importacao: `require('custom-env').env('<NOME DO ENV QUE QUER USAR SEM O .ev> ')`,
+    uso: `process.env.VARIAVEL_NO_ENV`
+  },
+
+  injetar_dependencia: {
+    doc: `https://github.com/microsoft/tsyringe`,
+    nome: `tsyringe`,
+    instalacao: `yarn add -D tsyringe`,
+    importacao: ``,
+    uso: `
+    obs: precisa estar instalado reflect-metadata e estar habilitado o emitDecorators no ts config.
+
+
+    `
+
+  },
+
+  }
+
+}
+
+//
+MODELO:
+modelo : {
+    doc: ``,
+    nome: ``,
+    instalacao: `yarn add `,
+    importacao: ``,
+    uso: ``
+
+  },
+

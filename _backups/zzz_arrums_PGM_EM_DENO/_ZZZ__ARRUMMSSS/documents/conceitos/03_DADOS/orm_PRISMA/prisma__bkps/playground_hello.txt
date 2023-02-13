@@ -1,0 +1,48 @@
+# PLAYGROUND - DADOS VIA QUERY VARIABLES EM JSON OK
+
+mutation CREATE_HELLO(
+  $um: String!
+  $dois: String!
+  $unico: String!
+) {
+  createHello (
+    um: $um
+    dois: $dois
+    unico: $unico
+  ) {
+    id
+    um
+    dois
+    unico
+  }
+}
+
+
+---
+DADOS ENVIADOS VIA QUERY VARIABLES JSON PELO CLIENT DO FRONT
+
+{
+  "um": "um_criado",
+  "dois": "dois_criado",
+  "unico": "30" 
+}
+
+---
+
+# BACKUP CONSULTA HELLO
+
+query GET_ALL_HELLOS {
+  getAllHellos {
+    id
+    um
+    dois
+    unico
+  }
+}
+
+---
+
+
+
+
+

@@ -1,0 +1,733 @@
+MODELO
+
+{
+  contexto: " ",
+  disciplina: " ",
+  link: " ",
+  provedor: " ",
+},
+
+---
+
+
+
+sabedoria:
+  sol_o_deus: https://www.filosofiaesoterica.com/sol-deus-ilumina-terra/
+  
+teosofia_por_Helena_Blavatsky : https://pt.m.wikipedia.org/wiki/Teosofia
+
+
+notebooks_online: 
+  golang_notebook: https://colab.research.google.com/drive/1aoHKfyD2WT03Sjm0hHIdTPxa8z_ZiXly?usp=sharing
+
+fundamentos: 
+  byFullCycle https://youtu.be/kK-vywg82zo. ,
+
+editores:
+  vim:
+    byTAguiar https://youtu.be/R62NTq4ae9o  ,
+
+oficial_ecmascript:
+git : https://github.com/tc39
+
+
+
+#Top_fontes:
+
+base: [
+elemarJunior : https://youtube.com/@ElemarJunior
+
+mentores:
+
+golang:
+vkorbes byEllen : git :https://github.com/vkorbes/aprendago/blob/master/OUTLINE.md
+ canal: https://youtube.com/@AprendaGo
+
+aprendaGolang : https://aprendagolang.com.br/tag/ciencia-da-computacao/  ,
+
+
+],
+
+comunicao:
+  grpc: grpc - evolucao da comunivacao rest protocol Buffer  em HTTP2 by fullCycle site grpc : https://grpc.io/   
+  tutorial: 
+   hello, https://youtu.be/QyyMjF764mo
+soma, https://youtu.be/CxTFc9JxKdU
+fibonarcci, https://youtu.be/9RvushutRPw
+produto, https://youtu.be/9RvushutRPw
+
+
+implementacoes_tops:
+  golang: implementacao golang byFullCycle 2022 https://youtu.be/Bq2XTGzV8yc  ,
+  https://youtu.be/_4JpGnoh0Pg ,
+
+js: [
+  rogerMello: https://youtube.com/c/RogerMelo ,
+  
+  gabrielBarreto : https://youtube.com/c/GabrielBarretoDev ,
+  
+  fabioVendovelli conceituadoDevs :
+  https://youtube.com/@FabioVedovelli  ,
+  
+https://facildev.com.br/
+
+// ==============
+disciplinas: 
+  algoritimo: 
+    byElemar: https://youtu.be/IkS8AqBXSZA
+js_disciplina:
+  prototype: [
+    byNelio https://youtu.be/cSFskNH1E5k  ,
+
+  js_convencoes: https://www.robinwieruch.de/javascript-naming-conventions/  ,
+  
+
+  ferramentas_js: [
+  https://facildev.com.br/web-stories/7-truques-que-todo-desenvolvedor-javascript-deve-saber/  ,
+  
+],
+
+  tipagem_js:
+  https://youtu.be/LhpT7Qm1yn8  ,
+  
+  
+],
+
+otimizacao_app:
+  cache: 
+  cache node by dogcode https://youtu.be/INMLtaqXNBQ
+  
+
+]
+
+js_tutoriais: [
+  tiposJavascriptby alura https://www.alura.com.br/artigos/tipagem-dinamica-com-javascript ,
+  
+devLucas tipagem js e ts  https://blog.lsantos.dev/js-tipos-proposal/#amp_tf=De%20%251%24s&aoh=16691656182380&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2Fblog.lsantos.dev%2Fjs-tipos-proposal%2F  ,
+
+  
+]
+
+login:
+  login_golang: https://michelleamesquita.medium.com/autoriza%C3%A7%C3%A3o-autentica%C3%A7%C3%A3o-e-golang-63dfebfb5fd3
+
+
+api_graphl:
+  golang_graphql: by gqlgen apollo https://www.apollographql.com/blog/graphql/golang/using-graphql-with-golang/
+  
+......
+
+js_framework:
+  react: [
+    aqueleProgramador: https://youtube.com/c/UmbertoJuniorvip ,
+
+
+]
+.....
+
+
+#Top_aulas:
+js_framework: [
+  react: [ 
+  aula: react mais rapido, link: https://youtu.be/h1OdrtXmmmw,
+  
+
+   ],
+---
+autorizacao: [
+  graphql_jwt: by barreto > https://youtu.be/4h-Y9ASaREk ,
+  
+]
+
+--
+]
+
+#musica_cursos:
+  composicao: [
+  maikow Melo , https://www.facebook.com/oceanoazulacademy ,
+
+
+],
+
+# refatoracao: [
+  js: [
+   if_else_1::  https://dev.to/sylwiavargas/5-ways-to-refactor-if-else-statements-in-js-functions-208e. ,
+
+
+  ],
+  
+loops_js: [
+rogerLive: [ porque usar metodos de array > https://youtu.be/ElJwg-tURNk. ,
+
+uriel loops js diferencas :: https://youtu.be/6u4WOzvp9w8
+  ]
+tratamento_erros:
+  byRoger elegante https://youtu.be/MAHvHfTM46M
+  try  https://youtu.be/Pb2NYgGlHGA  ,      https://youtu.be/sDSQ8FWccKE 
+],
+
+imutabilidade: [
+  aos 42:00 roger > https://youtu.be/ElJwg-tURNk
+],
+
+typescript: [
+dicas: https://oieduardorabelo.medium.com/typescript-18-dicas-e-padr%C3%B5es-para-seu-c%C3%B3digo-b63f492a42cd  ,
+
+classes_ts: https://youtu.be/d-uoTALksU4,
+
+debbuger: https://youtu.be/sn-JHN0UoLE
+
+
+]
+
+github:
+gitHub_vscode: thicode: https://youtu.be/7cNP3AE49Bg
+
+hardware:
+  energia: [
+    adaptador energia para usb-c notebook :: https://youtu.be/hzEgm88wBDA
+],
+notebook 5v : Notebook Q232B Positivo media 600,00 em 2020 https://youtu.be/6v379jIsA2k
+
+tests: [
+  vitest: [
+     byUriel 22  https://youtu.be/n94wJZr6y5M
+],,
+]
+
+acessorios:
+  UgreenBrazíl: https://www.facebook.com/UgreenBrazil?mibextid=ZbWKwL
+  
+tests: [
+  node_tests: 
+  doc_node_asserts: https://nodejs.org/api/assert.html#class-assertcalltracker
+  
+    aula1 erick : https://youtu.be/8hxhZkBzWhk  ,
+
+
+  mocks: [
+  mock _interfaces_ts: https://youtu.be/SyB1qv6HUKU
+],
+  
+]
+
+
+LINKS TOP AULAS
+
+conferir prototype: rogerMello aos 9:13 https://youtu.be/yke9m4V9UWQ
+
+NEXT_JS
+Next com Material Ui : https://youtu.be/lKD5Z0ORA54
+
+// PRINCIPAIS LINKS
+
+// faixas de cep sao paulo p/ mixflex by komercialize: https://ajuda.komercialize.com.br/Post/66181/faixas-de-cep-por-bairros-de-sao-paulo
+
+
+NODE:
+DEBUGGER APP NODE COM TYPESCRIPT : https://drive.google.com/file/d/15PZYJ3zHpybJn4TZZE9j5rpGwpF0MzZY/view?usp=sharing
+
+
+vscode:
+extensoes: https://www.tabnews.com.br/josevictormoreno/mais-extensoes-maravilhosas-para-o-vscode
+=========================
+
+desintalar poetry se tiver instalado pelo pip e instalar com pipx.
+l
+....
+
+meu notebook Google Colab : https://colab.research.google.com/notebooks/
+
+Roadmap_dunossauro: Curso Aprender Python >> https://roadmap.dunossauro.live/
+
+
+python 3_10_novidades: 
+https://pythonacademy.com.br/blog/python-3-10-o-que-ha-de-novo
+
+
+- forum usar sqlite em producao: https://groups.google.com/g/rails-br/c/nvtA8O41XxY
+- 
+mudar configuracao  terminal bashrc
+https://www.vivaolinux.com.br/topico/Helps-e-dicas-para-usuarios-iniciantes/Personalizar-Terminal-Console-Nome
+
+Vscode configuracoes:
+link: https://gist.github.com/W3SS/194094bd18e9484ed35ba94b6c42fc72
+
+Ecmass editor by dunossauro :
+https://youtube.com/playlist?list=PLOQgLBuj2-3I7w8JQvCY8lbbrUZL-gf4m
+
+Emacs by debpx
+https://youtube.com/playlist?list=PLXoSGejyuQGpYSV3aCTofC2bS2tNUP1Ko
+
+
+mongoDB precos: 
+https://www.capterra.com.br/software/127374/mongodb
+===========
+editor de texto: Emacs
+
+mostrar versao pytjon no nome do terminal : lib bash-it
+
+banco_Dados_NSQ: Tiny DB banco feito em python , semelhante sqlite e mongo...dados json ou bson.
+
+rodar arquivo isolado no console: python ou phthon3 <arquivo.extensao>
+
+for in ..bom pra interar sobre arday de objteos  e mostrar no console linha por linha.
+
+
+// APRENDER SOBRE TODO: ============
+busca binaria em banco de dados ao inves de index posicao... organizar os dados pra ser possivel fazer busca binaria.
+....
+
+crud SqlLite
+https://youtu.be/2WUo5tD-eIA
+
+cenario 2022 sqlite:
+Sim, mas o problema do SQLite é que independentemente do cliente que você usar, a escrita no banco só pode ocorrer bloqueando o acesso. Então dois clientes não podem escrever simultaneamente. Os clientes vão ter que tratar erros de escrita e re-tentativa e se houver muita concorrência, a velocidade do SQLite deixa de ser uma vantagem.
+......
+python --utils
+https://www.facebook.com/104712048492020/posts/pfbid02MkanDVCwxS2FsHxotPteYA3ZNTmBuGFQUU1VAaeeQjeENjjXLKPuc43M4FeEVNzpl/
+
+========
+COMPRAR CURSO UDEMY 
+COM FULL DESCONTO :
+so de aviso amigo , quando for comprar um curso da udemy com preco full price , copia o link e abre ele por uma guia anonima , que sempre ta com desconto maximo , ai depois voce so loga e efetua o pagamento
+
+
+==============
+Auto exportar instancia de classe : https://stackoverflow.com/questions/57049953/default-export-new-instance-of-class/57050195#57050195
+=================
+
+ESTUDAR 
+PYTHON:
+mypy >> para validacao de argumentos.
+
+python com mongo db asincrono com o odm ODMantic
+https://art049.github.io/odmantic/
+
+https://art049.github.io/odmantic/engine/
+
+Funcoes Closures Py : https://www.youtube.com/watch?v=TaZGQXWFsf4&list=PLOQgLBuj2-3K1hb7XgkGPb4S9YNIeHsPk&index=153
+
+......
+Prisma + MongoDB : https://blog.tericcabrel.com/connect-mongodb-nodejs-prisma
+
+Codigos de Erro Prisma:
+https://www.prisma.io/docs/reference/api-reference/error-reference
+....
+
+BAIXAR 
+Pirata Livro Codigo Limpo em pdf
+no  site pt.z-lib 
+||
+https://github.com/free-educa/free-livros
+||
+https://www.estantevirtual.com.br/viniciusesperanca/robert-c-martin-desenvolvimento-agil-limpo-de-volta-as-origens-volume-1-3091403871?show_suggestion=0
+......
+
+TOP DESIGN SITES:
+https://rlazarotto.pages.dev/
+
+....
+
+VAGAS
+
+dev em Santos : 
+https://www.catho.com.br/vagas/desenvolvedor-front-end/santos-sp/?gclid=Cj0KCQjwyt-ZBhCNARIsAKH1175s4q22OTJHga_P74dgVNyi-LqtmOQMB0gEOl91GFQ1jZzHLumf8ZQaAh_6EALw_wcB
+
+PROGRAMAS LINUX
+torrent : qbitorrent https://diolinux.com.br/sistemas-operacionais/qbittorrent-o-melhor-gerenciador-de-torrents-para-linux.html?amp=1
+.......
+
+UTILS:
+flaticon , extensao chrome copia texto em imagens link: https://youtube.com/shorts/UXTARfrG3Fg?feature=share
+
+-----
+LINKS TOP
+
+aula top autenticacao auth com Whashigton : https://youtu.be/veQjC0bPvFE
+
+node v18 intregrado com --watch pra js...ts ainda nao por enquanto.
+
+curso bom ingles, fluente que nem sente: https://fb.watch/g0wFqk-RM_/
+
+engender objetos js:
+https://youtu.be/AznfDQ1b70I
+
+javascript
+rocket 22 : https://youtu.be/37SwqREHRGI
+
+entender curring : https://youtu.be/-Kq6Slj0Qy8
+
+nao_precisa_usar_loop_for:
+https://youtu.be/uToFBSKUu9M
+
+aulas de test: livePy75 testando unidades: https://youtu.be/Sr9lUR1COpU
+
+cors acessoApi: https://www.facebook.com/groups/1407602962733165/permalink/2559625594197557/
+...
+ type Guards is number.
+https://youtu.be/QK_45Wf9tmI
+
+validar campos com regex : https://youtu.be/uaSlTQu6f5E
+
+middle errors express: https://youtu.be/SnxAq9ktyuo
+
+....
+baixar_video udemy 
+sem programas: https://www.acethinker.com.br/video-downloader/baixe-udemy.html
+
+ com udeler : https://ubunlog.com/pt/baixe-os-v%C3%ADdeos-do-curso-udemy-com-o-udeler/amp/
+
+....
+CURSOS PIRATA_PIRATE
+
+links_cursos_piratas_pirate:
+
+roger_mello_js_cjrm_22:
+https://downloadcursos.top/curso-de-javascript/
+
+algomania: https://downloadcursos.top/pratique-a-resolucao-de-desafios-de-programacao-e-arrebente-na-sua-proxima-entrevista/
+
+https://cursospirata.com/category/cursos/programacao/
+
+......
+COMPRAR LIVROS
+codigo limpo: https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675/ref=mp_s_a_1_1?adgrpid=81589511672&gclid=CjwKCAjw7eSZBhB8EiwA60kCW0-ycoXN3YTM4qo_QAk9TGvk4OjA3n1wguIkmjGwL1C5enmVsaEZLRoCuScQAvD_BwE&hvadid=426016006295&hvdev=m&hvlocphy=1001773&hvnetw=g&hvqmt=b&hvrand=8094651705157860189&hvtargid=kwd-346823505347&hydadcr=5628_11235155&keywords=livro+c%C3%B3digo+limpo&qid=1664739307&qu=eyJxc2MiOiIxLjA1IiwicXNhIjoiMS4yMSIsInFzcCI6IjAuNjQifQ%3D%3D&sr=8-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9
+
+....
+tv
+jogo ao vivo
+
+liveEspot : https://www.facebook.com/100086726490304/videos/
+
+casa campea: https://www.facebook.com/profile.php?id=100086331378133
+
+baixar_videos:
+  baixar_da_udemy: com udeler no linux: https://ubunlog.com/pt/descarga-los-videos-de-los-cursos-de-udemy-con-udeler/#:~:text=uder%20%C3%A9%20um%20aplicativo%20de,operacional%20Linux%2C%20Mac%20e%20Windows.
+  
+// ======
+
+trechos_importantes:
+ aos 43:00 fulkCycle Api Golang fala que Go tem GarbCollection coletor de lixos que fica passando no codigo voletando lixo na memoria.
+
+
+================ TODOS =====================
+
+
+#ESTUDAR  # LICAO #LINKS #AULAS
+.............
+
+#  LICAO DE CASA:
+
+- fields em comum para todos:
+- nome, email (unique), registers, typeUser(pf, pj, admin, editor, colaborador ) ..pf e pj rotas diferentes e avaliacao para chamar service diferente.pq terao rotas diferentes ... o resto cria como User normal.
+
+no Service no cartucho found ...tenho que usar um encontrar E UpdateById do repo ..e nao o service fazer esta logica de buscar ...enconyrarce ja atualizar via mesmo metodo no repo o nomecpode ser update ..alias só basta um update by id nao precida de outro metodo neste contexto de atualizar ..gaz o update rncontrar by id e atualizar o encontrado.
+
+- conferir no obj instancia se o metodo  nao esta ficando erradamente nas props do obj por causa da tipagem ..tem que ficar só no proto.
+
+- o Service pode ser SaveService ou Persistency
+- 
+- o metodoProto   getIdentificador -- mudar para getTypeCliente ()
+- 
+- zerarArray em clearList...
+- 
+- contrato StatusActive mude >> OptionsStatusOperational &  tentar deixar sem string pra forcas vim do tipo.
+- resultBoolean no forEach()
+
+- no test do serice com mediator.. no uso do mock tenho que dar o que foi feito no service pra ele como arg em:
+-         await sutRepoMediatorMemory(inputClientepfSeedOneCompleted)
+// ai sim ele vai estar testando o service no repoMemory sempre.
+
+- 
+- criar mediador de repositorio para o servico salvar no mediador ..ai no test testo o servico sempre usando o medidor usando o repo memory.
+- 
+- 
+renomear:
+
+- no repo promocao tera q ter um metodo que busca criado por nome....este metodo  vamos usar pra ser o nome de promocao escolhida com seu metodo de desconto quando o produto escolher o nome da promocao.
+
+o Client vai mandar o tipo nome da promocao escolhida -- tentar disponibilizar via graphql as opcoes que vao vim de uma lista de tipo promocao.nome disponiveis no areay de promocoes -- dependendo da escolhida  aplica o objeto com seu metodo de disconto em seu dna.
+
+a escolha do nome, vai ser campo promocaoEscolhida no "itemCart "... que vai reenviar ser valor para promocaoEscolhida no "produto" ...qu vai ser valor reenviando para o "promocao" ... obs: nonitemCart tentar enviar via graphql a lista de listPromocoesDeEntregaDisponiveis
+
+
+colocar funcao useDiscountPromocao() no contrato do ModelProduct
+alias mudar para ModelProduct e a funcao mudar para useDiscountPromocaoProduct
+
+conferir os seeds de produto
+
+type aliases statusActived , onde for usar definir o default como 'ativo' ..
+
+??? mudar statusActive para statusOperational
+
+fazer as manipulacoes de preco, via tipoEntrega e metodos useHooks findProductByCep no repo.
+
+
+nos produtos colocar tipo de entrega : mesmo dia || proximo_dia_util >> dependendo da hora de envio ... default é proximo dia util ...isto é variavel se o cliente escolher mesmo dia, colocar tambem o typeDeEnvio .porque se via pdf o default do tipo de entrega pode ser proximodia... opcoes formasDeEnvio: [ formulario, pdf]
+
+// ITEMS CART
+
+// array de items
+collectionItems = collectionItemsInUse
+
+collectionItemsInUse :: pode ser
+in_dev :: um array interno
+in_prod :: localStorage
+
+// metodo para listar cada colecao in_dev e in_prod
+para retornar para o listItems()
+---
+// o add(item) tera dentro um metodo addItemInUse(item) em dev fara um push em prod fara um setLocalStorage
+
+==============================//====
+
+o correto de escrever terciaria é tertiary
+
+nomeacao para regraDeNegocioPorCep : businessRuleByCep ou melhor composite de Regras:
+interface MainBusinessRuleComposite com metodo : validate() : Product // que devolva um produto.
+
+classe da regra by Cep pra implementa-la ::
+RuleByCepComposite com validate()
+
+
+
+/* ================================
+MIXFLEX ARRAYS CONSEGUI OK OK OK OK  
+================================ 
+*/
+
+// OBJETOS HELPERS ================
+const limitePeso = 1
+const aumentocadaLimite = 4
+
+const calculaPrecoPorLImite = (limite, cadaLimite) => {
+  const res = limite * cadaLimite
+  return `O valor a cada limite de ${limite} kilo é R$ ${res},00`
+}
+// console.log( calculaPrecoPorLImite(limitePeso, aumentocadaLimite)) 
+
+const pesoExcedente = (peso, limite) => {
+  let res = peso - limite
+  return res
+}
+pesoExcedente(3, limitePeso)
+
+
+const cobertura = {
+  sp: 10,
+  zs: 20,
+  baurueri: 30
+}
+
+// FUNCOES ================
+function createPreco(key, peso) {
+  let valorPorPeso = pesoExcedente(peso, limitePeso)
+  const res = cobertura[key] + valorPorPeso
+  return res
+}
+
+function fnPrecoNormal(key) {
+  return cobertura[key]
+}
+
+function fnPrecoCobrado(value) {
+  return value
+}
+
+/*
+function adicionalCobrado(cobrado, normal) {
+  const res = cobrado - normal
+  return ` Valor Adicional Cobrado: ${res}`
+}
+*/
+
+// DADOS: ================
+
+const quantidades = ['q1', 'q2', 'q3' ]
+const longadouros = ['r1', 'r2', 'r3' ]
+const locais = ['sp', 'baurueri', 'zs' ]
+const pesos = [1, 10, 3 ]
+const ceps = ['08021340', '08021340', '01304001',]
+
+// COLECAO DAS COLECOES DE DADOS
+
+const newArray = [ quantidades, longadouros, locais, pesos, ceps ]
+
+// ================
+
+// IMPLEMENTACAO ::
+
+function handle(arrQuantidades, arrLongadouros, arrLocais, arrPesos, arrCeps, objArrs) {
+   
+  const res = objArrs[0].map((_, v) => {
+    // variaveis helpes
+    let auxPrecoCalc = createPreco(arrLocais[v], arrPesos[v])
+    let auxCobrado = createPreco(arrLocais[v], arrPesos[v])
+    let auxAdicionalCobrado = fnPrecoCobrado(auxCobrado) -fnPrecoNormal(arrLocais[v])
+    
+    return { 
+    quantidade: arrQuantidades[v],
+    longadouro: arrLongadouros[v],
+    local: arrLocais[v],
+    peso: arrPesos[v],
+    cep: arrCeps[v],
+    preco: auxPrecoCalc,
+    mensagem: `
+    - Valor pela localidade: ${ fnPrecoNormal(arrLocais[v]) } 
+    - Valor adicional por 1 kilo ${ fnPrecoCobrado(auxCobrado)} 
+    - Adicional Cobrado: R$ ${ auxAdicionalCobrado },00
+    `,
+   } 
+  })
+  return res  
+  
+}
+
+// USO
+// INSERCAO DE ARRAYS POR JUSTA POSICAO PARA USO NA FUNCAO QUER CRIA O OBJ TRANSACAO
+const resultHandle = handle(
+  quantidades, longadouros, locais, pesos, ceps,
+  newArray
+)
+console.log(resultHandle)
+
+
+/* ================================
+                             FIM
+================================ 
+*/
+
+.....
+
+
+
+// MIXFLEX FUNCIONAL JS
+
+
+
+// VERIFICACAO SE NUMERO EM STRING ESTA DENTRO DE UM INTERVALO :
+
+const arrCobertura = []
+
+// FN PARA PEGAR O CEP PASSADO PRA USO NOS OBJS COBERTURA
+
+const GetCepCLI = (cep) => {
+  return cep
+}
+
+const CadastrarCOBERTURA = ( cepInicial, cepFinal, precoAdm, collectionCobertura ) => {
+  // let recebidoValor = `${inicial && final}`
+  let cep = null
+  
+  const obj = { 
+    inicio: cepInicial, 
+    final: cepFinal, 
+    preco: precoAdm,
+    cepPassado: GetCepCLI(cep)
+  }
+  
+  collectionCobertura.push(obj)
+  
+}
+
+// USO
+CadastrarCOBERTURA (
+  '03000000', '03000995', 15, 
+  arrCobertura
+)
+CadastrarCOBERTURA (
+  '03000001', '03000996', 20, 
+  arrCobertura
+)
+
+// console.log( arrCobertura )
+
+
+// PERCORRE TODOS OBJ DE COBERTURA PELO CEP PASSADO
+const DataCepPRECO = (cep) => {
+  const res = arrCobertura.find((c) => c.inicio == cep )
+
+  if(cep >= res["inicio"] && cep <= res["final"])  {
+  res.cepPassado = GetCepCLI(cep)
+  return res 
+}   
+  
+  return `Ops...` 
+  // TODO TENTAR DAR RETORNO FALSY EM CASO DE BADREQUEST OU NOTFOUND
+    
+  
+}
+
+// USO
+const resCepIN = DataCepPRECO ('03000001')
+
+//console.log( resCepIN )
+
+
+// DADOS: ================
+
+const quantidades = ['q1', 'q2', 'q3', 'q4',  ]
+const longadouros = ['r1', 'r2', 'r3', 'r4',  ]
+const locais = ['sp', 'baurueri', 'zs', 'sp',  ]
+const pesos = [ 1, 10, 3, 2, ]
+const ceps = [ '08021340', '08021340', '01304001', '4444', ]
+
+// COLECAO DAS COLECOES DE DADOS
+
+const newArray = [ quantidades, longadouros, locais, pesos, ceps ]
+
+// ================
+
+// IMPLEMENTACAO ::
+
+function handle(
+  arrQuantidades, arrLongadouros, arrLocais, arrPesos, arrCeps, objArrs
+) {
+   
+  const res = objArrs[0].map((_, v) => {
+    // variaveis helpes
+    
+    
+    return { 
+    quantidade: arrQuantidades[v],
+    longadouro: arrLongadouros[v],
+    local: arrLocais[v],
+    peso: arrPesos[v],
+    cep: arrCeps[v],
+    preco: null
+    }
+  })
+  return res  
+  
+}
+
+// USO
+// INSERCAO DE ARRAYS POR JUSTA POSICAO PARA USO NA FUNCAO QUER CRIA O OBJ TRANSACAO
+const resultHandle = handle(
+  quantidades, longadouros, locais, pesos, ceps,
+  newArray
+)
+
+console.log(resultHandle)
+
+// =========== FIM ==================
+
+=============
+# PRECISO 
+
+HARDWARE : 
+Tablet com 8 ou 16 gb de memoria
+carregador usb
+compartilhamentos de  tela hdmi, som,
+entrada para teclado conectado e usb.
+===========
+
+tabaco: wesley comprou o organico natureba por 12,00 dura 1 semana + seda e piteira.
+
+bolar: seda pra dentro.
+- piteira pode ser papel consul ou cartolina.
+- tutorial piteira: https://youtu.be/VlUXDAjsRvc
+
+
+==== FIM ==========================

@@ -1,0 +1,13 @@
+POST {{host}}/api/create-modalidade-entrega
+Content-Type: application/json
+
+{
+    "nome": "PROXIMO",
+    "regiao": "REGIAO 1",
+    "acrescimo": 10,
+    "desconto": 5
+}
+
+###
+
+

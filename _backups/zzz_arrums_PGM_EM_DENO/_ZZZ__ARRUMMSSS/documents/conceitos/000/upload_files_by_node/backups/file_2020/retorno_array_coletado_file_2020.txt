@@ -1,0 +1,35 @@
+[
+  'Julia Roque',
+  'Julia Roque',
+  'Marilia Fernandez',
+  'Juliana Oliveira',
+  'Jan Albuquerque',
+  'CLAUDIA BALSABINO'
+] [
+  '08021340',
+  '08021340',
+  '01304001',
+  '03150020',
+  '01046000',
+  '03650010'
+] [
+  'Rua Estanislau Lopez 604',
+  'Rua Estanislau Lopez 604',
+  'Rua Augusta 1378',
+  'Endereço residencial',
+  'Endereço residencial',
+  'Endereço residencial',
+  'Rua Maria Daffré 235',
+  'Avenida São Luís 192',
+  'Rua Heloísa Camargo 42',
+  'Endereço residencial',
+  'Endereço residencial',
+  'Endereço residencial'
+] [ 'Leste 4  ', 'Leste 4  ', 'Leste 2  ', 'Leste 3  ' ] [
+  'São Paulo , SP',
+  'São Paulo , SP',
+  'São Paulo , SP',
+  'São Paulo , SP',
+  'São Paulo , SP',
+  'São Paulo , SP'
+] [ 'Leste 4  ', 'Leste 4  ', 'Leste 2  ', 'Leste 3  ' ]

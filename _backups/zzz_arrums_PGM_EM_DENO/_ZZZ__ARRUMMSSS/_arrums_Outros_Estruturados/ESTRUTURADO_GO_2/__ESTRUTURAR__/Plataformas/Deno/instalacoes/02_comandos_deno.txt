@@ -1,0 +1,4 @@
+
+testes:
+rodar todos testes em paralelo:
+deno test --parallel

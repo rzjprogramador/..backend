@@ -1,0 +1,7 @@
+# editor_vscode_para_dart
+
+extensoes:
+  nome: dart code , link: https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code#:~:text=Dart%20Code%20extends%20VS%20Code,and%20reloading%20Flutter%20mobile%20apps.
+
+
+---

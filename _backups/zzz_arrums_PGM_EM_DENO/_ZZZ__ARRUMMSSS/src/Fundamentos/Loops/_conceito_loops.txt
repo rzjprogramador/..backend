@@ -1,0 +1,7 @@
+
+retorno_e_loop:
+a clasula retorno interrompe um loop 
+por isto nao é usada nele.
+tutorial: https://stackoverflow.com/questions/11714503/does-return-stop-a-loop
+
+---

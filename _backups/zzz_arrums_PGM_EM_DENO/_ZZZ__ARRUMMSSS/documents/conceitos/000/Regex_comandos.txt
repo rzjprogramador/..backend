@@ -1,0 +1,160 @@
+
+{ 
+    comando:'^', 
+    narrativa: 'sinal chapéu' , 
+    significado: 'começa assim', 
+    alternativa: '{1,}',
+    exemplo: '', 
+    exemplo_significado: ''
+},
+
+{ 
+    comando:'$', 
+    narrativa: 'cifrão' , 
+    significado: 'termina assim', 
+    alternativa: '{,6}',
+    exemplo: '', 
+    exemplo_significado: ''
+},
+
+
+{ 
+    comando:'+', 
+    narrativa: 'mais' , 
+    significado: 'quantificador comeca com 1 e vai ao infinito',
+    alternativa: '',
+    exemplo: '', 
+    exemplo_significado: '' 
+},
+
+{
+    comando:'{<o que esta entre chaves pode aparecer>}?', 
+    narrativa: '' , 
+    significado: 'o que esta entre chaves pode aparecer, depois da chave a obrigatoridade, se tiver interrogacao pode ou nao aparecer',
+    alternativa: '',
+    exemplo: '', 
+    exemplo_significado: '' 
+},
+
+{
+    comando:'[<obrigatorio>]', 
+    narrativa: 'o que tiver dentro de [] colchetes é obrigatorio' , 
+    significado: '',
+    alternativa: '',
+    exemplo: '', 
+    exemplo_significado: ''
+},
+
+{
+    comando:'[_#_@]', 
+    narrativa: 'quero que tenha diversos # e _ anderline' , 
+    significado: 'dentro de colchetes quer que tenha sem limites:: separe o que quér com anderline',
+    alternativa: '',
+    exemplo: '', 
+    exemplo_significado: ''
+},
+
+{
+    comando:'([expressao1]) ([expressao2])', 
+    narrativa: '' , 
+    significado: 'expressoes envolvidas em parenteses :: separa uma expressao da outra',
+    alternativa: '', 
+    exemplo: '', 
+    exemplo_significado: ''
+},
+
+{
+    comando:'([expressao1])+', 
+    narrativa: 'quero que se repita esta expressao' , 
+    significado: 'expressoes envolvidas em parenteses com sinal mais depois repete o padrao da expressao',
+    alternativa: '', 
+    exemplo: '([.]\d++)+', 
+    exemplo_significado: 'quero que se repita .numero varias vezes'
+},
+
+{
+    comando:'|', 
+    narrativa: '' , 
+    significado: 'pipeline signica Ou separa o que podera ser permitido por pipeline dentro de ()',
+    exemplo: '(>>|<>)+', 
+    exemplo_significado: 'podera ter >>|<> no minimo um ao infinito'
+},
+
+{
+    comando:'\s', 
+    narrativa: 'espaço' , 
+    significado: '',
+    alternativa: '',
+    exemplo: '', 
+    exemplo_significado: '' 
+},
+
+{
+    comando:'\S', 
+    narrativa: 'nao tenha espaço' , 
+    significado: '',
+    alternativa: '',
+    exemplo: '', 
+    exemplo_significado: '' 
+},
+
+{
+    comando:'', 
+    narrativa: '' , 
+    significado: '',
+    alternativa: '',
+    exemplo: '', 
+    exemplo_significado: '' 
+},
+
+{
+    comando:'', 
+    narrativa: '' , 
+    significado: '',
+    alternativa: '',
+    exemplo: '', 
+    exemplo_significado: '' 
+},
+
+{
+    comando:'', 
+    narrativa: '' , 
+    significado: '',
+    alternativa: '',
+    exemplo: '', 
+    exemplo_significado: '' 
+},
+
+{
+    comando:'', 
+    narrativa: '' , 
+    significado: '',
+    alternativa: '',
+    exemplo: '', 
+    exemplo_significado: '' 
+},
+
+{
+    comando:'', 
+    narrativa: '' , 
+    significado: '',
+    alternativa: '',
+    exemplo: '', 
+    exemplo_significado: '' 
+},
+
+
+/*
+MODELO: 
+
+{
+    comando:'', 
+    narrativa: '' , 
+    significado: '',
+    alternativa: '',
+    exemplo: '', 
+    exemplo_significado: '' 
+},
+
+// ==================================
+*/

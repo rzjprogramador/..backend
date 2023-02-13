@@ -1,0 +1,2 @@
+
+[importar react para funcionar jsx](https://dev.to/chandelieraxel/why-do-react-need-to-be-in-scope-for-jsx-3hen)

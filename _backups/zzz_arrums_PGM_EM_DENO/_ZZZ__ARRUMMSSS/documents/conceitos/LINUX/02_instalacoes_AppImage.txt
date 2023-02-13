@@ -1,0 +1,25 @@
+// APPIMAGE
+
+{
+  repositorio: 'https://www.appimagehub.com/',
+  instalar_e_usar: 'baixa a image dar permissao de escrita e leitura e usar',
+
+  dar_permissao_escrita_arquivo_via_terminal: 'sudo chmod +x <ARQUIVO>',
+
+  criar_atalho_com_appimage_desktop_maker: {
+    doc: 'appimage desktop maker https://github.com/Alexsussa/AIDM',
+    instalar_software: 'baixar o arquivo.deb e instalar > https://github.com/Alexsussa/AIDM/releases',
+    local_acesso: 'Ele estara em menu/acessorios',
+
+    usar: 'Baixar o programa appimage que vai usar,coloca-lo em uma pasta na home pra ser achado, dar permissao de escriat e gravacao, dar nome pra ele aqui no criador de lancador dar um avatar pra ele definir emq ue menu ficara o lancador e só usar. ',
+  }
+  
+
+
+}
+
+{
+  appimage_banco_de_dados_sql_e_nosql: [
+    'DBGATE https://www.appimagehub.com/p/1512097',
+    ],
+}

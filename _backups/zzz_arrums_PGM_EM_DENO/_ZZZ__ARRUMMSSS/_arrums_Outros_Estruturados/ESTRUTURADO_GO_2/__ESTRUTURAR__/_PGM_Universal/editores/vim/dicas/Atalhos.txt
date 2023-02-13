@@ -1,0 +1,2 @@
+ctr- W seta para o painel desejado // navega entre abas paineis.
+ctr + P // traz as opcoes para autoComplete

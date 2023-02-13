@@ -1,0 +1,23 @@
+consultas_dinamicas_code_ts_graph_codeFirst = {
+  mapeamento_obrigatorios_Ts_graph_prisma: {
+    em_prisma_schema: `campo id >>>>  id String  @id @default(uuid())`,
+    em_entity_TS: `obrigatorio decorar o campo id do ts, com @Field(type => String)`,
+  }
+}
+
+consulta_dinamica_playground = {
+
+  consulta_by_variavelDinamica: {
+
+    sintaxe: `
+    query OPERACAO($var: String!) {
+    entidadeGraph(var: $var) {`,
+
+    exemplo: `
+    query ENTIDADE_GRAPH($id: String!) {
+    entidadeGraph(id: $id) {..o que quero de retorno}
+    `,
+
+    uso: `abaixo em QUERY VARIABLES PASSE O JSON COM VALORES PEDIDOS POR $VARIAVEL SIMULANDO O CLIENT-HTTP EM USO`
+  }
+}

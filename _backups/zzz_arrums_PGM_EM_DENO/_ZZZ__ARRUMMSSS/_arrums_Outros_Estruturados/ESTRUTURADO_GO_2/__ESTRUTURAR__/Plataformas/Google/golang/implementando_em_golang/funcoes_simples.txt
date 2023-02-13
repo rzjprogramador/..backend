@@ -1,0 +1,6 @@
+# FUNCOES SIMPLES
+
+funcoes_simples:
+sempre coloque o tipo que a funcao vai retornar apos o return.
+
+senao for ter return nao vai retornar nada entao tbm nao coloque nada. .. nem void.

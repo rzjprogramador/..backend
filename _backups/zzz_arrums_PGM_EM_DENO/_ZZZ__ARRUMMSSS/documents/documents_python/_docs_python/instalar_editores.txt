@@ -1,0 +1,5 @@
+instalar_emacs: 'sudo apt install emacs',
+tutorial: 'https://www.youtube.com/watch?v=eu_UiSiIwz0',
+verificar_versao: 'emacs --version',
+doc: 'https://www.gnu.org/software/emacs/',
+us0: modo interface grafica >> vai abrir criando arquivo ex: emacs texto.txt

@@ -1,0 +1,44 @@
+//  leao:
+
+//  ts_config: 
+
+"baseUrl": "./src",
+    "paths": {
+      "@modules/*": ["modules/*"],
+      "@models/*": ["models/*"]
+    },
+
+---
+BACKUPS SCRIPTS ::
+
+//   SCRIPT DEV
+"dev": "ts-node-dev --respawn --watch 'src/**' --transpile-only --ignore-watch node_modules -r tsconfig-paths/register src/server/rest_express/server.ts",
+
+//  SCRIPT BUILD 
+"build": "tsc -p tsconfig-build.json",
+
+//  SCRIPT RESET ORM 
+"nao:reset:prod": "npx dotenv-cli -e .env -- npx prisma migrate reset --force --skip-generate --preview-feature",
+"reset:dev": "npx dotenv-cli -e .env.dev -- npx prisma migrate reset --force --skip-generate --preview-feature",
+"reset:test": "npx dotenv-cli -e .env.test -- npx prisma migrate reset --force --skip-generate --preview-feature",
+
+//  SCRIPT TEST
+"test": "jest --passWithNoTests --runInBand --no-cache"
+
+# CAMINHOS_ALIAS_NO_PACKAGE :
+"_moduleAliases": {
+    "@": "dist"
+  },
+
+//  PRISMA_NO_PACKAGE :
+"prisma": {
+  "seed": "ts-node prisma/seed.ts"
+}
+
+// FALTA_INSTALAR_PROD
+yarn add uuid
+// TALVES : module-alias
+
+// FALTA_INSTALAR_DEV 
+yarn add -D @types/jest dotenv jest ts-jest prisma
+// TALVES : @types/graphql

@@ -1,0 +1,24 @@
+iniciando_projeto_py_poetry:
+'
+# SEQUENCIA CERTA : conceito: Só instalar as dependencias com o env shell ativado:
+# obs: tem que estar batendo certo as versoes em uso pelo pyenv e que mostra ao ativar o shel ex: (22-10--py3.10)  (NomeProjeto--versaoEmUsoPyEnv)
+
+
+definir versao py do projeto:
+1- pyenv versions
+2- pyenv local 3.10.5
+3- poetry env use 3.10.5 ### Quando nao esta compativel as versoes do shell
+
+4- poetry init -n
+5- poetry install  ## se precisar instalar algum pacote ja na dependencia de projetos legados ou copiados.
+
+6- poetry shell
+<depois de ativado ambiente instalar pacotes..e conferir no pyproject.toml se instalou as dependencias>
+
+7- instalar pacotes via poetry : 
+poetry add pacote
+
+sair_do_ambiente_poetry_shell: somente com o comando :: exit
+
+',
+

@@ -1,0 +1,16 @@
+# mang
+
+# ts_config: 
+
+"rootDirs": ["src"],
+    "baseUrl": "src",
+    "paths": {
+      "<APELIDO>*": ["*"],
+    }
+    
+  ---
+
+  # script dev: 
+  "dev:rest": "ts-node-dev --respawn --watch 'src/**' --transpile-only --ignore-watch node_modules -r tsconfig-paths/register src/server/rest_express/server.ts",
+
+  

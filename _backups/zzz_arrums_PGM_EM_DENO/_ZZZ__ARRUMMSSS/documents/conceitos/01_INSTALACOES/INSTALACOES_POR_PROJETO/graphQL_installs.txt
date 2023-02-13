@@ -1,0 +1,69 @@
+
+multiplas_instalacoes: `yarn add express-async-errors express-graphql graphql graphql-tools reflect-metadata`,
+
+{
+  lib_nome: `express-graphql`,
+  doc: ``,
+  tipo_instalacao: `dependencies`,
+  instalacao: `yarn add express-graphql`,
+  objetivo: ``,
+  detalhes: `
+  mergeTypeDefs > https://www.graphql-tools.com/docs/schema-merging
+  loadFilesSync > https://www.graphql-tools.com/docs/schema-merging
+
+  `,
+},
+{
+  lib_nome: `graphql`,
+  doc: `https://graphql.org/code/#javascript`,
+  tipo_instalacao: `dependencies`,
+  instalacao: `yarn add graphql`,
+  objetivo: ``,
+  detalhes: `
+  -
+  `,
+},
+{
+  lib_nome: `graphql-tools`,
+  doc: `https://www.graphql-tools.com/`,
+  tipo_instalacao: `dependencies`,
+  instalacao: `yarn add graphql-tools`,
+  objetivo: ``,
+  detalhes: `
+  - graphql-tools para loadFilessync só esta funcionando em Dependencies nesta versao  : "graphql-tools": "^7.0.5",
+  `,
+},
+{
+  lib_nome: `reflect-metadata`,
+  doc: ``,
+  tipo_instalacao: `dependencies`,
+  instalacao: `yarn add reflect-metadata`,
+  objetivo: ``,
+  detalhes: `
+  -
+  `,
+},
+{
+  lib_nome: `express-async-errors`,
+  doc: ``,
+  tipo_instalacao: `dependencies`,
+  instalacao: `yarn add express-async-errors`,
+  objetivo: `recuperar erros express`,
+  detalhes: `
+  -
+  `,
+},
+{
+  lib_nome: `@types/graphql`,
+  doc: ``,
+  tipo_instalacao: `DevDependencies`,
+  instalacao: `yarn add -D @types/graphql`,
+  objetivo: `tipos do graphql`,
+  detalhes: `
+  -
+  `,
+},
+
+
+
+

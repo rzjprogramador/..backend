@@ -1,0 +1,137 @@
+# SIGNIFICADOS PGM
+
+opcional: opcional quer dizer que pode ser nulo sem valor dentro do recipiente, para usa-lo temos que dar um possivel valor padrao "com ??" operadorNaoNulo
+
+comando: clasula | palavra_chave | keyword ex: return, break, throw...
+
+bloco: escopo | programa | conjunto de instrucoes
+
+mais_que_um: referencia | Casca | Capsula | Dado | Informacao| Agrupadores | Compostos | conjunto
+
+conteudo: valor Puro | o suco nectar | primitivoNativo | ultima Instancia | resultado Final
+
+clasula: palavras-reservadas-da linguagem | palavra-chave | keyword | 
+
+
+threads: leitura de linha ...instrucao em  processo, 
+thread é passo | processo, para dar um passo o processador nao interrompe este passos/ execucoes de instrucoes... entao se tem muitos passos a ser dados , ele abrira uma tread para cada passo ser dado.
+
+tutorial:  https://m.facebook.com/story.php?story_fbid=pfbid02522CVMTt4yYjds4p8AjRwSs7wXmNvVc79Bha8LjyjPN1qrULHBdnR9X67wSqnJe5l&id=100039807195843&mibextid=Nif5oz
+
+fonte: é a fonte unica da verdade |  onde esta gravado o dado.
+
+state: estado | valor no momento presente | meu valor neste exato momento
+
+
+
+
+conteudo: valor | informacao | dado | configurar | dar valor
+
+valor_verdade: informacao passada pelo dono.
+
+configurar: dar_valor | preencher com valor |
+
+execucoes: o pc executa os comando de cima para baixo.
+
+comandos : instrucao | statement | declaracao | afirmacao | ordem
+
+delimitador_de_comando: em algumas linguagens o ; "ponto e virgula" é obrigatorio no final de cada comando/instrucao
+
+dinamico: dinamico em varsiaveis ela sofre inferencia o compilador advinha infere qual o tipo.
+
+explicito: explicito vc deixa claro na declaracao tudo sobre o assunto , uma declaracao completa com tipo, nome , valor...
+
+recuperar: recuperar é usar | invocar | instanciar | chamar | executar 
+
+ponteiro: ponteiro um lugar na memoria que compartilha verdades ... via indicacao com"*" asteristico na referencia...ou seja veja como se fosse um cofre onde só nele foi guardado um valorVerdadeUnico, que quiser usa-lo vou passar por ponteiroIndicacao este caminho do cofre/locsl memoria compartilhados de verdade.
+
+parametros: propriedades vazias / chaves keis, opcoes / atributos / campos dinamicos.
+
+argumentos: valor que o utilizador envia para preencher com valor os params vazios.
+
+abrir_objeto: com ponto "." para acessar suas props e metodos, desencadear, encadeamento, 
+
+usoFuncao: chamada, invocacao
+
+fallback: fallback é um valor default, caso nao tenha valor a vars chama este valor depois para nao ficar sem valor.
+
+atribuicao: capturar | guardar | criar novo | resultado .
+
+encadeia : é apos a vars colocar um  ". ponto " e chamar a propriedade | metodo propriedade | metodo prototype que esta vars tem no seu tipo.  ex: str.toUpperCase(), minhavars.meuMetodo()
+
+chamar: é invocar uma funcao, usa-la pra executar.
+
+defaultParams: só funciona se a funcao for invocada sem os params...ou seja undefined os params
+aula: aos 3:52 https://youtu.be/Rm25zZE8rwc
+
+valores: 
+conceito: todos ai abaixo sao valores e tem metodos no prototype do seu construtor para uso. 
+
+valores_primitivos_truthy:  string, number, true, ...
+
+valores_primitivos_falsy: null, undefined, string vazia, false, 
+
+valores_por_referencia: objetos, funcao, array, vars
+...
+
+pegar_acessar_algo:
+se deu console vc ja conseguiu pegar tem na mao este algo... troque o cpnsole por algo concreto a fazer com este algo que ta na mao.
+
+atribuicao _anti_colateral: tudo que se guarda numa vars ...nao gera efeitoColateral ... porque esta criando nesta vars um novo valor e esta vars que seguira em frente sendo usada com este novo valor na app.
+---
+
+narracao_funcao:
+quandoNOME_FUNCAO for chamado ( "COM"  params )
+o que esta nos params diga "COM ".
+---
+
+tipar varss funcao "como argumento"  com type alias function ... 
+nao tipar diretamente na funcao e sim fazer uma type alias de function e nela posso tipat args e retornos que a funcao vai ter.
+aula 284 js ts byMiranda na udemy.
+
+parametros: 
+param usado para opcoes em  funcoes,  narre como "VOCE PODE PREENCHER NESTE FORMATO , ESTE RECIPIENTE, QUE ELE SERA USADO NA ..."
+
+paramGenerico: mais usado como opcao para tipos , narre como: VOCE PODE PREENCHER COM O QUE QUISER...
+sintaxe: <LETRA> // onde esta esta letra vc preenche com seu tipo no uso.
+
+sao passados dentro de parenteses e sao lidos pela funcao... sao como varsiaveis dinamicas vazias só  o recipiente que receberam valor de argumentos do utilizador quando a funcao for chamada , usada quando no mesmo tipo de recipiente vc quer guardar dependendo de auem for udar com valor diferente , do mesmo tipo mas o valor diferentr ex: a vars nome como param quando for usada podera ser argumentada como 'Reinaldo' | 'Gustavo' | 'Leonardo' depende de quem chamar a funcao e argumentar.
+
+opcionais: sao os nullabĺe , montados com null ou "?"... acesso: nao podemos chamar ou acessar nada que possa ser opcional sem verificar primeiro se nao é nulo.
+...
+
+decisao: para tomar decisao usamos a funcao/clausula if que significa "Se" ela lê um boleano e no primeiro bloco faz prepara o que sera feito se o que leu for verdade.
+
+objeto: agrupamento de varsiaveis que carregam estados e comportamentos.
+
+formato_de_objeto : classe js | struct go | constructorFunction js
+
+microServicos: sao mini backends agrupados em um backend master e esses micro-backends se servem dentro deste backendMaster.
+
+faca: quer que faca algo, abra um escopo toda nova acao é criada dentro de um escopo 
+abra o escopo {} e dentro crie e evolua, 
+utilizze expressoes, se quiser deixar publico o resultado retorne com comando de saida ou se nao quer retornar nada nao use. 
+
+precisa fazer / crie e evolua dentro do escopo, tudo se constroi dentro de casa {} #base
+
+comandos_de_saida_output_funcoes:
+. output_console: console / print 
+  output_pulico_resultado: return
+---
+paradigmas:
+[ imperativo, declarativo, reativo ],
+
+obs: cada tecnologia adota um destes paradigmas. ex: react usa reativa, 
+
+imperativo: vc manda fazer mostrando como faz ex: os fundamentos da prpgramacao if, else, loops, for, while, etc...
+
+declarativo: vc declara as funcoes, clases prontas encapsuladaa elas ja executam o que foram feitas pra fazer só por vc a terem declarado.
+
+reativo: o reativo usa a declarativa quando muda um estado >>
+sempre que mudamos um estado, declaramos que houve esta mudanca .
+
+tutorial: https://youtu.be/QEHiiOzCqoA
+---
+superset: sao linguagens que no final vao ser convertidas para uma outra linguagem a qual ela foi baseada ..
+ex: sao superset do Javascript : [ Typescript,  Dart para web , ]
+

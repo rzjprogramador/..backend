@@ -1,0 +1,30 @@
+# INICIO COMO PROGRAMAR
+
+memoria_muscular:
+treine o musculo do seu cerebro faça os fundamentos do zero ... quantas vezes for ate decorar.
+
+programe:
+conceito: programe passo a passo igual um robô, 
+
+traduzir_narracao_humana_para_computacional: 
+narre a solucao do problema passo a passo.
+a minha fala ja diz o que fazer no codigo : vai ser, preciso fazer() é uma acao entao é uma funcao ()
+
+- algo vai ser : uso sinal de atribuicao e digo o valor que vai ser .
+- 
+- se vai ser novo é declaracao registro de nascimento.
+- 
+- se vai ser de uma forma , molde ja tem estrutura é um objeto : use " :  " atribuicao de ja formado só falta o valor
+- 
+- preciso fazer : é uma acao/funcao entao faco esta funcao
+
+- se vou usar uma funcao de captura de valores de terceiros ... que ja me traz algo ,
+- nao a uso diretamente
+-  instancio num var e avalio esya var pra descobrir se a funcao trouxe algo
+...
+tem_algo:
+  tem algum valor ja na mao toma decisao o que fazer com o que ja tem tanto pra falha quanto pra sucesso .
+  o sucesso sempre caminhando pro objetivo da funcionalidade.
+
+
+### DAQUI SIGA PARA BINARIOS : 0 SUCESSO __ OU __ 1 FALHA

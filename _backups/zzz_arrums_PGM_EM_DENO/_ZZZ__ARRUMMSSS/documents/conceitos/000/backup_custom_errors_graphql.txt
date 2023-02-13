@@ -1,0 +1,68 @@
+import { ApiErrorGraphql, BadRequestGQL, NotFoundGQL, UnauthorizedGQL, ReservededGQL } from '@src/globals/custom_errors/CustomApiErrorGraphql'
+
+import { GraphQLError, GraphQLFormattedError } from 'graphql'
+
+// FORMATACOES DE ERROS GRAPHQL
+
+export const customFormatErrorFn = (error: GraphQLError): any => {
+  if (error.originalError instanceof ApiErrorGraphql) { return error.message }
+  if (error.originalError instanceof BadRequestGQL) { return error.message }
+  if (error.originalError instanceof NotFoundGQL) { return error.message }
+  if (error.originalError instanceof UnauthorizedGQL) { return error.message }
+  if (error.originalError instanceof ReservededGQL) { return error.message }
+
+  return error
+}
+
+// CLASSES DE USO DE ERRORS CUSTOMIZADOS
+
+// PARA USAR NO CODIGO - LANCAR EXCESSOES: throw new ClassePersonalError(' MENSAGEM')
+
+// CLASSE BASE
+
+export class ApiErrorGraphql extends Error {
+    // public readonly statusCode: number
+
+    constructor(message: string, ...args: any) {
+        super(message, args)
+
+        this.message = message
+        this.name = 'ApiErrorGraphql'
+    }
+}
+
+export class BadRequestGQL extends Error {
+    constructor(message: string, ...args: any) {
+        super(message, args)
+
+        this.message = message
+        this.name = 'BadRequestGQL'
+    }
+}
+
+export class NotFoundGQL extends Error {
+    constructor(message: string, ...args: any) {
+        super(message, args)
+
+        this.message = message
+        this.name = 'NotFoundGQL'
+    }
+}
+
+export class UnauthorizedGQL extends Error {
+    constructor(message: string, ...args: any) {
+        super(message, args)
+
+        this.message = message
+        this.name = 'UnauthorizedGQL'
+    }
+}
+
+export class ReservededGQL extends Error {
+    constructor(message: string, ...args: any) {
+        super(message, args)
+
+        this.message = message
+        this.name = 'ReservededGQL'
+    }
+}

@@ -1,0 +1,4 @@
+
+opcionais: para montar opcional coloca ? depois do tipo.
+no_uso: da um valor default com ?? ... 
+conceito: ja que vai usar um opcional tem que ter um valor default.

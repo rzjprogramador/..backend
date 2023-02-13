@@ -1,0 +1,10 @@
+
+tutoriais:
+  
+
+---
+config vscode for golang:
+https://code.visualstudio.com/docs/languages/go
+
+---
+porque_usar_interfaces: https://www.youtube.com/watch?v=8-bSBDU7OOk

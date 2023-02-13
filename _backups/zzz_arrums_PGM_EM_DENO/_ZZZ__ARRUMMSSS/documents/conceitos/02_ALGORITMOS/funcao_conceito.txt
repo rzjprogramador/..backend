@@ -1,0 +1,51 @@
+funcao_com_parametro: {
+  contexto: ``
+  - Quando passamos params pra funcao expressamos esta funcao quer fazer o seu objetivo com quem ? os parametros,
+  exemplo: funcao colorir(desenho) >>> a funcao colorir vai colorir o que ? o desenho que foi passado por param.
+}
+
+parametro: {
+  contexto: `
+  funcao com  parametro
+parametro sao opcoes pra fazer o que pede a funcao: 
+leia "COM O QUE?" ... fazer com o que?
+quando ver delimitador de parametros () .
+
+ex: 
+- criarUsuario (dados) :: criar usuario com dados
+- 
+- buscarUsuarioPorId (id) 
+buscarUsuarioPorId Com o que? id
+`,
+
+  narrativa: `ao abrir () para params: 'vou dar a opcao de quem usar esta funcionalidade me passar...ou ... esta funcionalidade vai faze ro qeu propoem em #parametros passados',`,
+
+  contrato: `params sempre obedecer a contratoDTO.`,
+
+  input_parametros_opcionais: `
+  parametros opcionais podemos empacota-los e chama-los de imput::
+  - sao recursos para muitos... exemplo: paginacao. 
+  -  todos seus dados tem que ser opcionais
+  - no resolver da consulta avisamos que vamos usa-lo como parametro de opcao.
+  -  pode setar valores padrao
+  -  uso: é usado eou opcionalmente setado na consulta @Query
+
+  - suas props tem que ser opcionais para o client usar só se for necessario.
+  É utilizado em params de resolvers/funcoes plurais ou seja que retorne um array ...porque age para muitos.
+`,
+
+params_genericos: `
+ params genericos  interprete "DO QUE?"
+genericos vai fazer algo, dar retorno... de um tipo ou de um jeito
+ex:
+Promise<User> :: retornara uma promesa de um User
+`,
+
+
+docs_parametros: {
+
+  prisma: {
+    params_opcionais_prisma: `https://docs.nestjs.com/recipes/prisma#create-two-database-tables-with-prisma-migrate`,
+  }
+}
+}

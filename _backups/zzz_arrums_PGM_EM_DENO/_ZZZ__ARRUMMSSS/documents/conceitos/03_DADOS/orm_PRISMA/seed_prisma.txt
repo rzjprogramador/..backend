@@ -1,0 +1,19 @@
+seed_prisma: {
+  doc: `https://www.prisma.io/docs/guides/database/seed-database`,
+
+  add_package: `
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  }
+  `,
+
+  detalhes: `
+  - o arquivo de seed tem que estar pronto pra roda-lo.
+  `,
+
+  comando_rodar: `yarn prisma db seed`,
+
+
+
+
+}

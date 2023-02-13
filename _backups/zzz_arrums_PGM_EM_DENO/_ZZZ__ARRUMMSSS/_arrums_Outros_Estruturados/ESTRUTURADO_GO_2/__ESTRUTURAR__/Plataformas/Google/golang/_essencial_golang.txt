@@ -1,0 +1,125 @@
+
+cada pasta só pode ter 1 func main() 
+ela é o root raiz do modulo em questao.
+o arquivo root do modulo nao precisa se chamar main , pode se chamar nomeDoModulo.go 
+
+significados: 
+valorZero: valorPadrao | valorDefault quando nao argumentam nada o valorZero assume o valor da variavel por isto nso yem indefinido em go ..tem nulo ...e o valorZero.
+
+retornos:
+  returnZeroESucesso: o ' return 0, ' em uma avalicacao que por padrao  ela da pro erto o code 1 de falha  ... mas eu mudo este erro para code 0 para apontar que vou querer este erro e vou recupera-lo no fmt.Errorf(), obs: no 2° psram rstorno o sucesso.
+
+estruturado: fazer uma estrutura struct quando preciso de algo estruturado com chave e valor semelhante a um objeto no js.
+
+fluxo_condicionais: em golang somente 2 :: [ if (Se) , switchCase (interruptor) ]
+por enquanto em 2022 nao temos ternario.
+
+
+....
+
+nascimento_declarar_propriedade:
+
+cenariosPossiveis: [ publicaDePacote,  privadaDaFuncao ],
+
+publicaDePacote:
+  declarar com var somente fora de codeBlock {} ... é publico no escopo do mesmo pacote.
+  usar: só quando precisar de  escopo a nivel de pacote :: levelPackageScope.
+ 
+privadaDaFuncao:
+  declarar com atribuidorCurto := somente dentro de codeBlock ... é privado pertence a funcao.
+  usar: só quando precisar de escopo a nivel do bloco :: codeBlockScope
+....
+
+varLetraAuxiliar : sera uma var com uma letra para auxilio que vai guardar um resultado que vai srr base/parametro pra construir algo baseado nesta varLetraAuxiliar.
+
+obs: ela deve comecar pela primeira letra do que ela faz
+ex:  : r := recover()
+....
+
+numeros_usar:
+para_inteiros : int (para aceitar negativo ou positivo)ou uint (para aceitar só positivos)  , que o pc vai inferir se usa 32 ou 64
+
+para_decimal: float64
+
+---
+funcao:
+em uma funcao ou vc retorna ou vc só executa /procedimento.
+
+---
+
+explicacao: 
+a_verdade_do_dono: a verdade é um valor recebido pelo utilizador, esta informacao recebida é uma verdade que o dono passou entao ela pode ser recebida num ponteiro local da memoria que vai refletir pra quem precisa desta verdade...entao informacoes verdadeiras passada pelo dono guarde em um unico armario secreto da memoria.
+
+trechos_importantes:
+ aos 43:00 fullCycle Api Golang fala que Go tem GarbCollection coletor de lixos que fica passando no codigo voletando lixo na memoria.
+....
+estado_sempre_atual_da_variavel:
+ponteiro: ponteiro é um local fiel que tem a verdade do valor da var e pode ser sempre compartilhado que vai sempre estar no estado atual de verdade é a fonte unica da verdade. 
+
+copia só copia o valor uma vez depois cada uma var segue sem vinculo de valores cada uma tem o seu valor...se quiser ser sempre igual vai ter que ficar copiando uma pra outra toda vez ..isto é inviavel.
+
+conceito: use sempre ponteiro para compartilhar o valor atual o estado da variavel...ele contem o polo unico da verdade da var.
+
+...
+
+strings_em_go:
+  crazes: crazes em go nao interpreta as variaveis e comando como seria em js...para interpretar use aspas duplas e a funcso que interpreta.
+...
+tipos_contrato_de_estrutura :
+tipos sao contratos posso criar um tipo personal proprio com type struct
+aula: https://youtu.be/DGHYibXY6Qk
+...
+tipos_proprios: 
+porque:
+podemos criar nossos proprios tipos
+para neles inserir metodos, contratos semelhante a um prototype/dna
+
+ex: 
+```
+type MeutipoNum int
+    
+func main () {
+   var num1 MeutipoNum = 10
+   log.Println(num1)
+}
+```
+
+exemplo simples criacao de usuarios 
+type User struct {
+    nome string
+    idade uint 
+}
+
+var users []User
+
+func createUser(input User) {
+    users = append(users, input)
+    
+}
+
+var u1 = User{"Guga", 12}
+var u2 = User{"Leo", 6}
+    
+func main () {
+    createUser(u1)
+    createUser(u2)
+    
+   fmt.Println(users)
+}
+
+/*
+em_operacoes:
+ no 2°param falo o que o erro vai ser conforme aconteca minha condicao
+ 
+ */
+ 
+---
+
+ponteiros_uso:
+uso de variavel de ponteiro com &var , uso apartir da linha que quero a var apontada com.modificacoes se ela sofrer alteracoes , ou seja apartir daqui 'quero ela sempre atualizada'.
+
+---
+
+
+
+

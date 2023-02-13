@@ -1,0 +1,30 @@
+# tsconfig : 
+
+config_ts_config: {
+  novas_compilacoes_incrementalmente: '"incremental": true ->> Só vai compilar a regiao que vc mudou sem compilar de novo todos os codigos...ele vai se guiar pelo arquivo gerado no local do build :: tsconfig-build que é um hash da app',
+
+  versao_javascript_que_vai_gerar: 'target ->> configurar para "es2018" se for usar os metadados ..ou padroes "ES6',
+
+  compatibilidade_de_compilacao_js_que_a_versao_node_suporta_para_carregar_modulos_js: 'module ->> CommonJS ou es2017 - tem que ver compatibilidade d eversao do Node se ele suporta as novas features desta versao da compilacao que vai acontecer do JS escolhida...No frontend nao escolher comonjs que o browser nao suporta configure outro no front ex: webpack',
+
+  pastas_que_o_compilador_vai_buscar_para_compilar: 'esta dentro do array ->> "include": ["src"] ... o copilador vai olhar somente as pastas configuradas aqui neste array. ',
+
+  mapear_js_buildado_para_debugger_no_browser_como_ts: "sourceMap": true // vai gerar de todos arquivos buildado um .map para podermos fazer debugger no browser com sinatxe de ts ao inves do dificil buidado js... sera este buildado mapeado para ts. 
+
+  parar_pedir_inicializacao_variaveis: `"strictPropertyInitialization": false`,
+
+  typeRoots: 'typeRoots onde o ts procura as tipagens , apontar para node_modules/@types',
+
+  permitir_importacoes_de_arquivos_json: `"resolveJsonModule": true, >> permite importacoes entre arquivos json`,
+
+  permitir_js: `"allowJs": true,`,
+
+  pular_checagem_de_lib: `"skipLibCheck": false`,
+
+  forcar_primeira_letra_maiuscula_arquivos: `"forceConsistentCasingInFileNames": true,`,
+
+  
+
+
+  
+}

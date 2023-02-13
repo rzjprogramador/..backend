@@ -1,0 +1,22 @@
+// BACKUP LEGADO : CRUIAR PRODUTO ENTIDADE COM CONSTRUCTOR FUNCTION
+// PREFERENCIA FOI CRIAR COM CLASSE
+
+// SEGUE O LEGADO EM TS:
+
+export function Product(this: ArgsProduct, add: ArgsProduct) {
+  this.nome = add.nome
+  this.quant = add.quant
+  this.precoFinalUnitario = add.precoFinalUnitario
+  this.ruleProduct = {
+    cepInicial: add.ruleProduct.cepInicial,
+    cepFinal: add.ruleProduct.cepFinal,
+    regiao: add.ruleProduct.regiao,
+    cidade: add.ruleProduct.cidade,
+    dataEntrega: add.ruleProduct.dataEntrega,
+  }
+}
+
+// uso
+>> SINTAXE: INSTANCIAR CONSTRUCTOR_FUNCTION NO TYPESCRIPT = new (Product as any)(args)
+*/
+

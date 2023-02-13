@@ -1,0 +1,37 @@
+PERIDICAMENTE:
+posso: usar o clen cache + vendor + tidy // vai limpar as dependencias global no go e instalar no projeto.
+
+---
+
+# Instalar pacotes de terceiros de forma global no go
+
+pacotes_google:
+  serao_instalados_em: /home/rzj/go/pkg/mod/github.com/google/
+    gerador_de_id: uuid :: ```
+    go get github.com/google/uuid@latest
+    ```
+
+
+gerar_pasta_de_dependencias_vendor_no_loca_do_projeto
+```
+go mod vendor
+// nela via ter as dependencias usadas somente aqui instaladas.
+```
+
+verificar_dependencias_em_uso: 
+```go mod tidy```
+// traducao: tidy == limpa
+// as que nao tiver em uso ele vai limpar do go.mod
+
+grafico_de_dependencias_usadas:
+  ```go mod graph```
+  // mostra o grafico de dependencias em uso onde estao localizadas
+
+limpar_cache_das_ferramentas_instaladas_global_go:
+// limpa o cache de binarios no go em /home/rzj/go/bin/
+```
+go clean -modcache
+```
+---
+
+

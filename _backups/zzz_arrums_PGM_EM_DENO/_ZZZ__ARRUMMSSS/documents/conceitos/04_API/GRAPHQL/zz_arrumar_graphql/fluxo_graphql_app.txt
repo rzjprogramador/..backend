@@ -1,0 +1,19 @@
+{
+objetivo: 'fluxo_configuracao',
+doc_criar_servidor: `https://graphql.org/code/#javascript`,
+fluxo_configuracao: [
+  '1 - no server configurar midleware graphql',
+  '2 - ',
+  '2 - ',
+  '2 - ',
+  '2 - ',
+  '2 - ',
+  '2 - ',
+]
+
+}
+
+{
+objetivo: 'fluxo_criacao_entidade',
+
+}

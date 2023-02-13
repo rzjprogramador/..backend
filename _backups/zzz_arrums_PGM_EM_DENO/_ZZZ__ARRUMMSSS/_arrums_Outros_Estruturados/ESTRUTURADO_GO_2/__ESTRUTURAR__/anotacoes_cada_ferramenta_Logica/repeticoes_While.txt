@@ -1,0 +1,24 @@
+
+repeticao_while: 
+significado: while :: enquanto.
+
+resumo: semelhante ao if ..a diferenca é que vai repetir a saida enquanto meu parametroCondicional nao for verdade.
+
+sintaxe: while ( condicaoLogicaParaOParametroSerVerdade ) FAÇA { repita esta saida enquanto o parametro for verdade; e mude o estadoAtual do param ate que ele seja falso e saia do loopDeRepeticao }
+
+exemplo_narrado:
+while enquanto minha condicional nao for verdadeira faça esta saida.
+
+input comeca em um estado,
+enquanto este input nao chegar no valor do estado que quero repetir ...
+faça a saida que quero...
+e incremente o input para chegar no estado que condicionei a cada volta do loop para que ele chegue na verdade do estado condicionado e saia do loop.
+
+exemplo:
+  // exemplo em dart
+  int input = 0;
+
+  while (input <= 10) {
+    print(input);
+    input++;
+  }

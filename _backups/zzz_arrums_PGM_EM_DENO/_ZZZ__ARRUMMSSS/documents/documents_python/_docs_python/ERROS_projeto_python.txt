@@ -1,0 +1,2 @@
+# ERRO DE ATIVACAO ENV PROJETO 
+erro_shell_ativacao_ENV: se nao ativar o ambiente :: dar um pyenv global na versao desejada para o projeto e depois entre com poetry shell

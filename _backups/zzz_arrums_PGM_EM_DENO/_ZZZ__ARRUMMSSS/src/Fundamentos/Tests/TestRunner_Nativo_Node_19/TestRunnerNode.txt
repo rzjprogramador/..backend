@@ -1,0 +1,12 @@
+# TEST RUNNER NODE APARTIR DA VERSAO 19 EM 2023
+
+Ver funcionalidade entrar no site do node / Docs / versao que espera e no menu opcao Test Runner
+https://nodejs.org/dist/latest-v19.x/docs/api/test.html
+
+# Libs auxiliares:
+
+> Output Tests:
+ yarn add -D tap-spec  // vai receber o outinput do test e imprimir do jeito mais bonito dele.
+ page: https://www.npmjs.com/package/tap-spec
+
+ ---

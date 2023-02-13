@@ -1,0 +1,17 @@
+
+
+banco_de_dados:
+
+referencia: https://pkg.go.dev/firebase.google.com/go
+
+   firebase: iniciar com SDK firestore o banco firebase do Google em Golang "Vai".
+   link: https://firebase.google.com/docs/firestore/quickstart#go
+   
+crud: golang com firebase:
+https://blog.canopas.com/golang-firebase-realtime-database-crud-operations-8508e3116887
+
+porque_usar_banco_do_firebase:
+por causa da atualizacao de dados em tempo real sem o Client ir ao servidor e banco.
+
+autenticacao:
+  firebase_golang: firebase: https://firebase.google.com/docs/reference/node/firebase.auth.Auth ,

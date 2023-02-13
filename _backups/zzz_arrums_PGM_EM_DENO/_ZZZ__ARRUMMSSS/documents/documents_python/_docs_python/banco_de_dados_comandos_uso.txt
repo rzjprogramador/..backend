@@ -1,0 +1,10 @@
+// SQLITE
+
+USAR_NO_DBEAVER:  {
+  criar novo banco sqlite // vai pedir o caminho do arquivo.db gerado na aplicacao, abre ele , vai em Tabelas pra ver se ele criou as tabelas com a direita view tabelas..se nao criou automatico crie manual.
+}
+
+// DBEAVER 
+{
+  adicionar_novo_dado_em_tabela: 'entrar na tabela/ aba Dado/ la embaixo botao com +  "adicionar nova linha" ai adiciona no campo o dado que quer na coluna desejada e embaixo clica em salvar.',
+}

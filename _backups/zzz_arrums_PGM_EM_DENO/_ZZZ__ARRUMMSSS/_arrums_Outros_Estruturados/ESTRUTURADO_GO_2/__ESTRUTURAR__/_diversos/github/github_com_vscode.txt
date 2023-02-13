@@ -1,0 +1,21 @@
+
+- logar no vscode : 
+se der erro  demorar carregar a extensao github feche-a e confirm para logar pela web ,
+ao logar tentar copiar o codigo passado na caixa aviso e colar em :  https://github.com/login/device
+
+---
+
+### SE JA ESTA LOGADO AO GITHUB NO VSCODE COMECE SEMPRE O REPO PELA MAQUINA AQUI:
+
+# INICIANDO E CRIANDO REPO PELA MAQUINA >> E CONECTANDO COM O GITHUB REMOTO 2022:
+
+- inicializar repositorio local na maquina : clicando em inicializer repository
+
+- faça alguma mudando e clique em commit somente e depois em publish
+
+- vai pedir para publicar e nomear novo em repositorio privado ou publico 
+>> nomeie o novo repo e escolha repo para ser "publico" 
+
+tutorial: by_thicode :: https://www.youtube.com/watch?v=7cNP3AE49Bg&t=512s
+
+

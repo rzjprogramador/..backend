@@ -1,0 +1,31 @@
+propriedades:
+o que o objeto vai ter:
+
+usar clasula "late" que quer dizer "atrasado" antes do nome da prop. para ele nao pedir inicializacao com valor ex: String nome = 'foo'
+
+construtor
+para instanciar criar filhos objetos desta classe
+
+  // construtorModerno : novo padrao2022 minificado - com parametros nomeados positional :: coloca as props dentro de chaves {} e antes a clasula de requerido required e utiliza o this dizendo que este param que vai entrar sera o valor da prop da classe.
+
+  //exemplo
+  ```Pessoa({required this.nome, required this.sobrenome});```
+
+// para recuperar/intanciar: o construtor com params nomeados: coloca dentro dos aprenteses ( chave : valor/argumento) obs: para recuperar nao precisa das chaves do objeto novo.
+
+// exemplo:
+ var reinaldo = Pessoa(
+    nome: 'Reinaldo',
+    sobrenome: 'Zacharias'
+  );
+
+---
+
+/*
+  // construtor Legado : padrao antigo verboso
+
+  Pessoa(String nome, String sobrenome) {
+    this.nome = nome;
+    this.sobrenome = sobrenome;
+  }
+  */

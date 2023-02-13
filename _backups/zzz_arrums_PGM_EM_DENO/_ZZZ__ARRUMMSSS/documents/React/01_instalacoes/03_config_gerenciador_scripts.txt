@@ -1,0 +1,5 @@
+# NOVOS SCRIPTS NO GERENCIADOR PACKAGE.JSON
+
+"test": "vitest",
+"lint": "next lint",
+"prettier": "prettier --write 'src/**'"

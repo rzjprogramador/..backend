@@ -1,0 +1,5 @@
+
+
+significados = {
+  Estrutura_Entidade_Geradora: [ 'Model Prisma' / 'Modulo Nest' / 'Classe TS-Graph' / 'Tabela BancoDados']
+}

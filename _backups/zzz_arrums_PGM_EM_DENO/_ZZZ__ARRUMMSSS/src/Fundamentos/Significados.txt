@@ -1,0 +1,6 @@
+
+formas: molde | class | struct 
+
+formasPreenchidas : objeto 
+
+contrato: interface | abstract 

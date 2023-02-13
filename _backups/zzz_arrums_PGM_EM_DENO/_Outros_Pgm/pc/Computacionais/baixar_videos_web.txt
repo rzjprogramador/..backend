@@ -1,0 +1,15 @@
+
+extensoes_chromer: 
+baixar-videos_vimeo: Simple Downloader for Vimeo
+
+
+baixar_video:
+  do_vimeo: inspecionar pagina   aba Sources == Fontes / importante apos abrir o Source atualizar a pagina apra carregar o video que pode vir sem .../ encontrar a pasta a pasta com 9 numeros ex: 45000882233 / dentro dela a pasta player.vimeo.com/ e nela a pasta video/ e por fim nel aum arquivo numerico ..clique com a direita em <salvar como> ...salvar em texto .txt / abre este arquivo salvo procura com crtr_F por <:: altura >> "height":720 ou "height":540 <--> largura >> "width":640 :: que é a largura media do video vai ver a url com extensao .mp4> || no outro formato de video vimeo procurar por " share_url " :; compartilhador de url || "mp4" || "pela resolucao ex: 720" que vai achar a url do arquivo.
+
+  tutorial_sem_programas: https://viddownmadness.com/download-private-vimeo-videos/
+  ---
+
+  baixador videos cli youtube-dl:
+  tutorial: https://ubunlog.com/pt/descargar-videos-vimeo/
+  
+  

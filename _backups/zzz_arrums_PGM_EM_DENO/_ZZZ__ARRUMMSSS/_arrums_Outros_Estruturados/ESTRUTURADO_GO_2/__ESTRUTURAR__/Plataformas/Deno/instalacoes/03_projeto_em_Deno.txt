@@ -1,0 +1,15 @@
+convencoes: 
+
+iniciar_projeto:
+  requisitos: 'com o Deno instalado no pc, nao precisa de gerenciador de package.json nem nada só ir criando os codigos em arquivo .ts e rodando com run que ja esta funcionando.',
+
+  rodar_arquivo_isolado: "deno run arquivo.ts",
+
+  suporte: instale no vscode a extensao Deno by denoland, adicione ao settings.json do vscode as linhas de configuracao_para_deno: 
+  "deno.enable": true, // REMOVE O ERRO DE IMPORTACAO: An import path cannot end with a '.ts' extension
+  "deno.lint": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+
+  importacoes_exportacoes: importar modulosProprios com o final da extensao ex: .ts ,
+
+  ignorar_erros_da_linguagens: adicionar ao topo do arquivo só em ultima necessidade o desabilitador: //@ts-ignore 

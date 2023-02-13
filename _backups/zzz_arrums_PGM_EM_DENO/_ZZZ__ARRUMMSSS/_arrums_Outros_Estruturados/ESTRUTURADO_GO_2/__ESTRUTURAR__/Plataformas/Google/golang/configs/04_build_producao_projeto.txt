@@ -1,0 +1,18 @@
+# build projeto
+
+build_no_main: 
+vai criar um arquivo binario executavel do modulo principal :: entrar na pasta principal que vai gerar o build e dar  comando:
+
+```go build main.go```  // go build pacote.go  "obs: com a extensao"
+
+rodar_arquivo_buildado: ./<nomeModuloBuildado sem a extensao>
+
+---
+
+criar_binario_na_pasta_go_bin : 
+```go install```
+// vai criar binario unico do projeto na pasta go/bin arquivo com o nome do package
+
+build_no_binario_do_user_linux:
+ao buildar no go/bin/
+<< o go.mod gerenciadorDePacotes enxerga esta pasta...ao fazer o go install :: o nome desta pasta sera o nome do arquivo binario que vai carregar o projeto em usuario/go/bin/

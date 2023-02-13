@@ -1,0 +1,7 @@
+# Estruturar em linguagem : typescript
+---
+
+linguagem: typescript:
+  instalacao: se tiver o deno instalado nao precisa instalar o typescript globalmente.
+  
+  acesso_membros_prototipos_primitivos: com a variavel recebendo um valor, o tipo deste valor da acesso ao prototipo de tipos javascript e podemos assim usar seus membros de leitura e escrita para cada tipo de valorDeDado.

@@ -1,0 +1,13 @@
+para debugar usa o modulo do py :: from pdb import set_trace
+
+set_trace() é uma funcao que onde colocada no codigo no terminal ela fara o breakpoint
+
+funcoes_auxiliares_para_debugar:
+- funcao dir() >> mostra os metodos disponiveis no escopo
+- locals() >> mostra o que a funcao esta enxergando para executar local se nao achar vai na globals()
+- globals() >> mostra o que a funcao esat enxergando para executar global ja que nao achou na locals
+
+
+comandos_dentro_do_debbuger:
+comando "s" da um salto pra proxima linha de comando a ser executada ate acabar o escopo da funcao.
+comando "n" da um next vai pra frente na execucao da linha em questao.

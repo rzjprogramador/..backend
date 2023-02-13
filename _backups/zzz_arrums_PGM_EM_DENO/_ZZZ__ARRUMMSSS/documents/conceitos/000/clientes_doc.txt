@@ -1,0 +1,4 @@
+mixflex: {
+    linha_de_produtos: [DeliveryFrete, ],
+    
+}

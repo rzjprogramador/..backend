@@ -1,0 +1,8 @@
+# ERROS COMUNS API REST
+
+erro: Unexpected string in JSON at position 248
+momento: ao tentar enviar requisicao rest com json no frontend
+causa: falta alguma virgula, algo que causa erro de sintaxe na requisicao
+solucao: arrume a sintaxe do json que esta sendo enviado.
+
+---

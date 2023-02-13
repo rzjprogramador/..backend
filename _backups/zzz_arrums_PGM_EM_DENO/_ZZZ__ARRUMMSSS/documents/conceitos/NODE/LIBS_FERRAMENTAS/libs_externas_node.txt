@@ -1,0 +1,12 @@
+
+
+gerador_id: {
+  nome: `uuid`,
+  link: `https://github.com/uuidjs/uuid`,
+  instalar: `yarn add uuid`,
+  uso: `
+  import { v4 as uuidv4 } from 'uuid';
+  uuidv4()
+`,
+}
+

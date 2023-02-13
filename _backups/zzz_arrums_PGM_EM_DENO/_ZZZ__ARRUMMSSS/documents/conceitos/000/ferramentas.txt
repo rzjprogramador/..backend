@@ -1,0 +1,7 @@
+lousa_desenhos: excalidraw ,  link: https://excalidraw.com/
+
+
+# FERRAMENTAS TYPESCRIPT TS
+rodar_arquivo: 
+  tsx: yarn add -D tsx , https://github.com/esbuild-kit/tsx
+  tsx ./endereco/arquivo.ext

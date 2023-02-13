@@ -1,0 +1,9 @@
+export const MSG_EXCEPTION = {
+  INCORRECT: `INCORRETO!`,
+  REQUIRED: `CAMPO OBRIGATORIO!`,
+  DELETADED: `JÁ REMOVIDO!`,
+}
+
+export const MSG_OK = {
+  SUCESS: `CONCLUIDO COM SUCESSO!`,
+}

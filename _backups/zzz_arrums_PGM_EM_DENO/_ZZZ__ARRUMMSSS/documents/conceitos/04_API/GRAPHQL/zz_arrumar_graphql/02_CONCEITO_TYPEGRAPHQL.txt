@@ -1,0 +1,15 @@
+# CONCEITO TYPEGRAPHQL
+
+> BUSCAR DADOS :: uso @Query == Consulta
+> MODIFICAR DADOS :: uso @Mutation == Modificador
+
+---
+
+
+convencoes: {
+  tipo_para_argumentos: {
+    se_for_classe: 'Args -- classe porque vai ter validacoes',
+    se_for_interface: 'DTO a classe Args vai te-la como contrato',
+  },
+  tipo_para_argumentos_opcionais: 'Input',
+}

@@ -1,0 +1,9 @@
+# RETORNO ASSINCRONO ENCADEADO
+
+sintaxe: return await (await objeto.metodo1()).metodo2(arg2)
+
+explicado: manda esperar (expressao do primeiro metodo()) depois desencadeia o outro metodo dentro dele()
+
+exemplo: return await (await ProductRepositoryInUse.inUse()).create(responseModel)
+
+---

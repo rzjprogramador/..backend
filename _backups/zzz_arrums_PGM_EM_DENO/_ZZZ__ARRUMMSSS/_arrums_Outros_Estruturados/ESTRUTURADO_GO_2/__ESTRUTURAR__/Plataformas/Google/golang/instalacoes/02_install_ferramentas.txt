@@ -1,0 +1,29 @@
+golang:
+
+extensoes_go: usar a oficial Go , tem a estrelinha com fundo verde dizendo estar verificada como oficial.
+obs: no vscode vai pedir pra instalar outras extensoes auxiliares pra esta ...confirme clicando em com install all
+
+install_ferramentas_go :: tools 
+obs: o que era go get ..ficou depreciado agora é go install
+tools esta sendo direcionado no comando a instalar em : /home/rzj/go/pkg/mod/golang.org/x/tools
+// sintaxe: go install -v golang.org/x/tools/<FERRAMENTA>>@latest
+
+gorename :: para renomeacao de referencias no go codigo
+instalei pelo sudo porque o go modules parece nao estar fucionando :
+issue: https://github.com/microsoft/vscode-go/issues/1954
+
+---
+todo_ainda_nao_consegui_instalar:
+gorename :: para renomear variaveis no go.
+  dica_instalacao: ```
+
+  ```
+
+---
+
+instalacoes_feitas:
+go install -v golang.org/x/tools/gopls
+go install -v github.com/stamblerre/gocode
+
+
+

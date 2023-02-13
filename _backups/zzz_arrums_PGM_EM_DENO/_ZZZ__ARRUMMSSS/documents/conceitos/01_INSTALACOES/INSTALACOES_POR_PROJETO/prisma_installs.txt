@@ -1,0 +1,5 @@
+
+iniciar_projeto_prisma: {
+  yarn prisma init
+  yarn prisma migrate dev
+}

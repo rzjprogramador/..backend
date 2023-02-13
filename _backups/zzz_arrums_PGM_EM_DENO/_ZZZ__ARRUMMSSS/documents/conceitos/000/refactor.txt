@@ -1,0 +1,11 @@
+
+
+mudar_funcao_anonima_de_arquivo: `recorte apartir dos () parenteses e o corpo, no outro arquivo :: exporte e declare uma variavel e atribua a funcao recortada a esta var... onde recortou coloque a referencia desta var.
+exemplo:
+era : 
+
+refatorado:
+export const variavel = (param) => {} //recortado
+ `,
+
+ 

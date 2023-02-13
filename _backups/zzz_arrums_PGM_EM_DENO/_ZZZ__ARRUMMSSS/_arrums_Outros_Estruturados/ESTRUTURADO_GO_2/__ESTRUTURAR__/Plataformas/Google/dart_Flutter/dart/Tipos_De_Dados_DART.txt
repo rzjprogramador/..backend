@@ -1,0 +1,15 @@
+# tipos_de_dados_DART:
+
+> primitivos
+    texto : String
+    numero : num , int , double
+    boleano : true, false
+    dynamic : infere o tipo
+
+> referencias
+    objeto :: tuodos os tipos sao objetos no dart.
+    funcao : Function
+    array : List
+    mapa : Map
+
+---

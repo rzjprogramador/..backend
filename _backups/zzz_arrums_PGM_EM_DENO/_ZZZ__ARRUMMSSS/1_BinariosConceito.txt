@@ -1,0 +1,14 @@
+# BINARIOS CONCEITO
+
+binarios:
+conceito: a maquina só entende binarios 0 e 1.
+sucesso é 0
+falha é 1
+
+sucesso: entao se o codigo final for 0 deu verdadeiro, sucesso, o programa continua executando as linhas de baixo.
+
+falha: se deu 1 deu falso ou falha, o programa é interrompido como se tirasse o pc da tomada, nao executa o que vem depois fecha.
+
+dinamica_programacao:
+é um jogo onde vc trabalha com tudo que caminha pro sucesso dando valores de codigo 0,
+ou caminha pra tratar as falhas com tudo que caminha pro calor de codigo 1.

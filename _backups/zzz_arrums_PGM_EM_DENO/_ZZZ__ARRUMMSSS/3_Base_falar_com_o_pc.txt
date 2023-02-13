@@ -1,0 +1,195 @@
+
+tudo tem entrada(input) , processamento, e saida(output)
+
+voce sempre trabalha com a verdade e o falso
+
+o_que_entrar_sai:
+se o input for falso o processamento da erro e a saida é falso
+se o input for verdadeiro o processamento da erro e a saida é verdadeiro
+
+perguntar: perguntar é fazer uma verificacao e usar os operadores logicos| relacionais ex: if 5 > 7
+output: a resposta sera um binario boleano 0 para sucesso true ou 1 para falso false
+
+tem_algum_valor: nao tem ... é diferente de nulo , exemplo: "``` != nil ```",
+
+# FALAR COM O PC
+
+pegar 
+  pegar_algo_em_colecao: é por posicao , entao enumerar em uma colecao e pegar por posica ex: [0] .
+.....
+
+significados:
+
+algoritmo: receita, implementacao, como sera feito o codigo pra gerar um resultado., decisors no codigo.,
+
+boleano: boleano é um valor binario que só pode ter 2 resultados true ou false ( verdadeiro ou falso ) .
+sempre que ver um valor / expressao com operadores relacionais o resultado sera um boleano.
+
+valores: 
+ferramenta: precisa de um valor mostre ao pc como chegar no que gera este valor.
+ex: preciso da primeira palvra de uma frase.
+- fatio a frase com Split(), crio uma colecao com todas as frases, pego palavra que esta em 1° com [0] posicao 0.
+
+  valor_final:
+    conceito: é o que resulta num valor final de resposta pronta para uso.
+   exemplo:  valores literais/marretados, expressoes, objeto
+
+  valores_por_referencia: 
+    conceito: apontam onde esta o valor final
+    exemplo: variavel, funcao
+
+bind : mergiar | match | combinar | compativel
+
+valores:
+ literal: literal é quando marretamos colocamos fixo o valor.
+ 
+dinamico: dinamico é quando colocamos variaveis/valores que vem de atributos como valor
+
+interpretado: é um mix de literal com dinamico, é quando no meio de literais inserimos variaveis ou comandos dinamicos que a linguagem tem que interpretar seu valor. ex: \t é um table, \n pular linha etc...
+aula: https://youtu.be/IjDiONSi-tI
+
+--
+
+
+operacoes:
+
+  insercao: 
+operacao:   += "mais igual"  , expressa: pega o que ja tem e adiciona mais este (da direita)
+...
+
+---
+
+base:
+javascript puro é a base , tenho que aprender ate desenvolver portifolios sozinho em js puro, back e front.
+
+escabilidade:
+depois desta fase, aplicacoes escalaveis de futuro utilizar libs e frameworks tendo a base consolidada. ex: Typescript,  Node, React.
+
+parametros:
+pra que params para ter opcoes/atributos/campos dinamicos vai ser enviado como entrada de valor para um utilizador inserir valor na funcionalidade em questao... em forma de params sera um recipiente vazio que sera preenchido com valor dentro fa funcao ou fora na sua chamada/invocacao em forma de argumento/valor dinamico do utilizador.
+
+dinamico: valores que vem de args.
+
+test_spy_espiao:
+guarda em varSpy o mock ..vai deixar o metodo original espionado.
+e evolui testando com a varSpy... que ela esta espionando o metodo original.
+
+
+refatoracoes: comece com o marretado, o minimo possivel pra funcionar, dar resultado depois refatore e deixe dinamico.
+
+indefinido_nadaMuda_sem_valor:
+valor undefined é um valor indefinido sem nada, nao é bloquante segue o fluxo , é valor Truthy Verdadeiro segue o fluxo....uma variavel ja nasce undefined ..depois se ganhar valor sera do tipo desre valor.
+
+
+operadores:
+ponto:
+o ponto "." é um operador que abre as props de um obj. ..no caso de usar operador opcional "?" ... pense na ordem ..
+se ponto abre e interrogacao verifica se tem algo definido/valor
+entao uso primeiro a interrogacao depois o ponto ou seja primeiro verifico depois abro ex: metodo?.(args)
+
+logicos:
+|| "OR" narracao "E TAMBEM , OU, " tem que ser tambem pra dar verdade sucesso.
+
+&& "E" 
+
+restricoes: evitar heranca, efeitosColaterais, solid em excesso, poo em excesso, angular,etc...
+
+tecnicaDestruturacao:
+se vc vai receber um objeto 
+e precisa extrair suas props iria usar o destruct dentro da funcao...
+otimizacao nao precisa mais usar o destruct dentro da funcao jq faça um destruct direto no param no lugar quecia receber o objeto ...economiza linha de codigo.
+
+condicionais:
+o if () é uma operação condicional, ele sempre vai converter as expressões para valores booleanos, ou seja, vai verificar se a variável ou toda expressao representa um valor verdadeiro ou falso.
+
+erros:
+
+nao_definido_no_escopo: erro is not defined diz que nao foi definido yal variavel vai mostrar o nome dela que vc tentou e onde esta ...
+correcao: vá ate ela e veja se vc deu valor ou copiou errado o nome da correta definida para assim dar denido ok.
+
+nao_decore:
+
+quem decora como usar é o google, vc só precisa saber o que faz e quando precisar usar, ai é só ir no google dar Ctrl C + Ctrl V e modificar as variáveis para as suas.
+
+A maioria das coisas que você estuda, você não precisa decorar, você precisa entender o que aquilo faz. Tipo, aprendeu map? vai pro próximo. Quando você quiser retornar uma array modificada, vocÊ vai saber que existe esse método, aí é só pesquisar na net: array methods, e procurar a função que vc quer (map) , vc ja vai saber usá-la.
+
+tutorial: topico nao decore https://www.facebook.com/groups/jsoficial/permalink/1810366012632449/?mibextid=Nif5oz
+
+---
+tests_mock: vc faz um espiao/spy  com o metodo original ... e usa a mockada guardiaSpy que guarda o mock ...é ela q vc usa no decorrer do codigo.
+
+----
+
+NOMEACOES
+
+convencao_nomeacao:
+
+sintaxe: <recurso?><Entidade><Local?>
+
+exemplo: 
+createUser , createUserService, createUserController,  
+UserRepository,  userRepositoryMemory
+
+contexto: o nome tem que ter haver com.o valor.
+
+pergunte_se: 
+- porque existe?
+- o que faz?
+- como deve ser usado?
+- deve ser pronunciavel, pesquisavel,
+- tutorial: livro Clean Code.
+
+metafora: o nome é um rótulo em um recipiente:: o valor que vc guardar , vai dizer o nome que vais colocar no rótulo.
+
+O tamanho do nome da variavel tem que ser proporcional ao. escopo que ela engloba...pá
+
+
+conclusao: Sempre que vc quiser pegar este valor vc vai procurar no rotulo do recipiente.
+
+abordagens : procure das nomes positivos.
+- o que colocaria em comentario pode ser o mome.
+
+restricoes:
+- evite abreviaturas.
+
+exemplos nomes:
+sintaxe:  entidade/o que faz
+
+sumResult   ::  ao inves de result
+usersList.    :: ao inves de data
+
+nao deixe pistas falsas ex: 
+usuariosMasculinosList :: ja esta dizendo o que sao e sao muitos entao tire a pista falsa "list"  exemplo ok : maleUsers. ao inves de maleUsersList .
+
+nao adicione contexto desnecessario:
+num obj = Person ...nao precisa colocar person no nome das props ex: personNome, personAge
+melhor:
+person = { nome: 'Foo', age: 45 }
+
+perguntar_afirmar_verificar_algo:
+  es_AlgumaCoisa: is
+  sao_AlgumaCoisa: are
+  tem_AlgumaCoisa: has
+
+acoes:
+acao_final: objetivoResolver ()
+
+
+--
+implementacoes:
+  dados: usar tecnica Bloom Filter (Filtro Florescente) que salva os dados no usuario...e quando ele precisar consultar ele consulta no seu proprio local e nao precisa ir no server e banco.
+  links exemplos bloom filter em golang : https://medium.com/@meeusdylan/creating-a-bloom-filter-with-go-7d4e8d944cfa
+...
+uma fúncao de captura ..preciso por em uma varAux e verificar se ela capturou slgo vem
+
+....
+
+escopo: escopo | assunto | bloco | codeBlock | umaFamilia Fechada | as variaveis de um escopo moram nele e sao acessiveis só nele ... pra vc torna-la visivel fora vc tem que exportar com return em uma acao.
+
+obs: em GOLANG uma var declarada fora do escopo de uma acao ela esta no escopo maior que é o pacote e o que mora no pacote esta acessivel a todos que sao deste mesmo pacote...entao em GO a var nao fica global ela fica acessivel em nivel de pacote.
+
+em GO o pacote é semelhante um objeto com vars e funcoes dentro ... e sendo um escopo objeto todos que sao deste pacote se enxergam e se acessam sem precisar importar.
+
+---
+
+

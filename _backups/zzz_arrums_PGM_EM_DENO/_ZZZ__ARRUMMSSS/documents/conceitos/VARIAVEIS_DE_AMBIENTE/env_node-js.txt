@@ -1,0 +1,12 @@
+
+
+dicas: {
+  dica_multiplos_env: `
+  Estou usando o pacote npm custom-env para lidar com vários arquivos .env. Basta colocar isso no topo do seu código:
+
+require('custom-env').env();
+e ele carregará variáveis ​​de ambiente do arquivo .env.X, onde X é o valor de sua NODE_ENVvariável de ambiente. Por exemplo: .env.testou .env.production.
+
+tutorial: https://www.freecodecamp.org/news/nodejs-custom-env-files-in-your-apps-fa7b3e67abe1/
+`,
+}

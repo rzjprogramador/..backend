@@ -1,0 +1,19 @@
+# IMPLEMENTACAO API SOLID 2022
+fluxo_pedido_resposta: [
+    '1- Repositorio/Persistencia',
+    '2- servico/Regras',
+    '3- controller/Fabrica-de-InjecoesDeDependencias',
+    '4- rota/resolver :: entradaPedidoCliente & saidaRespostaAoClient',
+    ],
+
+servico: `
+missao: [ personalizar campos a gosto, implantar meu modleo de saida, persistir na base de dados, mandar o "feito pronto rpa frente pro breakpoint" .],
+
+RECEBO O PEDIDO >> DESCONSTRO CADA CAMPO RECEBIDO
+*** POSSO FAZER ALGO COM CADA CAMPO ANTES DE EXECUATR MEU MODELO DE SAIDA 
+- EXECUTO MEU MODELO DE SAIDA
+- *** POSSO FAZER ALGO DEPOIS DE IMPLANTAR MEU MODELO E ANTES DE MANDAR O REPO PERSISTIR.
+
+`
+
+tecnica_tratamento_de_erros: 

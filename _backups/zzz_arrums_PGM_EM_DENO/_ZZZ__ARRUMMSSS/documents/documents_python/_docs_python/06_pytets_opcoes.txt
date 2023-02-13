@@ -1,0 +1,2 @@
+pytest  # roda o test 
+pytest -v  # é o verbose mostra explicado detalhes do test feito.

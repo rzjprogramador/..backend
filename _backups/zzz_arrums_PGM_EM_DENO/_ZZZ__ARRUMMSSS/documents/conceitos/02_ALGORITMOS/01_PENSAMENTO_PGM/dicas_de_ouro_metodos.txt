@@ -1,0 +1,3 @@
+dicas_de_ouro_metodos: {
+  assincronos: `Sempre passe o mouse encima do metodo para ver se retorna uma Promise --se sim .. coloque um await antes da sua expressao.`,
+}

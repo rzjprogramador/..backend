@@ -1,0 +1,8 @@
+universal:
+logica: é o que faz sentido,
+essencias: todo artefato é um objeto .. entao tudo é um objeto
+
+  implementacoes: 
+    statement_instruir: preciso mostrar um valor :: faço um statement passo uma instrucao.,
+
+    expression_expressar: preciso de um valor modificado :: faço uma expressao que utiliza operador entre 2 operandos e me devolve um resultadoCapturado

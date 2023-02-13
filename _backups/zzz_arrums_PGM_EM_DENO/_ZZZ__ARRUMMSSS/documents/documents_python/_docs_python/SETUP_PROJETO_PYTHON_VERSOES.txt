@@ -1,0 +1,4 @@
+definir_versao_em_uso_python:
+  digo: 'pyenv minha versao do python vai ser esta ### pyenv global 3.10.5',
+  resposta: 'voce nao tem esta versao , digo entao instala: ### pyenv install 3.10.5',
+  quero_neste_local_que_o_python_seja_tal_versao: 'uso: ### pyenv local 3.10.5',

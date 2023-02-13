@@ -1,0 +1,6 @@
+###
+
+GET {{host}}/api/pedidos-list
+Content-Type: application/json
+
+###

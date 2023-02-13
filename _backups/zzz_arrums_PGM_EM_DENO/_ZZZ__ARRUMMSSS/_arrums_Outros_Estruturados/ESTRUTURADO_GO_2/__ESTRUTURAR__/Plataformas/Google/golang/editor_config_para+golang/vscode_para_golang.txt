@@ -1,0 +1,34 @@
+extensoes_para_golang
+  no_vscode: Go Nightly  versao a mais recente do Go Team at Google: v2022.12.522
+  beneficios: esta extensao ja faz os imports, formata identacao, autocomplete nos arquivos Go...posso usar somente esta extensao.
+
+  adicionar_ao_settings_vscode_para_esta_extensao_funcionar:
+  ```
+  "gopls": {
+    "ui.semanticTokens": true // autocomplete Go by gopls
+  }
+  ```
+---
+
+  depreciacoes:
+  obs: com esta extensao  "Go Nightly" nao preciso mais usar esta linha no settings do vscode:
+  // config abaixo esta depreciada
+  "[go]": {
+    "editor.defaultFormatter": "golang.go" // formatacao padrao extensao go - pode ser no lugar a gopls --ver na doc a definicao.
+  }
+
+---
+
+ver o que significa esta config 
+no "editor.defaultFormatter"
+adicionar ????
+
+"go.vetFlags": [
+      "-composites=false"
+    ],
+
+erro esta dando no poup de informacoes:
+The "gopls" command is not available. Run "go get -v golang.org/x/tools/gopls" to insta
+O comando "gopls" não está disponível. Execute "go get -v golang.org/x/tools/gopls" para instalar.
+
+

@@ -1,0 +1,7 @@
+instalar_pacotes_externos:
+procurar_pacotes_externos_para_golang:
+repositorio_de_pacotes_go_dev: https://pkg.go.dev/
+
+ou via google :: golang <nomePacote> ex: golang uuid
+  exemplo_pacote_no_github:
+``` go get github.com/nomePacoteOuRepo```

@@ -1,0 +1,60 @@
+PARTICULARIDADES PRISMA
+- Nem todo relacionamento será uma coluna no banco.
+
+---
+RELACOES
+1:1 :: 1 pertence a 1 de ...Só podera ter 1 tipo perfil
+
+---
+relacionamentos: {
+  um_para_muitos: {
+    relacao: '1:N',
+    alusao: "1 PERTENCE AO OUTRO... ",
+    modelar: "SÓ ONDE PERTENCE > chama o OUTRO_PRA_GUARDAR_DESTE[]",
+    exemplo: 'em entregaPedidos >> pedidos Pedidos[]', 
+    narrativa: "em pedidos guarda meus Pedidos[]",
+    na_outra_parte: `
+    Parte provedora chama o Model como opcional ex: EntregaPedidos?
+    e dê um yarn prisma foramt 
+    que ele vai fazer o @relation com as referencias de id e papel
+    `,
+  },
+
+  muitos_para_muitos: {
+
+    relacao: 'N:N',
+    alusao: "1 TEM MUITO DO OUTRO.. E OUTRO TERÁ MUITO DESTE. ",
+    modelar: `
+    nos dois indicar um array do outro 
+    - assim o prisma vai gerar uam tabela pivo automatica que voce nao verá,
+    - melhor para trabalhar na tabela_pivo crie ela e trabalhe ela.
+    - no meu exemplo Pedidos é a pivo entre Users e Produto
+    - em cada parte diga que terá muitos da pivo 
+    - ex: em Users terei muitos de pedidos meu pivo : pedidos Pedidos[]
+    - e em Produtos tambem terei muitos de pedidos meu pivo : pedidos Pedidos[]
+    - assim na pivo (pedidos) ele criara as relacoes de id
+    `,
+    conceito: '',
+    exemplo: '', 
+
+    narrativa: "",
+
+    na_outra_parte: `
+    
+    `,
+
+  }
+
+}
+
+
+"1 trilha tem varios cursos" >> entao na trilha no papel "cursos" diz que tem: "Cursos[]"
+
+na_modelagem :: onde vai ter muitos ::pedido Pedidos[]
+onde_vai_ter_um: EntregaPedidos?
+
+---
+
+=====
+
+pedido_entregas :: pertence a 1 pedido

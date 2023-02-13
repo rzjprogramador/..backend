@@ -1,0 +1,3 @@
+{
+  entidades: ['Lojista', 'User',]
+}

@@ -1,0 +1,3 @@
+o middle de erros Root do express é como se fosse um catch global
+temos o erro de qualquer lugar da app ali capturado no paramVariavel error que é uma instancia de Error e quem lancar excessao do tipo Error do Js
+

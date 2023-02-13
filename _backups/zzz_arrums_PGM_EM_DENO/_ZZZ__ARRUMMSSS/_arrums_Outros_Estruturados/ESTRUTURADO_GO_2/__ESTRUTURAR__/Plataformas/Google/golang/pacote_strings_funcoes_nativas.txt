@@ -1,0 +1,7 @@
+importacao: para usar o pacote strings : import "strings"
+
+transformar_em_maiuscula: strings.ToLower ( alvo )
+
+transformar_primeiro_texto_em_maiuscula: strings.Title ( alvo )
+
+

@@ -1,0 +1,12 @@
+todo_modelagem: {
+
+  como_fazer: `
+  relacao cliente - users - para cada cliente ter entrega sendo um user????
+  `,
+
+  cliente: {
+    tem_que_ter_um_campo_unico: 'Clientes temq ue ter um campo unico pode ser "cpf"'
+  }
+
+
+}

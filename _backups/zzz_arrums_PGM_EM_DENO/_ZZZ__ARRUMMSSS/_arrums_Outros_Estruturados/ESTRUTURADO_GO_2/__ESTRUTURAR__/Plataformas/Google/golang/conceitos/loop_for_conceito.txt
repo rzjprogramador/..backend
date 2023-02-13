@@ -1,0 +1,19 @@
+# Loop for conceito
+
+# Loops For com Range
+
+significado: Variar Para ...
+
+restricoes: NAO DÁ PARA FAZER FOR COM RANGE EM STRUCTS ESTRUTURAS.
+
+lopp_for:
+sintaxe for: igual funcao recebe 2 params posicao e conteudoItem
+so que antes de fazer algo no bloco numera com range quem vai ser o alvo do loop ex: range iteravel (iteraveis pode ser meuArray, texto, etc... menos objeto???)
+
+ clausula_range:
+ para iteragir em um vetor os items tem que ser numerados para saber quem é da posicao 0, 1,2 etc.. o range vai la e faz esta numeracao/indexacao dando indice para todos items ali no array.
+
+-  para ocultar a var que mostra o indice coloque um anderline no lugar.
+
+---
+

@@ -1,0 +1,10 @@
+PGM
+
+aprendizado:
+
+---
+
+execucoes: só possivel pedir pra executar algo ..se esse algo for um executavel dentro de uam funcao.
+senao vc toma um erro: syntax error: non-declaration statement outside function body
+
+---

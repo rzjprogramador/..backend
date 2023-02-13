@@ -1,0 +1,4 @@
+
+flask:
+doc: https://palletsprojects.com/p/flask/
+poetry add flask

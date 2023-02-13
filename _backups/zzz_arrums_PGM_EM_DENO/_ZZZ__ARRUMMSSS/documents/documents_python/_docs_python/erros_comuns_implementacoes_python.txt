@@ -1,0 +1,4 @@
+erro: 'takes 1 positional argument but 2 were given',
+traducao: 'leva 1 argumento posicional, mas 2 foram dados',
+causa: 'no metodo de classe falta o self como parametro aponta para o filho | objeto | campo ... poderá fazer',
+solucao: 'adicionar o self, como priemiro parametro deste metodo de classe',

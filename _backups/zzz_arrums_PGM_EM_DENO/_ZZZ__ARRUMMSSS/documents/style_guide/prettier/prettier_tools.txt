@@ -1,0 +1,43 @@
+# PRETTIER OPTIONS CONFIG
+
+[doc_prettier](https://prettier.io/docs/en/options.html)
+
+// USAR NO .PRETTIERRC
+{
+"semi": false,
+"singleQuote": false,
+"tabWidth": 2,
+"trailingComma": "all",
+"printWidth": 220,
+"proseWrap": "preserve",
+"bracketSpacing": true
+
+}
+
+// SIGNIFICADOS:
+ponto_e_virgula = semi  
+aspas_simples = singleQuote
+espacos_de_identacao = tabWidth
+virgula_a_direita_emObjetos = trailingComma
+configuracao_fim_de_linhas = endOfLine
+espaco_entre_delimitadores = bracketSpacing
+
+---
+
+# QUEBRA DE LINHAS
+
+[NÃO quebrar linhas em objetos: doc](https://prettier.io/docs/en/rationale.html#multi-line-objects)
+
+no .prettierrc
+"printWidth": 220,
+
+no settings.json do vscode:
+"editor.rulers": [135], // largura régua do editor
+
+---
+
+## NAO QUEBRAR LINHA EM MARKDOWN
+no .prettierrc
+"proseWrap": "preserve"
+
+---

@@ -1,0 +1,17 @@
+mongoose é um ODM para modelagem de documentos para combinar com os objetos da aplicacao.
+
+site mongoose: https://mongoosejs.com/
+npm: https://www.npmjs.com/package/mongoose
+instalacao via yarn: yarn add mongoose
+tipos: yarn add -D @types/mongoose
+
+tutoriais:
+sobre configurador topologia : https://mongodb.github.io/node-mongodb-native/3.3/reference/unified-topology/
+
+configuracao_mongoose: https://www.mongodb.com/community/forums/t/argument-of-type-usenewurlparser-boolean-useunifiedtopology-boolean-is-not-assignable-to-parameter-of-type/119731
+
+configuracao mongo Julius : https://www.youtube.com/watch?v=tRI5QvuIVkI
+git da config: https://github.com/sidneyroberto/exemplo-upload-download-mongo/blob/main/src/config/bd.ts
+
+
+

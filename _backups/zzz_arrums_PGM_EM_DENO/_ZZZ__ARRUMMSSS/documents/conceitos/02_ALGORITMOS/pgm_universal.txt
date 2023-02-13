@@ -1,0 +1,13 @@
+
+parametros_args : {
+
+  em_funcao: `
+ - quero dar opcoes a quem for chamar esta funcao.
+ - essas opcoes ainda sao variaveis sem valor
+-  e estas opcoes serao configuradas com o valor de quem for usar preencher.
+-  no final as variaveis terao o valor de quem usou.
+
+`,
+
+
+}

@@ -1,0 +1,3 @@
+# DOCS IMPLEMENTACOES
+
+fastapi_com_base_model_pydantic : 'https://fastapi.tiangolo.com/tutorial/body/?h=',

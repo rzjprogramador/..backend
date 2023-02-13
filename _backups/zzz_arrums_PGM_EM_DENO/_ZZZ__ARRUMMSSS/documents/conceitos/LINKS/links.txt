@@ -1,0 +1,3 @@
+editores_online: {
+    js: [ 'https://replit.com/', ]
+}

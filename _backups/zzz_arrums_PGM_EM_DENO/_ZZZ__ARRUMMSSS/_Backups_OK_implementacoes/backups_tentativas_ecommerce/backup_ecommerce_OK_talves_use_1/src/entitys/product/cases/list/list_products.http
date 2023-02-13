@@ -1,0 +1,7 @@
+###
+
+GET {{host}}/api/listar-produtos
+Content-Type: application/json
+
+
+###

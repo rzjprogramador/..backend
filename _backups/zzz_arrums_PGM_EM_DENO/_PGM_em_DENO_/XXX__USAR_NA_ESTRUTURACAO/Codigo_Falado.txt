@@ -1,0 +1,4 @@
+
+expressando com operadores:
+  afirmando: ALGO É :operador: ==
+  perguntando: ALGO NAO É :operador: !=

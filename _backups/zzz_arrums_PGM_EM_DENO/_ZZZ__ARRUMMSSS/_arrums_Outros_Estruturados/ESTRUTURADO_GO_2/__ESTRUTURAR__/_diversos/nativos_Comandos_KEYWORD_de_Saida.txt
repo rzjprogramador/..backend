@@ -1,0 +1,5 @@
+
+comandos_keyword_de_saida :
+    funcao: return , 
+    loop: break, 
+    error: throw

@@ -1,0 +1,12 @@
+/*
+# QUESTOES
+
+DIFERENCAS ENTRE INPUT TYPE E ARGS TYPE : 
+https://typegraphql.com/docs/faq.html#situations-frequently-arise-where-inputtype-and-objecttype-have-exactly-the-same-shape-how-can-i-share-the-definitions
+
+---
+
+O erro é porque você não pode usar ObjectType argumentos em mutações¹, apenas tipos escalares simples ou InputType:
+https://typegraphql.com/docs/resolvers.html#input-types
+
+*/

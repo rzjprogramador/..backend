@@ -1,0 +1,20 @@
+
+# Reiniciar ou encerrar sessao do user para reler arquivo profile alterado:
+	
+```source .profile```
+
+# recarregar maquina tipo reiniciar :
+```exit```  depois ```logout```
+logar_de_novo: ```ssh```
+
+# Criar Pastas
+mkdir -p pasta/subPasta
+ex: ```mkdir -p github.com/hello-go``` 
+vai criar a pasta github.com/ e nela a pasta hello-go
+
+entrar_como_super_usuario:
+```sudo <comando>```
+
+atualizar_estado_linux:
+```sudo apt-get update```
+

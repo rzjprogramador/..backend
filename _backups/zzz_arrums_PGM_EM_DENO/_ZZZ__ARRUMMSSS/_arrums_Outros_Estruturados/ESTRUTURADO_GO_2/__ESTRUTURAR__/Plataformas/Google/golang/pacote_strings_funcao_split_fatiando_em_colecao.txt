@@ -1,0 +1,16 @@
+# FUNCAO SPLIT FATIADORA DE VALORES PARA UM COLECAO DE strings
+
+contexto : funcao Split
+significado: fatiar valor em colecao de strings.
+pacote: strings
+funcionalidade: Split( alvo, separador)
+recebeNoPrimeiro: a var com o valor que vai virar uma colecao/slice
+recebeNoSegundo: o que tem nesta varDoPrimeiroParam que vai definir o que vai separar cada item ex: espaço " ", ou traços "-", etc...
+
+explicacao:
+a funcao Split vai receber um valor que definimos no primeiro param
+o que ela recebr no primeiro param vai transformar num slice/colecao array com items definidos pelo que vc passar no 2º param .. no caso passei espaço vazio
+entao se ela receber no 1º rua dos nerds vai devolver: {"rua", "dos", "nerds"} porque defini que o separador vai ser o espaço vazio.
+se o que ela receber no 1º for rua-dos-programadores e reu definir assim Split(variavelAlvo, "-") vai devolver {"rua", "dos", "programadores"}
+
+---

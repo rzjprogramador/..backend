@@ -1,0 +1,42 @@
+# CONTEXTO
+
+
+objetivo
+ NOME DO COMCEITO: {
+   objetivo: `
+    ...
+   `,
+
+ tecnologia: `... `,
+
+   local: '...',
+
+   entrada: `...`,
+
+   processamento: {
+     local: `controle//resolver`,
+
+     cenarios: {
+      obter_sucesso: {
+      tentar_sucesso: ['obter', 'usar_obtido', 'retornar_sucesso_funcao',],
+    },
+  }
+    
+
+     usar_obtido: `
+      ...
+     `,
+
+     retornar_obtido_para_sucesso_prometido_da_funcao: ``,
+   },
+   exemplo: `
+     ...
+    `,
+
+  tratar_erro: {
+    responder_erro: ``,
+    exemplo: `
+    
+    `,
+    },
+ }

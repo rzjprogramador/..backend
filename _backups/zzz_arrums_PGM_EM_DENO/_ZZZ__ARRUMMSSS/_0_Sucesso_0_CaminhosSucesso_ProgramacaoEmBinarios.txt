@@ -1,0 +1,17 @@
+# Sucesso
+# Saida code 0
+
+ferramentas_sucesso_code_0 :
+
+---
+
+funcionalidade : escritas_console:
+  conceito: objeto log a diferenca apra fmt é que o log da um timesTemp mostrando o horario do acontecimento e a sua saida é para um standart.
+
+ferramentas:
+  estrutura: "log.Println" , descricao: "printa mensagem no console."
+
+---
+
+valores: 
+  expressoes

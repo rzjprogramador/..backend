@@ -1,0 +1,173 @@
+// OBS: USAR COMO BASE PARA TODAS LINGUAGENS
+---
+regras:
+apresente_tudo: tudo que vai começar a existir, nascer tem que ser declarado montado
+
+origem: tudo, valores são 'TUDO OBJETO classObjeto ' e deles podemos desencadear os membros props e comportamentos de acordo com o seu tipo/classe que contem no seu prototype.
+
+  informacoes_da_plataforma: ao passar o mouse no valor nos mostrar as informacoes o que representa o alvo.
+
+variaveis: 
+  {
+    significado: [ recipiente, instanciaSingular, operando que representa/guarda/captura/salva valor e pode ser modificada por operador, membroSingular, componenteSingular   ],
+
+    conceito: representa um valor, membroSingular,  fonteUnica na Memoria, recipiente , armazenador de valor , dado, informacao ,atributo, propriedade,  local  unico na memoria que guarda informacao/conteudo/dadosMagicos,/primitivos.
+
+    sintaxe: <tipoClasse> <nome> = <valor>,
+    exemplo: string texto = "Meu Texto";
+  }
+
+  campos:
+  campos_isolados: todo campo tem que ter valor e este valor tem um tipo primitivo texto ou numero, quando queremos que este campo nao tenha valor informamos na montagem que podera ser nulo e podemos definir um valor padrao caso nao tenha.
+
+  campos_dentro_de_estrutura: dentro de estrutura funcao um campo sem valor tem que ser tratado.
+
+  campos_sem_valor:
+    habilitar_uso_na_plataforma: se a versao do dotnet for menor que a v7, remover do configurador xml arquivo que tem a extensao .csproj a linha '<Nullable>enable</Nullable>' que desabilita a verificacao de possivel nulo,
+
+    exemplo:
+    // configurando campo que quero sem valor :: no xml habilitar : <Nullable>enable</Nullable>
+    string? queroQueEsteCampoSemValor = null;
+    Console.WriteLine(queroQueEsteCampoSemValor);
+
+    tratamento_de_campo_sem_valor_dentro_de_funcao: tratar com try catch
+
+  protegendo_campo_com_valor_padrao:
+  conceito: caso o campo nao tenha um valor usar operador "??" e informar o valro padrao, obs; nao precisa colocar ? no tipo caso queira usar o valor padrao.
+  exemplo:
+  // protegendo campo caso ele nao tenha valro dando um valor padrao
+    string vaiTerValorPadrao = null ?? "valor padrao2";
+    Console.WriteLine(vaiTerValorPadrao);
+
+  sinonimo: [ variavel, atributo, propriedade, membro, recipiente ],
+  valor_quando_vazio: ,
+  para_poder_usa_lo_vazio:  ,
+  definir_valor_padrao: ,
+
+
+todas_classes_de_tipos_validos:
+  conceito: ao encostar mouse acima de cada nomeacao de tipo vai mostrar o que ele aceita de valor (Represents) e se dar ctr+ clique vai mostrar o tamanho que ele aceita de valor. ex: MaxValue = 2147483647
+  [
+    boleano: { nomeOrigem: Boolean, alias: bool , representaValor: true e false, valorZero: , },
+    caractereUnico: { nomeOrigem: Char, alias: char , representaValor: caractee unico utf-16, valorZero: , },
+    texto: { nomeOrigem: , alias:  , representaValor: , valorZero: , }, ,
+    numeros: 
+      { 
+        origem_essencia: classObjeto nao statica,
+        precisa_instanciar: sim precisa instanciar vem de uma classe nao statica.,
+        conceito: ao passar o mouse no valor numero e mostrar  signed quer dizer com sinal entao pode ser positivo e negativo.
+        tem_diferenca_negativo_e_positivo: não tem diferença porque é signed (aceita sinal).
+        inteiroMinimo: { nomeOrigem: Byte, alias:  byte, representaValor: MaxValue 255, valorZero: , },
+        inteiroMaximo: { nomeOrigem: Int, alias: int , representaValor: MaxValue = 2147483647, valorZero: , },
+        gigante: { nomeOrigem: Long, alias: long , representaValor: MaxValue 9223372036854775807, valorZero: , },
+        decimal: { nomeOrigem: Float | Double | Decimal , alias: float | double | decimal , representaValor: , valorZero: , },
+      }
+  ]
+
+valor_primitivo_singular:
+  possiveis_insercoes: [ magicoLiteral, dinamicoPorParametro ],
+  conceito: valor temos os literais(magicos/marretados/quando nós mesmos vamos inserir) e os dinamicos(atraves de variavel se solto ou parametro em funcao quando queremos que insiram)
+
+  possiveis_classeTipoDeValor : [ texto, numero, boleano ],
+
+texto: 
+  {
+    origem_essencia: classObjeto nao statica,
+    precisa_instanciar: sim precisa instanciar vem de uma classe nao statica
+    anotacao_familia: string,
+    aspas_obrigatoria: sempre duplas,
+    aspas_aleatorias: xxx,
+    interpolacao_de_variaveis: $"meu texto {variavel}" // obs: inserir antes das aspas o cifrao"$" e dentro da string "chave/bloco com a variavel {variavel}"
+  }
+
+  ferramentas:
+    sao_iguais: ==
+    nao_sao_iguais_e_diferente: !=
+    para_numeros: [matematicos, relacionais_numeros, incremento, decremento]
+
+    agrupador_E_Todos: && narracao: E, significado: para dar true 'TODOS' operandos tem que devolver valor true,
+    agrupador_OU_QualquerUmServe: || narracao: OU, significado: para dar true "BASTA UM" operando devolver valor true,
+
+
+valores_nulos:
+  campos_possivelmente_anulaveis: 
+  se for receber valor de requestHttp e possivelmente pode vir sem valor um anulavel em um campo que espera um valor faça ele poder ser um anulavel com "?"  e trate este anulvel para nao dar o erro nullException.
+
+metodos_para_anulaveis:
+  conceito: anulavel é que esta habilitadora nao ter valor ... em csharpe informa esta possibilidade com ? no tipo. ex: string? nome.
+
+metodos_so_para_anulaveis:: 
+ boleano_tem_valor: HasValue()
+ retorna_o_valor: Value
+  retornaValorSeTiver_Ou_OValorZeroPadrao: GetValueOrDefault() 
+  
+  expressao_com_possivel_resultado_nulo: inserir '!' exclamacao apos expressao que afirma que nao sera nulo, ou dar um valor padrao caso seja nulo apos a expressao com "??" dizendo o que ela pode ser caso seja nulo, obs: nao funciona para numeros.
+
+  valores:
+    expressoes: usamos <valor> <operador> <valor> // expressoes usa operador criam novos valores mmodificados e retornam este novo valor que podem ser capturados.
+
+retorna_valor: uma [expressao, funcao] retorna valor que pode ser atribuido recuperado.
+
+nao_retorna_valor: uma instrucao [colocacao de uma variavel] nao retorna valor só esta expressando que é isto é uma afirmacao
+
+expressoes:
+  conceito: "instruindo o tipoclasse.metodo fazemos qualquer acao do seu prototipo",
+    numeros:
+      conversao:
+        converter_string_para_numero: int.Parse(targetString) // desencadear do tipo int o metodo Parse(targetString),
+        
+        converter_string_para_numero_via_InputConsole: System.Convert.ToInt32(targetString) // vai dar o resuktado da conversao de string apra numero // tutorial: http://cavas.com.br/programacao/como-tratar-excecao-ao-converter-string-para-numero-inteiro-int32-com-c/
+
+  comandos:
+    console: 
+      entrada_de_dado: "Console.ReadLine() // captura o dado digitado pelo Client no console"
+      leitura_saida: "Console.WriteLine(<o que quer mostrar>)",
+
+condicionais:
+  possiveis: [ ifElse, Switch, ternario ]
+
+  ternario:
+    conceito: Usado_Por_Tres_Operandos: vai_usar: [ 
+      1_operadorDaCondicao "qualquer operadorLogico pra perguntarNaCondicao" ,
+      2_operandoPerguntarSeEVerdade "? interrogacao" ,
+      3_operandoQueDivideOQUefazer": dois pontos" ex: fazIstoSeVerdade: OuFazIstoSeFalsoEComoRespostaDefault ] ,
+
+      sintaxe: <tipo e variavelCapturaTernario> <condicao /usa um operador> ? <o que vai devolver se for verdade> : <o que vai devolverDeDefault caso seja falso>
+      preferencia: o uso desses operadores sao livres para todos o tipos de dado,
+      obs: no ternario vc tem que capturar a condicao e antes passar o tipo que vai voltar casoSejaVerdade ou casoSejaFalso.
+
+/* *************************************************** */
+
+programa_principal:
+  declaracao: nameSpace que é a categoria do ProgramaDoArquivoEmQuestao e dentro dele seus membros. ex: namespace SystemConsole poderemos acessar todos membros deste namespace.
+  membros_do_nameSpace:
+    classeDoPrograma: ex: public static class Console
+      membros_da_classe: metodo main ex: 
+
+tipos_staticos:
+  conceito: nao podemos criar objeto do tipo statico , entao sera uma classe que só dará acesso a funcionalidades que tera dentro dele. ex: class Console acessamos os mebros metodo desta classe statica mas nao criamos instancia dela por ser statica... só usamos suas funcionalidades.
+  obs: em classe statica todos seus membros tem que ser staticos tambem.
+
+  acesso_a_membros_de_classe_statica: acesse pelo nomeDaClasseTipo ou alias(apelido) dela ex: String.metodo()
+
+classes_de_tipos_nao_staticas: [String e Numero ] sao classes nao staticas , por isto sempre precisamos criar uma instancia para usar seus membros.
+exemplo: string numeroString = numero.ToString(); // numero e string nao sao de classeStatica por isto instanciamos numa var para usar seu resultado ao usar seus membros
+
+/* *************************************************** */
+
+desvio_de_fluxo_verificacao_condicional:
+  duas_opcoes_de_resposta_IF_ELSE:
+    essencia: funcao if() else if() else {} 
+    objetivo: verificar, 
+    sintaxe: if(<condicaoLogica>) { se for verdadeira a condicao faz esta consequencia} else { senao for verdadeira faz esta consequencia }
+    aplicabilidade: pergunta condicional desvia o fluxo se a condicao for verdade ou falsa , melhor aplica quando temos apenas 2 opcoes de resposta para uma perguntaCondicional. 
+
+/* *************************************************** */
+operadores_logicos : 
+conceito: todas operacoes retornam um boleano true ou false,
+operadorE: "E" && TODAS INSTRUCOES TEM QUE SER VERDADE, 
+operadorOU: "OU" basta uma instrucao ser verdade que ja retorna verdade
+
+/* *************************************************** */
+
+

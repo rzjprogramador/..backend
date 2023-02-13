@@ -1,0 +1,74 @@
+resumao_fundamentos_dart: {
+
+  variaveis: {
+    sintaxe: '<tipo> <nomeRecipiente> = <valor>',
+    exemplo: `int numExplicito = 9;`
+  },
+
+  interpolacao: {
+    sintaxe: '',
+    exemplo: `
+    // interpolacao só variavel
+    print("texto foo bar >> $variavel");
+
+    // interpolacao expressao ou objeto, execucao de funcoes : obs: protege a expressao com escopo de chaves,
+    // obs: a string de interpolacao nao precisa estar entre crazes igual no js pode ser aspas simples.
+     
+    print("texto foo bar >> ${objeto.funcao ou expressao + expressao }");
+    
+    `,
+  }
+
+---
+
+  tipagem_de_array: {
+    maps: {
+      conceito: `é uma tipagem para arrays.
+onde passamos entre paramsGenericos  dentro de <> indicamos o tipo da chave e valor do array,
+sintaxe: var nomeMap <Tipo, TipoDoValor> = { ... }`,
+
+  exemplo: `
+  var meuMapNotas = <String, List>{
+    'notas': [1, 2, 3]
+  };
+
+  // acessos
+  print(meuMapNotas['notas']);
+  
+  `
+    }
+  }
+
+}
+
+---
+
+acoes: {
+
+  funcoes_dart: {
+  conceito: 'no dart nao usa clausulas func, def nem function ... declaramos seu tipo de Retorno o nomeDafuncao paramsQue ela vai ler se receber...e dentro do bloco construimos o que ela vai fazer. ',
+  sintaxe: '<tipoRetorno> <nomeFuncao> () {}',
+  exemplo: `
+  String agora() {
+  DateTime agora = DateTime.now();
+  return agora.toString();
+}
+
+// uso/chamada
+  agora()
+
+  // funcao arrow curta 
+  String var1 = 'valor var1';
+
+  String funcaoArrow() => 'retorno da funcao arrow..e.. $var1 !';
+
+`
+},
+
+  acoes_de_listas: {
+    disponiveis: [for, for in, forEach(), ],
+    conceito: 'todos loops sao iguais receberam numa variavel iteradora que inventaremos geralmente só com a primeira letra e para cada item do array e para cada item faram alguma instrucao que definiremos.',
+
+    resumao: 'em loop que age a cada iteracao pelo tamanho da lista , apos recuperarmos com o iterador cada item vai sofrer a modificacao ou acao que definiremos.',
+  }
+}

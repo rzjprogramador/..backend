@@ -1,0 +1,14 @@
+# leao:
+
+# ts_config: 
+
+"baseUrl": "./src",
+    "paths": {
+      "@modules/*": ["modules/*"],
+      "@models/*": ["models/*"]
+    },
+
+---
+# script dev: 
+"dev:rest": "ts-node-dev --respawn --watch 'src/**' --transpile-only --ignore-watch node_modules -r tsconfig-paths/register src/server/rest_express/server.ts",
+

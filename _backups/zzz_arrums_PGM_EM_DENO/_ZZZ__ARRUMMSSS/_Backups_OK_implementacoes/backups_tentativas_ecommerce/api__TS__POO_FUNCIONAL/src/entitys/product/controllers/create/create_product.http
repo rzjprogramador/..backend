@@ -1,0 +1,16 @@
+POST {{host}}/api/create-product
+Content-Type: application/json
+
+{
+    "nomeProduto": "request nome produto one",
+    "acrescimo": 1,
+    "desconto": 0,
+    "precoBase": 10,
+    "ruleFieldProduct": {
+        "cepInicial": "00000010",
+        "cepFinal": "00000019",
+        "regiao": "Sao Paulo",
+        "cidade": "Sao Paulo",
+        "dataEntrega": "PROXIMO DIA UTIL"
+    }
+}

@@ -1,0 +1,15 @@
+em_implementacoes_code: {
+    precisar_encontrar_tipo_retorno_criacao: `
+    em node_modules/.prisma/client/index.d.ts
+
+    procure pelo <ENTIDADE>UncheckedCreateInput
+
+    no codigo use:
+
+    import { Prisma } from '@prisma/client'
+
+    tipoQueVaiReceber = Prisma.PedidoUncheckedCreateInput
+    `,
+
+
+}

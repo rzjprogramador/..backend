@@ -1,0 +1,33 @@
+erros_node: {
+  descricao_erro: `
+Error: (variavel Error e o motivo do erro)'(Caminho do arquivo do erro)'
+
+aviso Solucao exemplo: Require stack "Requer exportacoes" /CAMINHO ONDE ESTA O ARQUIVO QUE ESTA COM A IMPORTACAO ERRADA
+
+`,
+
+exemplo: `
+Error: Cannot find module '@src/database/client_prisma'
+Require stack:
+`,
+
+}
+
+---
+
+nomes_erros: {
+
+erros_de_exportacoes: `Require stack`
+
+}
+
+// saber se um parametro é uma variavel ou objeto.
+ao passar o mouse no receptor ja mostra o que ele espera se falar que a expectativa tem chave { antes é um objeto envolvido em chaves.
+exemplo: o parametro where do prisma no mongo espera um objeto dentro de chaves de argumento pra achar uma entidade por id 
+ex:
+The expected type comes from property 'where' which is declared here on type '{ rejectOnNotFound?: }
+no exemplo acima fala: a propriedade where espera um argumento "veja que o arg que espera esta dentro de chaves -- entao é um objeto dentrod e chaves."
+
+erro: Property assignment expected
+traducao: Atribuição de propriedade esperada
+causa: falta alguma atribuicao ou tem caracteres a mais tipo 2 virgulas erro bobo.

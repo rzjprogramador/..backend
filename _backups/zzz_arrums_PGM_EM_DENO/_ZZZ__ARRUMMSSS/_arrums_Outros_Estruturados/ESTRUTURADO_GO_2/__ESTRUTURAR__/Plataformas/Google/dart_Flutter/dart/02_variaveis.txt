@@ -1,0 +1,6 @@
+# variaveis dart
+
+declaracoes:
+  explicitas: <tipo> <nome> = <valor>; , exemplo: "```int numExplicito = 9;```",
+  dinamicas: var <nome> = <valor>; , exemplo: "```var numDinamico = 10;```",
+  

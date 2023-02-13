@@ -1,0 +1,12 @@
+vim_comandos:
+":" 2 pontos abre o navegador
+
+sair:
+:wq – Salva as alterações, fecha o arquivo e encerra o Vim (junção dos comandos :w, que salva o arquivo, e :q para sair)
+:q – Fecha o arquivo e encerra o Vim
+:q! – Descarta as alterações, fecha o arquivo e encerra o Vim
+
+ver se tem plugin instalado : navega ":PESQUISA"
+ex: :NERDTree
+
+plugin: NERDTree >> abre explore explorador sidebar 

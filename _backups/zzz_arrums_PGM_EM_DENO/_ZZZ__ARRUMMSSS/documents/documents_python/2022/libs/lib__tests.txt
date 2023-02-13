@@ -1,0 +1,17 @@
+# pytest
+
+instalacao:
+poetry add pytest
+
+rodar tests:
+no console:: rodar >> pytest
+---
+
+comandos:
+rodar de forma verbosa para mostrar quais testes rodaram : ```pytest -v```
+
+recomendacoes: 
+diretorio: diretorio com nome test ou tests
+nomeclatura: arquivo com nomeclatura test_ restante de nome que quiser ex: test_users.py 
+importante: adicionar arquivo __init__.py na pasta onde esta o test ..porque el pode nao reconhece-lo
+

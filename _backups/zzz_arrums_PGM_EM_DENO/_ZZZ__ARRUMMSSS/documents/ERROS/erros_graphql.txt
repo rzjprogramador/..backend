@@ -1,0 +1,25 @@
+erros_query = {
+  dinamica_by_id: {
+    erro: `Variável \"$id\" do tipo \"String\" utilizada na posição esperando o tipo \"String!`,
+    solucao: `então dá para a  $id o tipo String! obs: podendo ser nulo como pediu no erro pelo campo message`,
+  },
+
+  falta_pedir_argumentos_na_muatation_funcao_backend: {
+    mensagem : {
+      traducao: `Argumento desconhecido \"codigo\" no campo \"Mutation.createGraph\`,
+      ingles: `Unknown argument \"codigo\" on field \"Mutation.createGraph\`,
+      
+    },
+    solucao: pedir os argumentos faltantes como este : @Args('nome') nome: string),
+   
+  },
+
+  nao_use: {
+    variaveis_com_numeros_nem_no_final: `Nao use variaveis com numero nem no final pode dar pau na hora de precisar usa-las dinamicamente`,
+  }
+
+}
+
+
+
+

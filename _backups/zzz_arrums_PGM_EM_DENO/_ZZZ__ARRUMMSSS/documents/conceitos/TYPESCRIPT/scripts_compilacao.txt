@@ -1,0 +1,9 @@
+
+"start:dev": "tsc -w -p tsconfig-build.json", 
+// compilar sem parar em auto-reload // obs:posso deixar fazendo build em um terminal e rodando o start do js compilado em outro terminal para acompanhar o console do buildado...com o script "start".
+
+---
+comando: "build:rimraf": "rimraf dist && tsc -p tsconfig-build.json",
+Se quiser apagar a pasta dist/ a cada compilacao usar a lib rimraf no script mas sem necessidade este script , ja que ele esta rapido usando a hash pegando só o modificado com o incremental true ativado.
+script com rimraf >>  // obs: só vou usar caso quiser limpar a pasta build e ter um hash incremental novo.
+

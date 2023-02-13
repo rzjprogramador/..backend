@@ -1,0 +1,11 @@
+
+
+doc: https://developer.android.com/studio
+
+baixar / extrair / entrar no extraido na sua pasta bin/ e executar o nome do pacote.sh com:
+``` ./studio.sh ```
+// seguir instalador com next next ... aceitando e dando next ate o final.
+
+apos instalar:
+em plugins instalar os plugins flutter e dart se ja nao tiver instalado e restatar o android studio.
+

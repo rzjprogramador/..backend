@@ -1,0 +1,4 @@
+Entrada de Dado: {
+  em_funcao: `os dados entram corretamente por params .
+  - colocou o params ja obtem  o dado enviado de quem quer usar...com o dado em mao faz algo no corpo de escopo da funcao.`,
+}

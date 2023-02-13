@@ -1,0 +1,47 @@
+# rzj implementar
+
+acoes_no_modulo_entidade: {
+  cenariosPossiveis: [ manipuladorDoObjetivo,objetivoPrincipal, executadorMainNaTela ]
+  passo: 1,
+  conceito: "manipuladorDoObjetivo", 
+  nomeacao: "handle<objetivo>",
+  explicacao: `
+  vai manipular a falha e do sucesso do objetivoPricnipal , manipulando o retorno de sucesso falha.
+
+  // handle : 
+      promete: responder o sucesso e o erro :: 
+       para_falhas :: usar pacote errors se tiver erro responde com errors.New("feedback do erro")
+       para_sucesso: responde com o sucesso prometido
+
+  `
+  ,
+  exemplo: "",
+ }, 
+ {
+  passo: 2, 
+  conceito: "",
+  nomeacao: "objetivoPrincipal",
+  explicacao: `
+    explicado: acao do objetivo principal que vai usar a manipulacao do objetivo
+
+    // capturas:
+    executa o handle e captura dele o erro e o sucesso.
+    - verifica se tem erro 
+    se tiver loga no console este erro com : log.Fatal(err.Error())
+
+    - se nao tiver erro retorna o sucesso capturado
+
+  `,
+  exemplo: "",
+ }, 
+ {
+  passo: 3, 
+  conceito: "executadorMainNaTela",
+  nomeacao: "Main <Objetivo>",
+  explicacao: "acao que vai executar o final",
+  exemplo: "",
+ }
+ 
+ ---
+
+  

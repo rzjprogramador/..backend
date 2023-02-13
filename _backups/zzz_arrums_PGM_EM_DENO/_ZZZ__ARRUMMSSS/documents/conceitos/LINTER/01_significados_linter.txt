@@ -1,0 +1,15 @@
+prettier: {
+
+  ponto_e_virgula: `"semi": false,`,
+
+  virgula_final_objeto: `"trailingComma": "all",`,
+
+  aspas_simples: `"singleQuote": true,`,
+
+  largura_maxima_largura: `"printWidth": 80,`,
+
+  identacao_espacos: `"tabWidth": 2,`,
+  
+  fim_de_linha: `"endOfLine": "lf"`,
+  
+}

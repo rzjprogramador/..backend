@@ -1,0 +1,14 @@
+usando_pg_admin: {
+
+  ver_dados: `
+  entrando na base de dados desejada/Schemas/public
+  na tabela desejada/ MARCA PARANDO CLICANDO NA TABELA DESEJADA
+  - botao direito atualiza escolhendo > refresh
+
+    no painel superior no segundo icone tem o View Data
+    - clica nele que vai mostrar os dados da tabela escolhida
+
+    obs: só vai mostrar os dados atualizados se a tabela alvo tiver "marcada" e der refresh e view data.
+    `,
+
+}

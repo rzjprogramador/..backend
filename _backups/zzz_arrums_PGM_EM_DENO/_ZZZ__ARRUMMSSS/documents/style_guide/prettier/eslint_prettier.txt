@@ -1,0 +1,50 @@
+# ESLINT & PRETTIER
+
+`yarn add -D prettier eslint`
+`yarn add -D @typescript-eslint/types`
+
+> pacote eslint config prettier para nao ter conflito entre eles:
+> `yarn add -D eslint-config-prettier`
+>
+> > obs: no eslint.json em extends , por ultima recomendacao colocar o "prettier" para ele agir dar um override sobre os que vem antes
+
+> inicializar eslint: `npx eslint --init` // unica vez para configurar eslint.json
+> escolher: [
+
+    - checar sintaxe e problemas
+    - modulos escolher Javascript modules(import/export)
+    - projeto usa algum framework ..se for API escolher "None" NAO
+    - se usa typescript : YES
+    - Projeto vai rodar aonde : se for api vairodar no Node
+    - formato arquivo de configuracao escolher JSON
+    - instalar as dependencias de parser do eslint para ts escolher YES
+
+]
+
+> no arquivo de configuracao eslint :: eslint.json
+> add em parseOptions o apontamento do eslint para o tsconfig.json - senao da erro
+> `"project": ["./tsconfig.json"]`
+> pronto pode dar reaload que o eslint via estar pegando erros quando aparecer no codigo.
+
+# PRETTIER CONFIGURACOES
+
+NA EXTENSAO PRETTIER : CTR + "VIRGULA"
+formatar ao salvar : procurar por format on save deixar marcado
+prettier por padrao de formatador no c=vscode: procure por formatter default e marcar o prettier
+OU FAZER TUDO ISTO VIA JSON DO SETTINGS .JSON ADICIONANDO:
+
+```
+DEFINIR PRETTIER COMO FORMATADOR DEFAULT NO VSCODE SE FOR USA RO PRETTIER PARA AUTO SAVE
+// ADD NO SETTINGS DO VSCODE:
+```
+ "editor.defaultFormatter": "esbenp.prettier-vscode"
+```
+---
+
+[doc prettier](https://prettier.io/docs/en/cli.html)
+
+script_varredura: "prettier": "prettier --write 'src/**'"
+
+flags:
+--write é semelhante ao fix do eslint ele faz a varredura e corrige o que nao esta formatado.
+

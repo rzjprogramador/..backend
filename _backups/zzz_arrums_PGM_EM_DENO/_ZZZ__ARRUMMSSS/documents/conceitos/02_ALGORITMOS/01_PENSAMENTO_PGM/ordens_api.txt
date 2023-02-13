@@ -1,0 +1,12 @@
+
+ordens_api_implemenatcoes: {
+conceito: `defina o objetivo da rota e comece de traz pra frente do fluxo da requisicao : Banco-Repo-Servico-Controle `,
+
+processos_ordem: `
+1- Banco
+2 - Repositorio e Unico que Registra Container pro servico injeta-lo.
+3- Servico
+4 - Resolver || Controle
+5 - Rota
+`,
+}

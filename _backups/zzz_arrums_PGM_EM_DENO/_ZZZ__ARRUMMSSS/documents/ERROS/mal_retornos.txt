@@ -1,0 +1,6 @@
+# MAL RETORNO
+
+retornando_objeto_vazio:
+quando retorna um objeto vazio === {} e nao retorna o dado ..se o provedor do retorno for uma promise certamente falta um await antes do dor deste retorno.
+
+---

@@ -1,0 +1,10 @@
+
+importando_pacotes_individuais:
+  ex: import pacote "github.com/Projeto/pacote
+
+importacoes_multiplas_com_funcao_import:
+  ex: import (
+    "pacote1"
+    "pacote2"
+    "pacote3"
+  )

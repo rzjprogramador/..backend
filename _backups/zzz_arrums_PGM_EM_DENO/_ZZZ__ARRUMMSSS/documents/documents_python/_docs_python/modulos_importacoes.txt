@@ -1,0 +1,7 @@
+modulos_importacoes: 
+  - as pastas de modulos tem que estar no mesmo nivel e NÂO em subNiveis.
+  - importe um modulo como se fossem objetos
+  - dentro da pasta de modulos tem que ter o arquivo que ira iniciar primeiro o __init__.py
+  - este arquivo __init__ aponta que tera modulos na pasta e pode ficar vazio ou mostrar algo antes de usarem os modulos da pasta
+ 
+ sintaxe_importacao_modulo: from <PASTA>.<ARQUIVO> import <FUNCAO || CLASSE>

@@ -1,0 +1,70 @@
+/*
+modelo: {
+    tom_clean: {
+        cor: '' || '',fonte: 'picker', uso: ['',],
+    },
+    tom_medio: {
+        cor: '' || '',fonte: 'picker', uso: ['',],
+    },
+    tom_dark: {
+        cor: '' || '',fonte: 'picker', uso: ['',],
+    },
+
+    
+}
+*/
+
+---
+    
+}
+
+---
+
+azul: {
+    tom_clean: {
+        cor: '' || '',fonte: 'picker', uso: ['',],
+    },
+    tom_medio: {
+        cor: '#2874A6' || 'hsl(204, 62%, 40%)',fonte: 'picker', uso: ['mixflex',],
+        cor: '#24478f' || 'hsl(220, 60%, 35%)',fonte: 'picker', uso: ['',],
+    },
+    tom_dark: {
+        cor: '#0070f3' || 'hsl(212, 100%, 48%)',fonte: 'picker', uso: ['',],
+    },
+
+    
+}
+
+---
+
+roxo: {
+    tom_medio: {
+        cor: '#7159c1' || 'hsl(254, 46%, 55%)',fonte: 'rocket_21', uso: ['',],
+    }
+}
+
+---
+
+vermelho: {
+    tom_dark: {
+        cor: '#b30000' || 'hsl(0, 100%, 35%)',fonte: 'picker', uso: ['mixflex',],
+    },
+}
+
+---
+
+ouro: {
+    tom_clean: {
+        cor: '' || '',fonte: 'picker', uso: ['',],
+    },
+    tom_medio: {
+        cor: '#cc9900' || 'hsl(45, 100%, 40%)',fonte: 'picker', uso: ['mixflex',],
+    },
+    tom_dark: {
+        cor: '' || '',fonte: 'picker', uso: ['',],
+    },
+
+    
+}
+
+---

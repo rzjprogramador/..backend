@@ -1,0 +1,16 @@
+
+ combinacoes_JS :   "dev:start": "yarn start:nodemon",
+ combinacao_Deleta_e_Builda   "dev:build": "yarn dist:delete && yarn start:build",
+    "start:tsx": "tsx watch dist/src/index.js",
+    "start:build": "tsc -w -p tsconfig-build.json",
+    "dist:delete": "rimraf dist",
+    "start:nodemon": "nodemon -e js --exec ts-node -r tsconfig-paths/register dist/src/index.js",
+    "start:tsnode": "NODE_ENV=production ts-node -r tsconfig-paths/register dist/src/index.js",
+    "dev": "tsx watch src/_Servers/__Main/index.ts",
+    "nodemon": "nodemon src/testers.ts",
+    "tsx": "tsx watch src/_Servers/__Main/index.ts",
+    "esboco": "tsx watch src/xxx_exemplos/x_testes_code/esboco_mixflex_js/main.ts",
+    "nao": "npx dotenv-cli -e .env -- npx prisma migrate reset --force --skip-generate --preview-feature",
+    "vitest": "vitest",
+    "pretest": "npx dotenv-cli -e .env.test -- npx prisma migrate reset --force --skip-generate --preview-feature",
+    "linter": "eslint"

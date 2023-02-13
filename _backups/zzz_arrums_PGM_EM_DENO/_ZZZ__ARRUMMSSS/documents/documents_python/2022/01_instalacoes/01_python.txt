@@ -1,0 +1,5 @@
+python_ver_versao_entrar_menu_interativo: python
+
+sair_menu_interativo: exit()
+
+

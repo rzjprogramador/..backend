@@ -1,0 +1,15 @@
+# INICIAR PROJETO NODE COM TYPESCRIPT
+
+> PACKAGE JSON SOMENTE PARA INICIAR E INSTALAR TYPESCRIPT
+```
+"devDependencies": {
+  "ts-node": "*",
+  "ts-node-dev": "*",
+  "typescript": "*",
+  "@types/node": "*"
+},
+```
+---
+
+> Gerar ts config
+yarn tsc --init

@@ -1,0 +1,10 @@
+
+flutter config --enable-web
+fonte: https://flutteragency.com/configure-flutter-enable-web-true/
+
+core_flutter:
+o core da aplicacao esta na pasta lib/main.dart
+
+tenha_plugins_flutter_para_vscode:
+flutter by dartCade
+

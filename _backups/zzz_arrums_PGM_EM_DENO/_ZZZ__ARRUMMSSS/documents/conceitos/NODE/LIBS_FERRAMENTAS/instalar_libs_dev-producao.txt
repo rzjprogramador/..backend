@@ -1,0 +1,3 @@
+instalar_libs_dev_ts: {
+  tipos_do_module_alias: `yarn add -D @types/module-alias`,
+}

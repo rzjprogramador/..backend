@@ -1,0 +1,5 @@
+debugar erros no console error:
+1º linha com at : Mostra onde foi o erro.
+2º linha com at : Mostra onde "Estorou Nao Aceitou" o erro.
+
+se o erro originou de " at dataBody" : é erro no Http ..talvez o campo no http Front ou Insominia que esta errado.

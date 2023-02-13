@@ -1,0 +1,8 @@
+desinstalar_pacote_yarn = {
+  desinstalar_com_yarn: `yarn remove <remove>`,
+}
+
+
+instalacoes_nest = {
+  validador: `yarn add -D class-validator class-transformer`,
+}

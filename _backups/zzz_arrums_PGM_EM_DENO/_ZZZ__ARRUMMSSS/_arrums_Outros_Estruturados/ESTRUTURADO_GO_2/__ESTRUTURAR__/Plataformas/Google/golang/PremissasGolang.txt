@@ -1,0 +1,8 @@
+# PREMISSAS DA LINGUAGEM GOLANG
+
+premissa_da_lingaguem: ter apenas uma forma de fazer.
+
+restricoes: {
+  "nao tem operador ternario",
+  "os textos strings são sempre em aspas duplas ou exceto apra pular linhas usam crazes `` ,"
+} 

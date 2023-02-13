@@ -1,0 +1,40 @@
+  
+# Resulta:  Sucesso # SaidaCode 0
+# Resulta: Falha # SaidaCode 1
+---
+
+funcionalidade: "",
+  conceito: "",
+  ferramentas: [
+    estrutura: "", descricao: "", obs: "",
+ exemplo: 
+,
+```
+exemplo01.go
+```
+
+    estrutura: "", descricao: "", obs: "",
+ exemplo: 
+,
+```
+exemplo01.go
+```
+
+    estrutura: "", descricao: "", obs: "",
+ exemplo: 
+,
+```
+exemplo01.go
+```
+
+    estrutura: "", descricao: "", obs: "",
+ exemplo: 
+,
+```
+exemplo01.go
+```
+
+  ]
+// estudo_descrever_funcionalidades_modelo_programe
+---
+

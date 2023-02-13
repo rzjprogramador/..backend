@@ -1,0 +1,12 @@
+erro de conexao ao tentar postar via client http
+erro: clienteVersion
+solucao: 
+- sao problemas de campos opcionais que tem que estar combinados entre :
+aplicacao Typescript - Model Prisma - e Requisicao Cliente.
+
+- pode ser problemas de relacionamentos, comece seguro sem relacoes e vai implementadno certo.
+
+- ir no cluster no mongo e atualizar ip de acesso em :: https://cloud.mongodb.com/v2/62df6d209b28dc3a5db2a9a7#security/network/accessList
+conferir se na interface de banco esta conseguindo esta ligado a conexao entao quer dizer que o pc pode se conectar. o mongo compass tem que conseguir se conectar ao banco e mostrar as colecoes.
+
+---

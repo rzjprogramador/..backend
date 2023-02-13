@@ -1,0 +1,88 @@
+
+logica: para ter logica voce só precisa ver se existe, se for verdade faz...se nao for verdade faz outra coisa ex: loga o erro
+
+tudo:
+principais_acoes: 
+possibilidades: [ recuperar, modificar ]
+recuperar: leitura | só consultar  | buscar | query | get
+modificar: escrita | transformar, fazer mudanca | criar, inserir, deletar | mutation
+
+artefato: [ temos a casca e o conteudo de um artefato ]
+  casca:
+conceito: recipiente que encapsula cobre guarda o conteudoPrimitivo. exemplo: [  variavel, objeto, funcao ]
+
+  conteudo:
+conceito: conteudo é o suco dentro da casca o valor primitivo que o ClientUsuario vai consumir.
+exemplo: [ texto, numero, boleano, valorZero, nulo ]
+
+---
+
+artefato : 
+  possibilidades: [ modelaMonta, processa, usa, prototipoDNA ]
+  modela:  declara | monta ,
+  processa: conteudoPreenche | ( escrita ) , 
+  usa : sai: com comandos de saida ( leitura ),
+  prototipoDNA: todos artefatos sao de um tipo e este tipo dá a heranca de acoes do seu prototipe para uso. 
+
+---
+
+escrever_ler :
+escrever é atribuir/darValor , 
+ler é usar/mostrar o resultado.
+
+...
+valor_em_maos_cascata_encadeados: 
+sempre veja o valor que vc tem de retorno, seja de uma chamada , ou referencia...que se vc tiver valor pode desencadear acoes do que vc tem em maos.
+
+ex: funcao().metodo2() // foi possivel encadear chamar uma funcao apos a outra porque a primeira retorna algo que tem na sua heranca um outro metodo usavel.
+
+...
+
+#base
+comandos_sequencia: cada comando é executado na sequencia de cima para baixo tipo do "Ceu para a Terra".
+
+tomar_decisao: apos uma condicao ou variavel, vai fazer o  comandoSeVerdade , vai fazer o comandoSeFalso.
+sintaxe: if (condicaoLogica) { faça se a condicao for verdade } else ou return <{ dfaça se a condicao for falsa }>
+
+perguntar: comparar , fazer uma condicao, usar operadores logicos ( > < == != && || ! )
+
+montagemDeclaracao_e_uso:
+tudo é montagem e uso..nada pode ficar sem valor.
+
+acoes_computacionais: o que podemos fazer com dados:  [ criar e gravar, leitura, transformacao ]
+
+aproveitamento_de_retornos_recuperacao: 
+Quando algo retorna um resultado, capturamos o retorno em uma variavel , ou em um comando de saida.
+
+em_loops: se transformar causara efeito colateral na fonte onde esta o dado.
+
+valores: senao tem certeza que vai vir o valor dinamico que sera preenchido de fora monte sua recepcao como opcional.
+
+valores_dinamicos:
+sao parametros que sera preenchido de fora por argumento.
+
+estruturas_de_dados: sao as formas que os dados seram armazenados na memoria...só  a estrutura nao a implementacao
+tutorial: https://youtube.com/watch?v=OwiHoj-mAi8&si=EnSIkaIECMiOmarE
+
+algoritimo: é  forma como fazemos a tarefa | a receita |  passos sequenciais para resolver um problema..
+
+no algoritimo usamos as ferramentas,  estruturas de dados, o dado se nao o temos criamos evolindo ate chegar nele, se o temos usamos funcoes do seu prototipo/dna ou criamos comportamentos para ele.
+
+algoritimo:
+  passos: [ fonteDado, processo ],
+  
+  fonteDado: variavel, onde traz o valor,
+  
+  processo: o processo ocupa uma tread na memoria , nele criamos variaveis de escopo, importamos fonteDedados , fontesDeTransformacoes, e ocorre dentro de um bloco delimitador/escopo.
+se este processo foi criado para devolver um resultado publico reaproveitavel :: usamos os comandos de saida do bloco.
+ 
+toda estrutura tem um bloco e tprecisamos processa-lo e sair... entao temos que usar comando de saida de bloco para encerrar o seu processo e sair.
+
+estruturas_de_bloco: [
+  funcao:  estrutura comportamental ja garante um bloco por natureza
+  
+  condicionais: estruturas de decisao if, else, switch ,
+  
+  loops: estruturas de repeticao while, for
+  
+],

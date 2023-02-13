@@ -1,0 +1,6 @@
+github_uso_links: {
+
+  repositorios_excluidos_entre_90_dias: `https://github.com/settings/deleted_repositories`,
+
+
+}

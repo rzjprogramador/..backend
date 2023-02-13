@@ -1,0 +1,6 @@
+
+
+# Procurar por definicao de tipos do prisma
+- procure por "<Entidade>CreateInput"
+- importe de : import { Prisma } from '@prisma/client'
+- use como: Prisma.<Entidade>CreateInput

@@ -1,0 +1,5 @@
+em_app_de_objetos_funcionais:
+ em_metodos: 
+ - em metodos assincronos sempre esperar com await o valor de operacoes
+  - sempre dar retornos nos metodos
+  - nome dos metodos proprios importante ser diferente do nome do metodo do provedor do banco.

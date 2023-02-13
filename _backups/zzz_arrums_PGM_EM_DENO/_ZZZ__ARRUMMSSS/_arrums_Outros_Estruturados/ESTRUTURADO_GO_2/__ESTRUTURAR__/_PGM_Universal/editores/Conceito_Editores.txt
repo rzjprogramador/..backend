@@ -1,0 +1,3 @@
+# Conceito Editores
+
+extensoes: quando for instalar uma extensao ver a versao - use a ultima versao mais recente

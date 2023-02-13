@@ -1,0 +1,14 @@
+{
+  nome: ``,
+  significado: `
+    -
+  `,
+
+},
+
+{
+  nome: `ContratoInternoRequest`,
+  significado: `
+    - ContratoInternoRequest que é o contratoInterno com os campos para criacao da acao`,
+
+},

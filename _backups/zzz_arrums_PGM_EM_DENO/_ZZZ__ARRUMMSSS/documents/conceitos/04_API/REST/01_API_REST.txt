@@ -1,0 +1,30 @@
+
+api_rest: {
+
+rota_principal_clientHttp_rest:
+`na classe controller ,o endereco da rota é definida no decorator @Controller('<ENDERECO DESTA ROTA>') `,
+
+rota_recurso: {
+  formato_resposta_ao_client: `o formato de saida é em texto json() - o nestjs ja resolve este formato de saida quando devolvemos qualquer objeto de resposta ele converte em json para o client acessar.`,
+
+  cenarios_recursos: {
+    consulta_rest: {
+    decoracao: `@Get('<ENDERECO PARA O CLIENT_HTTP CONSULTAR>')`
+  },
+  modificacao_criacao_rest: {
+    decoracao: `@Post('<ENDERECO PARA O CLIENT_HTTP MODIFICAR>')`
+  },
+  },
+
+  acesso_respostas_client_http: {
+    contexto: ``,
+    navegador_web: {
+      sintaxe: `<servidor><ROTA DO CONTROLLER><ROTA DECORADA RECURSO>`,
+      exemplo: `http://localhost:3333/entidade-as-rest/show-entidade-as-rest`,
+    }
+  }
+}
+
+
+}
+

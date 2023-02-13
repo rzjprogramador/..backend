@@ -1,0 +1,11 @@
+# API_EXPRESS_ERROS
+
+erros_express: {
+    nao_encontrar_rota: {
+        mensagem: '<pre>Cannot GET /<ROTA PROCURADA>></pre>  || <pre>Cannot GET /prod-encomenda-pdf</pre>' ou no navagador Cannot GET ,
+        traducao: NAO ENCONTRA A ROTA OU RECURSO, 
+        erro: 'Faltou colocar "/" barra antes do endereco definido para a rota',
+        solucao: ' "/" barra antes do endereco definido para a rota',
+        exemplo_solucao: ('/endereco-da-rota', () => {})
+    }
+}

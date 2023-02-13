@@ -1,0 +1,21 @@
+# ABRIR CONFIG LOCAL:
+```git config --local --edit```
+
+---
+
+# SETAR REPOSITORIO GIT LOCAL COM REMOTO
+git remote set-url origin https://github.com/rzjprogramador/REPO.git
+ex: git remote set-url origin https://github.com/rzjprogramador/master_ecommerce_ts.git
+
+## TENTE DAR UM PUSH >>
+ git push origin master
+ OU: 
+ git push --set-upstream origin master
+ OU
+ sudo git push
+### REINICIE A MAQUINA -- OU REINICIE O VSCODE
+
+---
+aviso:
+the extension github wants to sign in using github == a extensão github quer entrar usando o github
+opcao: cancela ou allow=todos

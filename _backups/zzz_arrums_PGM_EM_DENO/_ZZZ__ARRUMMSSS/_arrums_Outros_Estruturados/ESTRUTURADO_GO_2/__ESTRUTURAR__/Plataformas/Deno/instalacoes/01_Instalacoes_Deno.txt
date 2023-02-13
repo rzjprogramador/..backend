@@ -1,0 +1,19 @@
+# instalar Deno
+
+```curl -fsSL https://deno.land/x/install/install.sh | sh```
+
+vai criar um binario executavel em .deno/bin/deno .. para executa-lo e colocar no PATH :
+```sudo cp ~/.deno/bin/deno /usr/local/bin/```
+
+ver_versao:
+```deno -V```
+
+entrar_no_modo_console_interativo:
+```deno```  para sair ctrl + D ou close()
+
+CLI
+USANDO DENO VSCODE: https://deno.land/manual@v1.28.1/references/vscode_deno
+
+rodar_arquivo_no_deno:
+deno run ARQUIVO.ts
+

@@ -1,0 +1,3 @@
+isString = '^[a-zA-Z]+$'  // Comeca e TERMINA com texto Maior ,quantidade de 1 ao infinito 
+
+isNumberInteger = '^[1-9]+$'  // Comeca e TERMINA com numeroInteiro ,quantidade de 1 ao infinito 

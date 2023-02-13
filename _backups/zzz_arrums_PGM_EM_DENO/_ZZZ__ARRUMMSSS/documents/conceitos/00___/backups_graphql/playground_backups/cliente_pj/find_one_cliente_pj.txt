@@ -1,0 +1,21 @@
+// CONSULTA COM CONDICIONAL DIRETIVA EM CAMPO -- PARA INCLUIR OU PULAR
+
+query FINDONE_CLIENTEPJ ($email: String $comTipoUser: Boolean!, $pular: Boolean!) {
+  findOneClientePjResolver(email: $email) {
+    id
+    nome
+    email
+    tipoUser @include(if: $comTipoUser)
+    tipoIdenticacao @skip(if: $pular)
+    indexRef
+    createdAt
+  }
+}
+
+// =================
+
+{
+  "email": "f1@email.com",
+  "comTipoUser": false,
+  "pular": false
+}

@@ -1,0 +1,29 @@
+
+
+doc: https://docs.flutter.dev/get-started/install/linux
+
+criar na home a pasta: ```development``` entrar nela e extrair de Downloads o flutter zipado...com:
+```tar xf ~/Downloads/flutter_linux_3.3.10-stable.tar.xz```
+
+persistir de forma permanente no PATH CAMINHO do bash o flutter:
+doc: https://docs.flutter.dev/get-started/install/linux#update-your-path
+
+na HOME .profile persistir:
+colando a exportacao:
+export PATH="$PATH:[PATH_OF_FLUTTER_GIT_DIRECTORY]/bin"
+obs: o que esta entre [colchetes] substituir pelo caminho onde esta instalado o flutter pegue o seu /bin ficando assim:
+``` export PATH="$PATH:~/development/flutter/bin" ```
+
+atualizar o arquivo onde foi persistido nova varAmbiente no arquivo .profile  nao coloque no bashrc:
+```source $HOME/.profile```
+se logo apos nao carregar o comando flutter reinicie o pc que ao voltar carrega.
+
+obs: ler o aviso que os caminhos do flutter e dart tem qeu serem iguais com:
+which flutter dart
+
+```flutter sdk-path  ```
+
+```flutter doctor ```
+// Faz um diagnostico do Fluter ..se esta de acordo para uso no momento e mostra em negrito o que falta no sistema para o flutter funcionar
+
+// INSTALE O ANDROID STUDIO >>>>

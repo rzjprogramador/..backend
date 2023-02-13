@@ -1,0 +1,11 @@
+###
+
+POST {{host}}/api/add-items-cart
+Content-Type: application/json
+
+{
+    "one": "one",
+    "two": "two"
+}
+
+###

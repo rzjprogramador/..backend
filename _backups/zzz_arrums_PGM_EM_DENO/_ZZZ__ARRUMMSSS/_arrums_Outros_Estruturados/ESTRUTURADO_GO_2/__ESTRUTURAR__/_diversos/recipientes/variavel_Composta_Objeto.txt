@@ -1,0 +1,18 @@
+
+
+objeto: 
+
+conceito: objeto é uma variavel composta, um bloco nomeado que agrupa diversas variaveis.
+
+analogia: "É O ABSTRATO"
+é o que de forma abstrata descreve algo .
+ex: Pessoa, Automovel, 
+
+atributos_de_objeto: " AS PARTES QUE FORMAM O OBJ"
+atributos sao os campos que juntos formaram este objeto.
+ex: no objeto Pessoa os atributos seriam: cabeca, bracos. tronco, pernas, etc...
+
+tecnicamente: é um dadoEstrutura que nele forma um conjunto de variaveis  informacoes de valor primitivas e acoes comportamentos.
+
+sua origem/formato/ criacao/ molde/montagem/ pode vir de uma classe | struct | funcao.
+....

@@ -1,0 +1,21 @@
+
+
+regra:
+  todo_bloco_de_funcao: todo bloco de funcao tem que ter uma clasula comando de saida... 
+  
+cada_bloco_e_um_programa:
+o interpretador ao  ir lendo o codigo precisa encontrar o comando de saida pra sair do bloco/programa ele nao sabe sair sozinho...
+mesmo que esteja instruindo só procedimento no ultimo certamente ele traz encapsulado um comando de saida e este saira do bloco.
+  
+  sao_funcoes_nativas: [ if(), switch(),  for() .. entao a regra de clasula de saida de seu escopo tambem se aplicam. ]
+
+###
+
+estrutura_que_recebe_e_a_mesma_que_usa_ou_retorna: 
+o mesmo que recebo devolvo ou uso...
+se montei pra receber uma estrutura , devolvo ou uso tambem a mesma estrutura recebida.
+ex: montei pra recer um objeto, argumento com objeto.
+
+ex: no construtor de uma classe tem que montar que vai receber um objeto, nao campos soltos, ai quando for instanciar recebe tbm um objeto.
+
+###

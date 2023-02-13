@@ -1,0 +1,4 @@
+fechar consoles em execucao node
+pkill node
+
+---

@@ -1,0 +1,38 @@
+comandos: {
+  setup: {
+    tutorial: {
+    docker_comandos: `https://www.hostinger.com.br/tutoriais/remover-imagem-docker`,
+  },
+
+  ajuda: `docker container --help`,
+  },
+
+  listar: {
+    imagens: `docker images –a`,
+    container: `docker container -a`,
+    todos_containers_em_funcionamento: `docker ps -a`,
+  }
+
+  parar_unico: {
+    container: `docker stop <containerID>`,
+  }
+
+  parar_muitos: {
+    container: `docker stop <containerID> <containerID> <containerID>`,
+  }
+
+  remover_unico: {
+    conceito: `Para remover tem que parar primeiro`,
+    imagem: `docker image rmi <image_id>`,
+    container: `docker container rm <container ID>`,
+  }
+
+  remover_multiplos: {
+    imagens: `docker images rmi <image_id> <image_id>`,
+    container: `docker container rm <container ID> <container ID>`,
+  }
+}
+
+
+
+b8364dddf6f6 1c087fff8e4a d395f90cc09d 78c8b41b56d5 14ea51564520 1c0857012c50 9198a2de1a14

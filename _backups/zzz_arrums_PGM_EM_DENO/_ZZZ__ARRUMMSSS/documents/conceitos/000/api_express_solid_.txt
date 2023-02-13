@@ -1,0 +1,6 @@
+ver_retorno_criacao_solid_no_http: `Para ver o que foi criado:
+- no repositorio ->> espere com await o metodo do objetivo de guardar e retorne o dado.
+- no servico ->> retorne o uso da execucao do repositorio
+- na rota ->> espere com await o carregamento da factory e seu metodo executador ... e retorne a resposta da api express.
+
+`,

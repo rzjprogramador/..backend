@@ -1,0 +1,4 @@
+consulta retornando objeto vazio :
+pode ser falta de esperar com await antes da expressao de um metodo que retorna uma promise ..exemplo em controler onde expressa o metodo execute()
+
+---

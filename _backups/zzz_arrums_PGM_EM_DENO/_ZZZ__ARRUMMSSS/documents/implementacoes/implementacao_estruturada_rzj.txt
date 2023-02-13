@@ -1,0 +1,7 @@
+
+# CONTROLLER :
+pasta controller :: contem o arquivo controller que sera usado pelas rotas endpoint,
+nela manipulamos os casos de usos dos metodos gravados no repositorio.
+ex: controll_cases_repo
+
+---

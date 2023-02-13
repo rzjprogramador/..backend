@@ -1,0 +1,9 @@
+{
+    garantir_ser_de_um_tipo: 
+    'type Assertions :  usa o "as TIPO " usa o "AS" para  afirmar e  garantir que é aquele tipo ao inves de colocar "!" exclamacao apos o valor ou na tipagem dizer que é de um tipo ou null nao existente ',
+    
+}
+
+{
+    nao_use_em_tipagems: 'nao use como tipo o tipo :: unknown ele se perder e da erro ao usar a variavel.',
+}

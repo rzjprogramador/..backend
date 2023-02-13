@@ -1,0 +1,19 @@
+
+importar_funcao_autoexecutavel_de_modulo:
+  modo_esmodules: "import 'modulo/funcao'  ex: import 'dotenv/config'"
+  modo_comonjs: "require('modulo').funcao()  ex: require('dotenv').config()"
+
+---
+
+exportar_e_importar_classes_ao_inves_de_intanciar: `
+
+// EXPORTANDO A CLASSE CONTROLADORA COMO DEFAULT COM PARENTESES () NO FINAL ELA É INSTANCIADA UMA VEZ SOMENTE ONDE FOR USA-LA
+
+exemplo:
+export default new CreateUserController()
+
+onde vai usa-la :
+import CreateUserController from '..'
+
+const createUserController = CreateUserController
+`,

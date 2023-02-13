@@ -1,0 +1,90 @@
+cenarios_de_rotas: [
+  '@Query é somente para consulta , buscar, mostrar',
+  '@Mutation é para modificacoes:: sempre quando for criar, alterar, deletar dados',
+  ]
+
+  acesso_url: acesso a rota <servidor>/graphql
+  breakpoint_cliente: o nome do metodo é nossa rota
+
+  consulta_front: [
+    operacao : [
+      NOME DA OPERACAO,
+      tipo de operacao: query ou mutation,
+      nome_da_funcao { ,
+      campos que quer de retorno que a funcao esta retornando
+      ],
+      exemplo: `
+        query hello {
+          hello
+        }
+      `,
+  ]
+
+  fluxo: {
+    cenario : teremos uma entidade ,
+    objetivo: 'criar novos desta entidade e listar todos',
+
+    no_backend: {
+      acao_consulta: {
+      listar_todos: '@Query fazer uma consulta que retorna uma lista de todos criados desta entidade',
+     },
+
+    acao_mutacao: {
+       criar_muitos: fazer uma mutacao que cria, guarda em colecao e retorna criados da entidade
+      }
+    },
+
+    no_frontend: {
+
+      usar_acao_mutacao_que_vai_criar_para_a_consulta: {
+        objetivo: `criar um dado para ser consultado na query`,
+        contexto: `criar um dado a cada vez para serem visualizados na consulta do front`,
+
+        sintaxe: {
+          tipo_e_NOME_OPERACAO: `mutation OPERACAO`,
+          funcao: `funcao criada no backend para criar "um" da entidade a ser consultada {`,
+          campos_visualizar: `campos que quer ver desta criacao`,
+        }
+
+        exemplo: `
+        mutation CREATE_GRAPH {
+          createGraph {
+            id
+            codigo
+            nome
+          }
+        }
+
+        `,
+
+
+
+      }
+
+      usar_acao_consulta: {
+
+        objetivo: ´configurar como vai mostrar os campos para o client do front os dados de consulta de muitos´,
+
+        sintaxe: {
+          tipo_e_NOME_OPERACAO: `query OPERACAO`,
+          funcao: `funcao da consulta que lista os criados{`,
+          campos_visualizar: `campos que quer ver desta consulta de lista`,
+
+          exemplo: `
+          query LIST_GRAPHS {
+            listGraphs {
+              id
+              codigo
+              nome
+            }
+          }
+          `,
+        }
+      }
+    }
+
+  }
+
+
+
+

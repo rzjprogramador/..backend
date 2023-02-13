@@ -1,0 +1,28 @@
+consulta_dinamica_por_id: {
+
+  servico: `
+    - cria metodo que espera receber um id informe o tipo e o retorno do metodo,
+    - vai retornar uma objeto da entidade
+    - exemplo:
+    ```uniqueById(id: string): EntidadeGraphsModel {
+    return entidadeGraphModel_01_FAKE
+  }```
+  `,
+
+  resolver_consulta: {
+    metodo: `cria o metodo para usar do servico o metodo em questao`,
+    receber_solicitacao_via_parametro: {
+      contexto_resumido: `
+        Passa o @Args(em String o nome da Variavel, em 2º param um obj com prop. type que é uma funcao que vai reotrnar o tipo esperado pelo graphql e fora od Args a variavel e seu tipo que espera o Typescript entity  )
+      `,
+      sintaxe: `
+        @Args('<VARIAVEL>', { type: () => <TIPO_GRAPHQL_ESPERA> }) <VARIAVEL>: <TIPO_VAR_TS>,
+      `,
+      exemplo: `
+        @Args('id', { type: () => String }) id: string,
+      `,
+
+    }
+  }
+
+}

@@ -1,0 +1,17 @@
+poetry_gerenciador_pacotes: {
+    doc: `https://python-poetry.org/docs/`,
+    
+    instalar poetry com pipx:
+    pipx install poetry
+    pipx upgrade poetry
+    pipx uninstall poetry    # desinstalar
+
+    ver opcoes: poetry:
+    poetry env
+
+mostre as versões que a poesia python pode usar
+    poetry env list
+
+muda poesia para usar essa versão.
+poetry env use // o env listado acima
+

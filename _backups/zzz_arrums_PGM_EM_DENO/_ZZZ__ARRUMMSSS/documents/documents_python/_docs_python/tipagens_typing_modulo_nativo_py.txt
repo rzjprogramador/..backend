@@ -1,0 +1,14 @@
+# UNION - UNE TIPOS 
+PODE SER UM OUTRO TIPO
+
+uso: 
+from typing import union
+
+# DEFININDO O TIPO UNION PRA USO
+
+StrInt = union[str, int]
+
+def uni(a: StrInt, b: StrInt):
+  return a + b
+
+# -----------------------------------

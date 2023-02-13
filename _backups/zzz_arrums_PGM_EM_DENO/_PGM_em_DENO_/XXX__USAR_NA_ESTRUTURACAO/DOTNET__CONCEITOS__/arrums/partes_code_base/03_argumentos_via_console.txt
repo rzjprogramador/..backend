@@ -1,0 +1,12 @@
+
+argumento_via_console:
+ disponibilizar_array_de_parametros_no_metodo_de_entradaDaApp: Main(string[] fooArg)
+ instrucao: // pegar o primeiro arg enviado e dar uma saida para a tela 
+ sintaxe_console: 
+ usoClient: dotnet run -- ESTE_E_O_VALOR_PASSADO_APOS_ESPACO 
+ exemplo:
+ static void Main(string[] argFoo) {
+    Console.WriteLine(argFoo[0]);
+  }
+  // console: dotnet run -- ESTE_E_O_VALOR_PASSADO_APOS_ESPACO
+  // obs: como a instrucao foi pegar o primeiro se colocar espaco na argumentacao vai peagr só o primeiro.

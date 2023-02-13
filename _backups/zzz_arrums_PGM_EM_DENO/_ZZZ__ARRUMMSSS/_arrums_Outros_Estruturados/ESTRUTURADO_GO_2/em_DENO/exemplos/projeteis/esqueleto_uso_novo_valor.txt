@@ -1,0 +1,36 @@
+import { Valor } from "../Valor";
+
+const INSTANCIA = new Valor(
+  {
+    quantidade: "",
+    nomeValor: "",
+    alocacaoNaMemoria: "",
+    representacao_classe_Da_Plataforma: ",
+    representacao_instancias: "",
+    descobrir_valor_Zero: "",
+    valorZero: "",
+    semValor: "",
+    membrosDNAPrototipo_de_leitura: [
+      {
+        nomeMembro: "",
+        essencia: "",
+        conceitos: "",
+        beneficios: "",
+        exemplos: "",
+      },
+    ],
+    membrosDNAPrototipo_de_escrita: [
+      {
+        nomeMembro: "",
+        essencia: "",
+        conceitos: "",
+        beneficios: "",
+        exemplos: "",
+      },
+    ],
+  },
+);
+
+console.log( INSTANCIA );
+
+

@@ -1,0 +1,9 @@
+# RUNNER FILES # RODAR ARQUIVOS
+
+// rodar arquivo com node
+node <caminho arquivo com extensao>
+
+// rodar arquivo no node com lib instalada
+node <arquivo> <redirecionar output para lib ex: npx <nomelib> >
+exemplo: node index.mjs npx tap-spec
+

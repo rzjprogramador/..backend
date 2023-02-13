@@ -1,0 +1,33 @@
+docs_linguagem: {
+  site: "https://dart.dev",
+}
+
+instalacoes: {
+  link_install: "https://dart.dev/get-dart",
+}
+
+links_dart: {
+  cursos: [
+    { provedor: "DiegoAntunes", link: "https://www.youtube.com/watch?v=b4ZxFLW7neQ&list=PL_wKlpKIC9vWubXsj3IRPZ2Rk6QMfsPPg",}
+  ]
+}
+
+detalhes_dart: {
+  rodar_arquivos: {
+    especifico: "```dart run arquivo.dart```"
+  },
+  sintaxe: {
+    aspas: 'posso usar aspas simples ou duplas no dart',
+  }
+}
+
+peculiaridades: {
+  formatacao_em_linha: 'em objetos se colocar virgula no ultimo item ele quebra linha',
+}
+
+implementacoes: {
+  palavras_chaves: {
+    para_funcoes: ["para funcao em dart nao precisa de clausula é só main() {} o compilador sempre procura a funcao main"]
+  },
+
+}

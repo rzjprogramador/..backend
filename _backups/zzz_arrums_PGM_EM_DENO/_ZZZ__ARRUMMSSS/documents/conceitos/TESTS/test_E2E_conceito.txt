@@ -1,0 +1,16 @@
+o teste de integracao in memory : testa o servico se integrou corretamente ao repo tanto do banco quanto inmemory.
+
+
+o teste E2e: testa a rota e criar bancos de testing especificos . >> 
+- adicionar arquivo de configuracao apra criar novo banco de test (prisma-test-environment.ts) na pasta raiz do prisma // OBS: NAO MEXER EM SUAS CONFIGURACOES
+- rodar com este script:
+"test:e2e": "jest --config jest-e2e.config.ts"
+
+- criar o .env.testing com configuracoes apra o banco de test E2E
+
+- no _app/ criar o arquivo de test E2E (app.e2e-spec.ts) que vai usar o supertest
+indicando que vai criar um post na rota ..espeficique a rota
+e indicando o conteudo do post que será criado criado 
+exemplo:
+  .post('/encomenda')
+  .send({ nome: 'prod_encomenda_01', preco: 15 })

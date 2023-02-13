@@ -1,0 +1,4 @@
+
+tutoriais_tratamento_erros_graphql: {
+  erros_graphql: 'https://oieduardorabelo.medium.com/graphql-200-ok-tratamento-de-erros-em-graphql-69c9d25e84ec',
+}

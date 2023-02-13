@@ -1,0 +1,10 @@
+
+decisoes:
+entre_multiplas_decisoes
+switch é uma funcao estilo interruptor onde vc escolhe apenas uma acao entre muitas disponiveis ou seja com limitacao.
+
+recebe a pergunta por param e a cada instrucao case "caso Argumento seja este" retorna o que deseja caso o argumento seja o especificado.
+
+alternativa para nao usar varios if else.
+
+"SE ... NAO SE".

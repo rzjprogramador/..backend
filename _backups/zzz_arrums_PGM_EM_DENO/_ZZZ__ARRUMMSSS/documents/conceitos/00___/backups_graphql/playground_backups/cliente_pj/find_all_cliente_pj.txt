@@ -1,0 +1,13 @@
+// BUSCANDO TODOS CLIENTES PJ NO PLAYGROUND
+
+query ALL_CLIENTEPJ {
+  findAllClientePjResolver {
+    id
+    nome
+    email
+    tipoUser
+    tipoIdenticacao
+  }
+
+}
+

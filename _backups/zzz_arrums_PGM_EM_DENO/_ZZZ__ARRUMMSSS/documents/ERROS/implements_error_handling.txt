@@ -1,0 +1,31 @@
+# ERROR HANDLING
+
+> ERROS ESPERADOS:
+Entidade NotFound
+Reserved Entidade
+Unauthorized User
+
+# IMPLEMENTACAO
+
+## NO CONTRATO DA ENTIDADE
+> ter um type ReservedEntidade com o campo a mais reservedBy: EntidadeUSER
+
+> ter um type union com os tipos de resultado possiveis::
+seria uma uniao de tipos chamado EntidadeResult com os subTipos:: 
+Entidade | ReservedEntidade | EntidadeNotFound
+onde :
+> Pode retornar: 
+Entidade : é quando a entidade esta disponivel
+ReservedEntidade: é quando a entidade esta reservada
+EntidadeNotFound: é quando a entidade nao foi encontrada
+
+
+
+
+---
+
+
+RESPONSE REQUEST
+A funcao responseRequest() será usada somente no servico.
+onde ela analizará o objeto resposta de onde foi usado.
+

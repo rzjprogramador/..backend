@@ -1,0 +1,21 @@
+no vscode : instale a extensao code runner
+
+backup_settings_json_para_code_runner_em_ts_js: `
+// Code runner
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.preserveFocus": false,
+  "code-runner.executorMap": {
+    "python": "python3 -u",
+    "code-runner.clearPreviousOutput": false,
+    "typescript": "npx ts-node --files --transpile-only -r tsconfig-paths/register",
+    ".js": "clear && node"
+  },
+  
+  `,
+
+na primeira ver que for rodar um arquivo:
+precione F1 no navegador de configuracoes de comandos, pesquise escrevendo : Run Code ...de ENTER.
+pronto só usar no arquivo que desejar paertando o botao d eplay habilitado no alto do editor...que vai mostrar no console o codigo transpilado.

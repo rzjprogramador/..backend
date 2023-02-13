@@ -1,0 +1,18 @@
+/*
+# campos disponiveis PDF 2020
+
+Leste
+Envio
+Venda
+
+Nickname
+Comprador
+
+Destinatario
+CEP
+Endereço
+Complemento
+Cidade
+
+
+*/

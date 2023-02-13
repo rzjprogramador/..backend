@@ -1,0 +1,4 @@
+
+arquiteturas: {
+  backend: [ monolitico o unico sistema, micro-servico varios sistemas em um ]
+}

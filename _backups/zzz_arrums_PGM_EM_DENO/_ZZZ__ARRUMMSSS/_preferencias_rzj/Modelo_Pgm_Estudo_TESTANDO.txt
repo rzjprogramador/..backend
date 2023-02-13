@@ -1,0 +1,22 @@
+/*
+
+topico: : "dddd",
+
+aplicabilidade: "",
+
+narrativa: "",
+
+entrada: "",
+
+existentes: "",
+
+processamento:
+ narracao: "",
+ acao: "",
+
+saida:
+  output: "",
+
+exemplo: ``,
+
+*/

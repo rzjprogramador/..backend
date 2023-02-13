@@ -1,0 +1,21 @@
+
+
+importacao_pacote: import "testing"
+
+comandos: comando para o go buscar os arquivos com _test.go 'IR NA PASTA DO ARQUIVO :: E RODAR :: '
+```go test```
+
+regras: 
+- o test nunca fica no emsmo arquivo da funcao testada.
+
+- o arquivo tem que ter no final : _test.go
+
+- o test é a unica excessao onde posso ter 2 pacotes dentro da mesma pasta.
+
+- a funcao que vai testar uma funcao tem que comecar com "Test" , ex: Test< ENomeDaFuncaoTestada >
+
+- e esta funcao vai receber ( t *testing T )
+// uma varMagicaGuardadora de um ponteiro do pacote testing do tipo generico T
+
+-
+

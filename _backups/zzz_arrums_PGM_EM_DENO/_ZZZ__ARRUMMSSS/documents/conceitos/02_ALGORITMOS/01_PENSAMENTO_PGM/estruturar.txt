@@ -1,0 +1,8 @@
+estruturar: {
+
+  contexto: `chave e para definir o proximo item preguntar "O QUE?", pensamento: "Faz isto , O QUE?", `,
+  
+  sintaxe: `chave_doa_acao_obejtivo : { doQue?_chave: 'valor', } `, 
+
+
+} 

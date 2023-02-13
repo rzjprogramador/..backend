@@ -1,0 +1,17 @@
+
+linguagens_compiladas: precisam de um build pata a maquina entender ex:  C, o C++, o Erlang, o Haskell, o Rust e o Go.
+
+linguagens_interpretadas: 
+
+ex: PHP, o Ruby, o Python, JavaScript.
+
+resumo:
+interpretação ocorre quando o uso (comumente a execução) do código se dá junto à análise do mesmo.
+
+A compilação é o processo de análise e possivelmente transformação do código fonte em código alvo, ou seja, o uso (execução, por exemplo) se dá em processo separado posterior, ainda que não tão posterior assim.
+
+Então aplicações que rodam interpretadas precisam do código fonte enquanto que as compiladas só precisam do código alvo para funcionar.
+
+fonte: https://www.devmedia.com.br/forum/qual-a-diferenca-entre-linguagem-compilada-e-interpretada/576767#topico_576771
+
+---

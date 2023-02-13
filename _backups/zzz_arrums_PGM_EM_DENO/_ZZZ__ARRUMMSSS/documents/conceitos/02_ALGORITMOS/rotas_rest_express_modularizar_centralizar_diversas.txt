@@ -1,0 +1,38 @@
+
+// CENTRALIZADOR DE ROTAS REST COM EXPRESS
+
+tutorial: https://acervolima.com/como-criar-varias-rotas-no-mesmo-servidor-express-js/
+
+modularizando_diversas_rotas_rest_por contexto_no_express : {
+
+1º cria um index para centralizar todas as rotas
+- cria um routes raiz que tem o valor do roteador do express
+- neste router raiz do express usa o midleware use(<uqe vai usar aqui a rota Importada por Contexto>)
+
+exemplo: 
+// no index do rotes:
+
+export const routes = Router()
+
+// EXPORT TODOS CENTRALIZADORES DE ROTAS
+
+routes.use(routerProdEncomenda)
+
+// 2º cada rota por contexto: 
+- cria tambem sua variavelDeRota sendo um roteador do Express
+- esta variavelDerota pode ser usada aqui neste contexto com os metodos http para definir cada rota
+
+exemplo: 
+// Rota do contexto produto encomenda :
+
+export const routerProdEncomenda = Router()
+
+routerProdEncomenda.get('/encomenda', (req: Request, res: Response) => {
+  console.log('Estou no encomendas')
+  res.send('Ola encomenda')
+})
+
+
+}
+
+---

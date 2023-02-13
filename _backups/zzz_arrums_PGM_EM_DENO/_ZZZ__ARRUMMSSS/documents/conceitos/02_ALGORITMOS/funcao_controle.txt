@@ -1,0 +1,55 @@
+resposta_http_para_funcao_de_controle: {
+
+  contexto: `
+  Somente a funcao Controladora que vai dar a respota direto apra o Client dar esta resposta em corpo json que é po formato aceito.
+  Ao inves da funcao reotrnar simplesmente o dado ela retorna um corpo Json:
+
+  com o json HttpResponse podemos dar uma resposta com satus e o dado mudando o statusCode para 200 no sucesso ou 500 na falha`,
+
+  processamento: {
+    tipo_retorno: `HttpResponse > que é um corpo json com statusCode e o dado_pronto dentro da prop data, 
+    - recebe como opcao a view model que é o DTO contrato do que o Client pode enviar para fazer o dado`,
+
+  exemplo: `
+  export type HttpResponse<T = any> = {
+    statusCode: number
+    data: T
+  }
+  `,
+  }
+
+  corpo_da_funcao: {
+    objetivo_da_funcao: `Criacao do dado`,
+    implementar: {
+
+      cenarios: ['sucesso ', 'falha '],
+
+      cenarios_se_for_assincronos: ['sucesso dentro do try{...}', 'falha dentro do catch(error) {...}'],
+
+      sucesso:  `
+    -crio o dado , que vem da funcao que cria o dado passando o dado.
+    - falo que ele é o meu viewModels
+    - retorno minha funcao com o Json de Resposta sucess(passando este meu dado que é um view models)
+    `,
+
+    falha: `
+    - capturo o erro e retorno minha funcao de erro serverError que é  o Json de Resposta de erro(repassando o erro capturado)`,
+    }
+  }
+
+
+
+exemplo: `
+async handle(data: UsersDTO): Promise<HttpResponse<CreateUsersViewModel>> {
+        try {
+            const user = await this.createUsersService.createUsers(data)
+            const viewModels = user
+            return sucess(viewModels)
+        }
+        catch(error) {
+            return serverError(error)
+        }
+    }
+    `,
+
+    }

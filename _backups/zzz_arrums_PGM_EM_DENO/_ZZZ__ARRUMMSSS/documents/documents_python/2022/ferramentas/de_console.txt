@@ -1,0 +1,11 @@
+# CONSOLE INTERATIVO:
+
+ipython:
+abrir no console o modo interativo >> ipython
+usar, debugar celula funcoes do arquivo >> %load <arquivo>.py
+tutorial: https://stackoverflow.com/questions/21034373/how-to-load-edit-run-save-text-files-py-into-an-ipython-notebook-cell
+
+todos comandos linux funciona no ipython:
+cd, ls, onde esta pwd, etc... para sair exit
+
+---

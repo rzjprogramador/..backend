@@ -1,0 +1,27 @@
+# ENVIAR PELO FRONT HTTP INSONMIA
+json/multipart Form
+variavel: file // mesma definida no midle e na ancora do valor escolher file // porque vai enviar arquivo. // Pra envir clicar no botao : Choose file >> Escolher Arquivo.
+
+---
+#
+```
+// 1 - CAMINHO PRO ARQUIVO PDF : VIA FS SEM MIDLE
+        const fileUpload = "/temp/antigo_pdf_entregas.pdf"
+        // const fileUpload = "/temp/5a7207b9bcb28c1a20a70a269d173058"
+        const pathFile = path.join(__dirname, fileUpload) // CAMINHO FILE
+        const readFile = fs.readFileSync(pathFile) // LER CAMINHO FILE
+```
+
+# CONFERIR PEGOU O CAMINHO CERTO
+// DÊ CONSOLE NO PATH JOIN :: FORA DA FUNCAO - SE APRACER NO CONSOLE TA CERTO
+// console.log('Momento Oi --- 1')
+// console.log(path.join(__dirname, "/temp/5a7207b9bcb28c1a20a70a269d173058"))
+// console.log(path.join(__dirname, "/temp/antigo_pdf_entregas.pdf"))
+
+# PEGAR TODOS OS TEXTOS :: COM PROMISE
+// FUNCAO DO MODULO PDF-PARSER :: PARA PARSEAR CONVERTER ARQUIVO LIDO
+
+    pdfParse(readFile).then((data) => { //OBS: NO TUTORIAL A FUNCAO DENTRO DO PDFPARSE É pdf()
+        const text = data.text // PEGANDO TODOS TEXTOS
+        console.log(text)
+    })

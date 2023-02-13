@@ -1,0 +1,14 @@
+instalar : {
+  deb: `pacotes .deb instalar :: sudo dpkg -i <nome_do_pacote>.deb`,
+  tar_gz: `pacotes tar.gz instalar ::
+  extrair : tar -zxvf <nome_do_pacote>
+   instalar: 
+   `,
+
+   sh: `
+   - arquivo .sh extraia o pacote
+   - vá ate o arquivo e torne executavel com : chmod +x <ARQUIVO>.sh
+   - instalar :: sudo ./<ARQUIVO>.sh
+   `,
+
+}

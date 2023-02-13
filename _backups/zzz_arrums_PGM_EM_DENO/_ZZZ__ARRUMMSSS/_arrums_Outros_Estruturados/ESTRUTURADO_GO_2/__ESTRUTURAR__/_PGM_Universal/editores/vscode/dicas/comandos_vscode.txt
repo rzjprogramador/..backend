@@ -1,0 +1,19 @@
+
+
+ver_todas_extensoes_instaladas: `code --list-extensions`,
+
+
+evitar_mal_funcionamento: {
+  
+  todo_prisma: `
+  Se deixar configurado nos settings que o editor padrao é o prettier
+  a formatacao do Prisma.prisma nao vai funcionar ..entao nao colocar esta linha:
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+   `,
+
+   verificador_de_ortografia: {
+     cSpell: 'cSpell pode ser desativado globalmente no settings do json como false',
+   }
+
+
+}

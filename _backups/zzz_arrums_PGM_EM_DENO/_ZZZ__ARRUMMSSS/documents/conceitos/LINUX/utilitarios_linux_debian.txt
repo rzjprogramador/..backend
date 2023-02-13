@@ -1,0 +1,3 @@
+{
+  instalador_de_pacotes: ['GDeb vem apdrao no BodhiLinux', ]
+}

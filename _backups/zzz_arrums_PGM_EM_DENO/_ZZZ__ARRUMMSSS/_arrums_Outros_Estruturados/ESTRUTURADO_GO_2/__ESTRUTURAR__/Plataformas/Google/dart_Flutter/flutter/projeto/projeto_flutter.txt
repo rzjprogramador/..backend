@@ -1,0 +1,41 @@
+
+criar_projeto_todas_plataformas:
+sintaxe: <flutter create --project-name> <nome_projeto> <ondeSeraCriado> 
+exemplo: flutter create --project-name meu_projeto ./meu_projeto
+
+criar_projeto_para_plataforma_especifica:
+obs: antes de indicar a pasta coloca a opcao: --platforms
+ex: --platforms <web.io | android ou ios | ou android ios // vai criar para as 2 > <depoisAPastaOndeSeraCriado>
+
+criando para android e ios:
+flutter create --project-name primeiro_proj_android_ios --platforms android ios ./primeiro_proj_android_ios
+
+criar_projeto_flutter_para_web:
+exemplo:
+flutter create --project-name primeiro_proj_web --platforms web.io ./primeiro_proj_web
+
+para debugar abra na lib/main.dart e clique no player acima de start debugger
+certifique que que o device esteja em chromium / javascript abaixo no menu do vscode.
+
+obs: se no menu de baixo nao tiver aparecendo device para debugar o flutter na web 
+adicione novamente a var de ambinete do chromium com:
+CHROME_EXECUTABLE=/usr/bin/chromium
+export CHROME_EXECUTABLE
+
+vai abrir o debuger web em:
+http://localhost:40557/
+
+habilitar o flutter web:
+```flutter config --enable-web```
+
+dependencias_projeto:
+  as dependencias do projeto estao na raiz em :: pubspec.yaml no inicio instale as dependencias registradas nele.
+
+  instalar_as_dependencias:
+  ```flutter pub get```
+
+rodar_projeto_no_device_chrome:
+```flutter run -d chrome```
+
+---
+

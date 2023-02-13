@@ -1,0 +1,12 @@
+# INICIO SIMPLES ROTA EXPRESS
+```
+routesUpload.post('/upload-pdf', (req: Request, res: Response) => {
+    const { nome, idade } = req.body
+    const bodyData = { nome, idade}
+    const response = { message: 'Obrigado por enviar seus dados!', data: bodyData}
+
+
+    return res.status(200).json(response)
+})
+```
+

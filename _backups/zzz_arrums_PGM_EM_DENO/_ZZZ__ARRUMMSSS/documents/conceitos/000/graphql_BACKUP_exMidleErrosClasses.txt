@@ -1,0 +1,43 @@
+/*
+tratamento_de_erros_graphql:
+- no index do servidor graphql no obj d eocnfiguracao onde esta o schema, chamamos a prop customFormatErrorFn > e ele espera uma funcao pra saber o que fazer com o erro.
+
+configurando_funcao_midleErroGraphql:
+- vai receber um param error do tipo Error Js ou GraphQLError que vem da importacao import { GraphQLError, GraphQLFormattedError } from 'graphql'
+
+--------------------------------
+opcao_param_error_tipado_com_Error_JS:
+logica:
+- if (error.message.startsWith('Ops')) { return error.message }
+significado: Se o error .message tiver no inicio o texto passado retorna a mensagem de erro
+--------------------------------
+opcao_param_error_tipado_com_GraphQLError::
+logica:
+if (error.originalError instanceof ErrorServerErrorGQL) { return error.message }
+significado: Se o erro.originalError for instancia de ClasseTalCustomizada reotrne a mensagem
+
+- casoContrario retorna o error
+-
+---
+
+
+/* ---------------------- // ---------------------- */
+/* BACKUP LOGICA ENCIMA DAS CLASSES DE ERROS : */
+//
+
+
+import { ErrorServerErrorGQL, ErrorBadRequestGQL, ErrorNotFoundGQL, ErrorUnauthorizedGQL, ErrorReservededGQL } from '@src/_Servers/GraphqlServer/ErrorsCustomGraphqlClass'
+
+import { GraphQLError, GraphQLFormattedError } from 'graphql'
+
+
+export const MiddleErrorsGraphql = (error: GraphQLError): any => {
+  if (error.originalError instanceof ErrorServerErrorGQL) { return error.message }
+  if (error.originalError instanceof ErrorBadRequestGQL) { return error.message }
+  if (error.originalError instanceof ErrorNotFoundGQL) { return error.message }
+  if (error.originalError instanceof ErrorUnauthorizedGQL) { return error.message }
+  if (error.originalError instanceof ErrorReservededGQL) { return error.message }
+  return error
+}
+
+*/

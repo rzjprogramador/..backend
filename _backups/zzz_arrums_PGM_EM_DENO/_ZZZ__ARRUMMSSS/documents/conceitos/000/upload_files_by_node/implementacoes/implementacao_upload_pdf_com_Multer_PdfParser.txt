@@ -1,0 +1,28 @@
+# ENVIAR PELO FRONT HTTP INSONMIA
+json/multipart Form
+variavel: file // mesma definida no midle e na ancora do valor escolher file // porque vai enviar arquivo. // Pra envir clicar no botao : Choose file >> Escolher Arquivo.
+
+---
+# BAIXAR ARQUIVO
+com o midle multer ja da o caminho do arquivo
+e cria uma pasta definida no obj de configuracao onde estaram so arquivos baixados
+do objeto multer incorporado teremos a funcao_midle que apssaremos o nome da nossa variavel que sera o arquivo ex: single('file')
+
+# OBJ DE RESPOSTA AO ENVIAR O ARQUIVO NO HTTP
+> POSSO USAR QUALQUER UAM DESTAS PROPS.
+ex: console.log(file?.originalname)
+
+{
+  fieldname: 'file',
+  originalname: 'antigo_pdf_entregas.pdf',
+  encoding: '7bit',
+  mimetype: 'application/pdf',
+  destination: './temp',
+  filename: '92983d4aee84c254766340201412c822',
+  path: 'temp/92983d4aee84c254766340201412c822',
+  size: 29718
+}
+
+#
+
+

@@ -1,0 +1,15 @@
+Acessar Firebase Firestore:
+https://firebase.google.com/docs/firestore
+
+Instalar firebase admin:
+yarn add firebase-admin
+
+Criar Projeto no Firebase Console:
+
+Vai no firestore Database >> Criar Banco de Dados
+escolhe primeira opcao banco em producao >> escolhe localizacao provedor mais proximo = america SP
+
+Baixar arquivo configuracao:
+Configuracao do projeto  / Conta de Servico
+Clica em Gerar nova Chave -- para fazer download do arquivo json com a configuracao do banco.
+https://console.firebase.google.com/project/master-ecommerce-rzj/settings/serviceaccounts/adminsdk

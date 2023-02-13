@@ -1,0 +1,16 @@
+instalar_dev_node: [
+  `yarn add -D @types/node`,
+]
+
+instalar_dev_express: [
+  `yarn add -D @types/express`,
+  `yarn add express`
+]
+
+instalar_graphql_apollo_express: [
+  `yarn add graphql apollo-server-express`,
+]
+
+instalar_tipos_graphql: [
+  `yarn add -D @types/graphql`,
+]

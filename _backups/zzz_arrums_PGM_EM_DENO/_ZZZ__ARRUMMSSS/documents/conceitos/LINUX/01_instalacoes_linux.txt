@@ -1,0 +1,41 @@
+navegador: {
+  instalar_opera_gx: `
+  baixar install em : https://www.opera.com/pt-br
+  VAI BAIXAR UM ARQUIVO.deb
+  clique em instalar com instalador de pacotes GDEBI
+  depois em instalar pacote e fechar quando acabar.
+
+  tutorial: https://www.youtube.com/watch?v=pSF2eY0gHBI
+  `,
+  banco_de_dados: {
+    pg_admin: {/*
+    * instalar: `
+    # Instalando chaves:
+sudo curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add
+
+#Configurar repositorios:
+sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
+
+#Instalar somente desktop:
+sudo apt install pgadmin4-desktop
+
+#instalar web
+sudo apt install pgadmin4-web
+
+    `,
+
+    usar_pg_admin: `
+    - ao abrir > Servers/Create Server >> usar senha: root
+    - na aba general >>> dar nome a conexao
+    - na aba connection >> configurar host : localhost // username: postgres
+    // password: "senha" > igual do confgiurado no docker-compose do postgres
+    `,
+
+    */}
+
+    robomongo: {
+      conceito: `iterface visual banco de dados mongo db`,
+      doc: `https://robomongo.org/`,
+    }
+  }
+}

@@ -1,0 +1,9 @@
+ferramentas_golang:
+
+utilitarios:
+  ver_tamanho: funcao len( alvo )
+  ver_capacidade: funcao cap( alvo )
+
+  criacao:
+  criar_dado_na_memoria: `funcao make(tipo, tamanho, capacidade)
+funcao make() cria qualquer dado na memoria.package ferramentasNativas`
