@@ -1,0 +1,26 @@
+
+template_Literals_interpolar_variaveis_em_texto:
+---
+links: [https://github.com/golang/go/issues/34174]
+
+  recurso_para_console: fmt.Printf("texto %v ", varivael1,)
+
+  recurso_contextualizado: com_pacote_fmt::
+  funcao: Printf , printa texto feedback, e permite inserir tag e recupera-la com a variavel em justa posicao para as tags
+ tags_nos_textos_apos_porcentagem:
+	v : mostra o valor seja ele qual for erro, sucesso qualquer valor. #idealUsar , ex: %v
+
+  exemplo:
+  fmt.Printf("a recuperacao das tags no texto será por justa posicao ::\n \n valor da var boleano é :: %v, \no texto é %v ,\n numeroPositivo é %v, \n numeroNegativo é %v \n \n", booleano, texto, numeroPositivo, numeroNegativo)
+}
+
+---
+para_mostrar_variavel_com_texto:
+recurso: fmt.Sprintf(variavelComTexto))
+exemplo: 
+variavelComtexto := "meu texto %v"
+fmt.Sprintf(variavelComTexto))
+
+
+
+

@@ -1,0 +1,9 @@
+
+Tipos:
+entre os tipos go tem o 
+tipo_erro :
+keyword error
+conceito: é um objeto importado e podemos criar um erro personalizado com o recuperável noeDoErro =  errors.newErrors("mensage")
+
+Tipo_funcao: 
+conceito: em golang função também são tipos.

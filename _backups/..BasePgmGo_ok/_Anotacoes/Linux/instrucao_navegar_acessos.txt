@@ -1,0 +1,13 @@
+intrucoes:
+  navegar_acesso:
+  cd: "",
+    tio: "seja onde estiver leva para home/usuario",
+    barra: "```/ ``` // escapar :: abrir diretorio",
+    exemplos: "```cd ~ // abrirá home/usuario.```",
+
+---
+
+encontrar_caminho_de_pacotes_instalados: "```which <NomePacote> // ex: which chromium```",
+
+---
+

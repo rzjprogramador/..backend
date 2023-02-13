@@ -1,0 +1,20 @@
+desinstalar_pacotes:
+  apt: sudo apt-get remove <nomeDoPacote>
+
+desinstalar_pacotes_de_pacotes: 
+  node_npm: npm uninstall PACOTE
+
+desinstalar pacotes instalados via snap : 
+# seus arquivos ficam em home/snap
+```sudo snap remove PACOTE```
+ex: sudo snap remove flutter
+
+
+desinstalar_nvm: ???
+CONFERIR SE A PASTA ESTA NA /HOME ainda remove rela : 
+rm -rf ~/.nvm
+rm -rf ~/.npm
+rm -rf ~/.bower
+
+remover_diretorio_com_permissao_forcadamente: sudo rm -r directoryName
+

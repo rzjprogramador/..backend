@@ -1,0 +1,47 @@
+
+instrucao: which, traducao: com o que ? aplicabilidade: 'confere o comando de tal pacotes esta disponivel..obs: se nao der erro esta disponivel' exemplo: ```which flutter```
+
+---
+
+ver todos que estao no caminho:
+obs: o $PATH contem nele o caminho do executavel para abrir o pacote separados por ": 2 pontos" ex: /usr/lib/dart/bin:   obs o ultimo nao precisa de 2 pontos...obs: o ultimo adicionado tem que esta la por ultimo tbm.
+```echo $PATH```
+
+---
+
+adicionar_ao_PATH_Caminho_doistema_via_arquivo_profile.sh:
+// OBS: O CAMINHO TEM QUE IR ATE A PASTA /BIN
+// ADICIONE ESTA LINHA NO FIM DO .PROFILE - ESTA ADICIONANDO A VAR PATH O EXECUTAVEL QUE ESTA NA BIN DO PACOTE:
+
+```export PATH="$PATH:~/PASTA_DIRETA_DO_PACOTE/bin"```
+
+EX: export PATH="$PATH:~/development/flutter/bin"
+CONFERIR: VC PODE RODAR O NOME DO PACOTE QUE VAI MOSTRAR SEUS COMANDOS.
+
+---
+# variaveis_de_ambiente
+
+conceito: var de ambiente sao espaço na memoria que cadastramos valores.
+
+consultas_acessos: 
+acessar_todas_variaveis: ```env```,
+
+acessar_variavel_especifica_ver_se_existe: ```env | grep <VARIAVEL>```,
+
+acessar_local_que_aponta_a_variavel : ```cd $<NOME_VARIAVEL>```,
+
+consultar_valor: ```echo $VARIAVEL```
+
+---
+
+criar:
+obs: posso reutilizar a var $HOME aonde eu precisar do seu valro ex: onde preciso de
+  variavel_de_ambiente_temporaria_local_no_bash: export VARIAVEL="valor" , 
+  variavel_de_ambiente_persistida_nao_se_Apaga: para persistir definir a criacao da var no .bashrc ex: adicionando a linha :: export VARIAVEL="valor"
+
+  variavel_que_aponta_um_diretorio: export VARIAVEL="/home/rzj/diretorio obs: termina com barra/" // apos definir o valor acessar com cd $VARIAVEL ,
+
+---
+
+abrir:
+  abrir_navegador: ```google-chrome``` // ou alias no bashrc: alias chrome="open -a 'Google Chrome'",

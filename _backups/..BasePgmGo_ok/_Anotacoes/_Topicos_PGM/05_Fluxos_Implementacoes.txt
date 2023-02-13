@@ -1,0 +1,17 @@
+fluxos:
+
+ciclo_de_importacoes: precisa dividir em arquivos tente colocar sempre no mesmo pacote para evitar o erro de ciclo de importacao nao permitido golang ::#erro import cycle not allowed
+tutoriais: https://jogendra.dev/import-cycles-in-golang-and-how-to-deal-with-them
+
+---
+importavel_entre_pacotes: tem que estar em PrimeiraLetraMaiuscula padrao PascalCase no golang
+
+enxergar_chaves_de_objeto: parar serem publicas e enxergasas chaves de objeto ou modelador de objeto comece a primeira letra em maiuscula ..resumo tudo que precisa ser importado entre pacotes tem que estar em primeiraMaiuscula no golang
+
+importavel_publico: artefatos do mesmo pacote noa precisam estar com PrimeiraLetraMaiuscula sao livres para importacacao entre arquivos do mesmo pacote. 
+
+isolar_artefatos: use () parenteses para isolamento de artefatos em qualquer lugar.
+
+localizacao_arquivos: arquivos do mesmo pacote tem que estar na mesma pasta para serem enxergues.
+
+---

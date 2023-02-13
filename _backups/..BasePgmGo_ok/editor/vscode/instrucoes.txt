@@ -1,0 +1,8 @@
+
+sidebar:
+  caso_sumir_o_menu_de_atidades_sidebar: "puxar no menu do topo :: view/appearence/ habilitar o activity Bar ou no settings...",
+
+  ou_no_settigs: "```"workbench.activityBar.visible": true, // ativar menu sibebar de atividades```"
+
+---
+

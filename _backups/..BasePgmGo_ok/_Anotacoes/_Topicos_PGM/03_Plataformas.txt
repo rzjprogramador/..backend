@@ -1,0 +1,25 @@
+
+Plataforma:
+tutorial: [ "https://youtube.com/watch?v=_SmXEb7ZWHw&si=EnSIkaIECMiOmarE", ]
+
+instalacao_no_linux: "baixxe o pacote aqui https://go.dev/doc/install",
+
+obrigatorio_remover_instalacoes_anteriores: "apos baixar o pacote de o comando onde vc baixar o zipado :: obs: mudar a url onde esta usr colocar o home, e onde esta usr colocar o usuario do sistema ::"
+
+comando_remover_e_instalar: "```sudo rm -rf /home/rzj/go && tar -C /home/rzj -xzf go1.20.linux-amd64.tar.gz```",
+
+configuracoes_vars_ambiente_plataforma: 
+
+  adicionar_binario_ao_caminho_do_sistema_do_usuario: export PATH=$PATH:"/usr/local/go/bin"
+
+  ver_todas_varsDeAmbiente_da_plataforma: "```go env```" ,
+
+ver_versao_confirmando_instalacao: "```go version```",
+
+limpar_cache_de_modulos_baixados: go clean -modcache // vai limpar o cache dos modulso baixados em go/pkg/ a pasta cache de todos modulos externos baixados. pra recuperar algum importante... lá no projeto de um go mod tidy
+
+atualizar_ferramentas_da_plataforma_no_editor_vscode: "F1 >>> escolha .GoInstall/Update tools  // marque as opcoes geralmente todas que quer atualizar e aperte em ok vai atualizar o tools do go >>> reinicie o editor",
+
+release_novidades_das_atualizacoes_oficiais: "https://go.dev/doc/devel/release",
+
+

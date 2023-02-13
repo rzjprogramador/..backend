@@ -1,0 +1,28 @@
+
+tutorial: configurar vscode para encontrar o modulo Deno para usar a funcao Deno.test()
+https://code.visualstudio.com/docs/typescript/typescript-compiling#_using-newer-typescript-versions
+
+instalar_typescript_global:
+npm install -g typescript
+
+desinstalar_typescript:
+npm uninstall --global typescript
+
+ver_versao_ts:
+tsc -v
+
+conferir se foi instalado via npm:
+npm list | grep typescript
+
+mostrar_ao_vscode_onde_esta_o_ts_global_unico: 
+// add no settings o sdk do unico Typescript que ele deve procurar
+"typescript.tsdk": "/home/rzj/.nvm/versions/node/v19.1.0/lib/node_modules/typescript/lib" 
+// onde esta o ts_global com nvm no pc
+"typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib" // exemplo do site
+
+depois confirmar no navegador de comandos para usar a versao ts desejada:
+F1 / TypeScript: Select TypeScript Version / escolhe a versao desejada.
+
+onde esta o typescript instalado no vscode:
+no linux as instalacoes globais via npm ficam em : /usr/local/lib/node
+ ou se tiver o nvm instalado vai para: /home/rzj/.nvm/versions/node/v19.1.0/lib/node_modules/typescript/

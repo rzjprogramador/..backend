@@ -1,0 +1,14 @@
+
+---
+extrair_arquivo_da_pastaDownloads_para_pastaDestinoOndeEstou:
+obs: o ~/ é onde estou /depois do /barra é de onde vem e o arquivo que vem. ex:
+tar xf ~/Downloads/arquivo.extensao  //
+
+---
+
+
+procurar_arquivo:
+  comando: locate -i nome_Do_Procurado // obs: o locate é mais rapido que o find - o -i ignora CaseSensitive // #melhorUsarEste // instalar: sudo apt install mlocate
+
+  comando: ```find -iname *NomeOuParte_Do_Procurado*```  
+  // obs: com o -iname ignora caseSentive na procura, o * pode ser antes ou depois do nome -- tutorial: https://www.alura.com.br/artigos/procurando-arquivos-no-linux?gclid=CjwKCAiAxP2eBhBiEiwA5puhNWUxiMTPmkK2uLMFCkGD2zu_Zuwa2BwTBpGpv85G9AWO13rt_h8rWRoC15cQAvD_BwE

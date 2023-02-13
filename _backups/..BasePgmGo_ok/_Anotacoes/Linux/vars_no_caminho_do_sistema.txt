@@ -1,0 +1,8 @@
+adicionar_varPacoteExterno_ao_caminho_do_sistema_do_usuario:
+  adicionar_binario_ao_caminho_do_sistema_do_usuario: no arquivo .bashrc ou .profile >>> inserir o caminho do binario do novoPrograma no Path/Caminho do sistema. 
+  
+  sintaxe: >> export PATH=$PATH:"/caminho até o binario da aplicacaoAlvo",
+
+  exemplo: "```export PATH=$PATH:"/usr/local/go/bin"```",
+
+---

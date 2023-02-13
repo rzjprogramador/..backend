@@ -1,0 +1,9 @@
+# Convencoes
+
+nome_projeto: "SnakeCase // no modulo: coloque um endereco onde quer que possam baixar seu modulo como uma lib ::ex: github.com/userGit/NomeProjetoLib ",
+
+nome_pacote: "camelCase",
+nome_pastas: "camelCase // o mesmo usado em pacotes/package",
+
+nome_funcao_publica: "SnakeCase",
+nome_funcao_privada: "camelCase",

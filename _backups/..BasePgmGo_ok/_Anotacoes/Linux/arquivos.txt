@@ -1,0 +1,7 @@
+
+
+arquivo_configuracao_todos_usuarios: .bashrc :: é arquivo de configuracao que carrega tudo que esta disponivel para todos usuarios.
+
+mudar_permissao_arquivos:
+  permitir_escrita_e_leitura: ` ```chmod +x ./<arquivo>``` `
+

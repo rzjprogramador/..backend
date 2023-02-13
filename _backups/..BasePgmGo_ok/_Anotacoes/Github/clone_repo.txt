@@ -1,0 +1,11 @@
+
+clonar_commit_especifico:
+ https://github.com/rzjprogramador/<repositorio>/tree/<commit_sha>
+ exemplo: git clone https://github.com/rzjprogramador/BasePgmGo/tree/a4ddb6f3af1f1e9f9453dd2cd51a35c409d3a6fe
+ uso: ao entrar no commit na web a url vai mostrar o caminho completo para o tree com a has só copiar a url e fazer git clone dela.
+
+ copiar_arquivo_especifico: curl ou wget <copiado coma  direita endereco do link>
+
+ hash: a4ddb6f3af1f1e9f9453dd2cd51a35c409d3a6fe
+
+ git cherry-pick a4ddb6f3af1f1e9f9453dd2cd51a35c409d3a6fe

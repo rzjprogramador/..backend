@@ -1,0 +1,15 @@
+
+
+
+Compilacoes:
+ buildar_todo_projeto: go build // na raiz // vai salvar o executável na raiz do projeto // go install // vai salvar na pasta raiz da instalação do go
+ 
+Modularizacao:
+  gerenciador_de_dependências: go mod init // vai gerar o gerenciador go.mod na raiz.
+  
+  instalar_pacotes_externos_da_web: go get   <url pacote sem o https: > // vai registrar no gerenciador de dependências como required
+usar_modulo_exportado: sempre pelo nome da última barra exportada nonimport ele é um namespace um objeto ...então no código dia amor este objetoNameSpace.FuncaoExportavel()
+
+atualizar_dependencias: go mod tidy // vai atualizar o gerenciador removendo os pacotes não usados .
+
+---

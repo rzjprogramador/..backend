@@ -1,0 +1,32 @@
+
+# Minhas Variaveis De Ambiente Personalizadas Em Uso: no .bashrc
+
+# a var HOME indica :: home/rzj/
+
+# Variaveis Personalizadas Rzj:
+export obackend="$HOME/..backend/"
+export odotnet="$HOME/..backend/dotnet/"
+export odeno="$HOME/..backend/deno/"
+export odocker="$HOME/..backend/docker/"
+export ogolang="$HOME/go/src/"
+export onode="$HOME/..backend/node/"
+export opython="$HOME/..backend/python/"
+export opersistencia="/$HOME/..backend/persistencia/"
+
+export opgm="$HOME/go/src/BasePgmGo"
+
+export onavegador=google-chrome
+
+---
+
+# Alias Personalizados Rzj:
+alias "dotnet= /home/rzj/dotnet7/dotnet"   // usando
+
+---
+
+backups:
+  variaveis_de_ambiente: da instalacao ofical do dotnet: ```
+  # export DOTNET_ROOT=$HOME/.dotnet
+# export PATH=$PATH:$HOME/.dotnet:$HOME/.dotnet/tools
+```,
+---

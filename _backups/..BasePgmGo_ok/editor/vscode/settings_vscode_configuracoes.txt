@@ -1,0 +1,6 @@
+
+// definir o editor default do editor
+opcao escolhendo o prettier >> 
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  
+---

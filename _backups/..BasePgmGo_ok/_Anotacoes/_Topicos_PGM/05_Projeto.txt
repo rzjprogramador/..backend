@@ -1,0 +1,46 @@
+worskspace: {
+  conceito: comunicacao de varios projetos na mesma pasta de area de trabalho
+}
+
+
+projeto: 
+  pastas_iniciais: o mesmo nome que dér a pasta do projeto crie um repo no github. // posso imitar o github, criar as pastas :: workspaceDesejado / github.com/ userDoGithub / meuProjetoAlvo. 
+
+  iniciar_gerenciador_dependencias_modulo_principal: 
+  go mod init <OpcionalRepositorio/NomeProjeto> // obs: dependencias sao todos os modulos importados no app...é como se fosse o npm init que cria o package json .
+
+  atualizar_dependencias: go mod tidy //traducao:: tidy == limpar... enato vai apagar as dependencias nao usadas do go.mod é bom rodar este tidy sempre depois de baixar alguam dependencia.
+
+  modulo_principal:
+    nome_do_modulo: "o nome do modulo pode ser em PascalCase somente o nome que desejar nao precisa colocar github.com",
+
+    acao_gerenciador_de_dependencia:" ele fara um link para o github.com/nome que vc escolheu apra o modulo"
+
+---
+
+  criar_area_de_trabalho:
+  conceito:  este procedimento vai ser o inicio do workspace> // obs: vai gerar um arquivo go.work com o objeto use que vai apontar os caminhos locais que posso chamar no namespace
+  
+  comando:  go work init <./pasta que deseja mapear pra ter acesso como objeto namespace ex: ./projeto1 
+
+  adicionar_mais_pastas_ao_workspace :: go work use ./pastaProjeto2_a_ser_adicionada_ao_workspace
+
+  rodar_arquivo: go run <arquivo.extensao>
+
+  arquivo_principal_de_entrada: cmd/main.go 
+  pacote_principal_de_entrada: package main 
+  funcao_principal_de_entrada: func main() 
+  quantos_pacotes_por_pasta: somente um pacote por pasta
+  pacotes_podem_se_repetir: nao
+  para_pertencer ao mesmo_pacote: coloque na mesma pasta do pacote.
+
+  baixar__pacote_library_externo: go get <url do pacote ex: github.com/caminhos do pacote> // procure por Library/Biblioteca o comando no repo do pacote // o golang baixa os codigos para o pkg/mod/github.com/
+
+  usar__pacote_library_externo: como se fosse namespace importe a url e use o ultimo objeto  desencadeando seu Metodo() importado.
+
+  versionador_de_pacotes_externos: go.sum // sera gerado assim que baixar o primeiro modulo externo...e terá os links de hash de commits feitos no github sobre a versao exata do pacote qque esta sendo emprestado, 
+  
+  controle_dependencias_externas: entao neste go.sum caso o dono do pacote mude algo este controlede hashs de commits mantem-se alinhanhado com a versao emprestada correta por este hash de commit registrado. 
+
+---  
+

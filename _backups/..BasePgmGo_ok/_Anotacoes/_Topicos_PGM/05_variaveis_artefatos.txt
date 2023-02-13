@@ -1,0 +1,8 @@
+
+visibilidade:
+ dentro_do_mesmo_modulo:
+Em golang
+Os artefatos que comecam com letra minuscula podem ser enxergues dentro do mesmo pacote em outros pacotes não.
+
+publico: 
+Para ser enxergue publicamente em qualquer pacote o nome do artefato tem que começar com a letra maiúscula.

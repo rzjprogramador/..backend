@@ -1,0 +1,144 @@
+{
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#250069" ,/* tabs superior ativa */
+  },
+  "editor.lineHeight": 24,
+  "editor.tabSize": 2, // TAB IDENTACAO PADRAO.
+  "update.mode": "none", // atualizar vscode : "none" nao pede mais > "default" < fica avisando. 
+  "zenMode.silentNotifications": false,
+  "editor.wordWrap": "on",
+  "editor.matchBrackets": "never",
+  "git.autofetch": true,
+  // EDITOR
+  "editor.rulers": [
+    135
+    ], // largura régua do editor
+
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 16,
+  "editor.fontFamily": "'Operator Mono Lig Book', 'SF Mono', Consolas, 'Source Code Pro', 'Dank Mono', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  
+  // TERMINAL
+  "terminal.integrated.fontSize": 14,
+  "workbench.panel.defaultLocation": "bottom", // posicao_terminal
+  "workbench.activityBar.visible": true, // ativar menu sibebar de atividades
+
+  // Workbench
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.labelFormat": "short",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "workbench.list.smoothScrolling": true,
+  "workbench.colorTheme": "OM Theme (Night Owl Italic)",
+
+  // Git
+  "git.enableSmartCommit": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "git.confirmSync": false,
+  // Debug
+  "debug.console.fontSize": 18,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
+  // Code runner
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.preserveFocus": false,
+  "code-runner.executorMap": {
+    "go": "cd $dir && go run .",
+    "dart": "dart",
+    "python": "python3 -u",
+    "code-runner.clearPreviousOutput": false,
+    "typescript": "clear && deno run",
+    // "typescript": "clear && npx ts-node --files --transpile-only -r tsconfig-paths/register",
+    ".js": "clear && node"
+  },
+  "code-runner.executorMapByGlob": {
+    "$dir/*.go": "go"
+  },
+  // LINGUAGENS:
+  // TYPESCRIPT
+  "typescript.tsdk": "/home/rzj/.nvm/versions/node/v19.1.0/lib/node_modules/typescript/lib", 
+  // MOSTRAR AO VSC O TS GLOBAL PARA O DENO
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.suggest.autoImports": true,
+
+  // PLATAFORMAS_RUNTIMES
+  // DENO
+  "deno.enable": true, // MOSTRA METATAGS DE USO : particularDev: acho ruim , Mas beneficio: REMOVE O ERRO DE IMPORTACAO: An import path cannot end with a '.ts' extension
+  "deno.lint": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  
+  // Material icon theme extension
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.folders.theme": "classic",
+  "material-icon-theme.folders.color": "#6273a6",
+  // CSpell checker extension
+  "cSpell.enabled": false,
+  "cSpell.language": "en,pt,pt_BR",
+  "cSpell.enableFiletypes": [
+    "shellscript"
+  ],
+  // XML Language Support by Red Hat
+  "redhat.telemetry.enabled": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.ignoreRebaseWarning": true,
+  "workbench.sideBar.location": "right", // MOVE BARRA BOTOES LATERIAS
+  
+  // PYTHON RZJ
+  "python.languageServer": "Pylance", // AVISO LINTER
+  // Javascript 
+  "javascript.preferences.quoteStyle": "single",
+  "javascript.validate.enable": false,
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
+  "javascript.suggest.autoImports": true,
+  "[javascript]": {
+    "editor.suggest.showKeywords": false
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  // COLORIZE
+  "colorize.languages": [
+    "javascriptreact",
+    "typescript",
+    "javascript",
+    "css",
+    "scss"
+  ],
+  "colorize.colorized_colors": [
+    "HEXA",
+    "HSL"
+  ],
+  // LINGUAGEM: GOLANG
+  "go.useLanguageServer": true,
+  "gopls": {
+    "ui.semanticTokens": true // autocomplete Go by gopls
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "dart.openDevTools": "flutter"
+}

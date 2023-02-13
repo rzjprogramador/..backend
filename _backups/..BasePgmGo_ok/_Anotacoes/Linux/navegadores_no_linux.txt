@@ -1,0 +1,14 @@
+
+chromium como device para flutter:
+encontrar o navegador chromium:
+which chromium
+resposta: /usr/bin/chromium
+
+ligar_flutter_com_nosso_navegador_principal_chromium:
+
+ja que localizamos o nosso navegador principal chromium vamos coloca-lo na variaveld e ambinete CHROME_EXECUTABLE depois rode o flutter doctor para conferir o que falta.
+
+CHROME_EXECUTABLE=/usr/bin/chromium
+export CHROME_EXECUTABLE
+
+comandos_cli_flutter: https://docs.flutter.dev/reference/flutter-cli

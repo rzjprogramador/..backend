@@ -1,0 +1,8 @@
+
+instrucoes_para_arquivos_do_sistema:
+  propagar_mudanca_no_bashrc:
+  ```source ~/.arquivo```
+  exemplo: "```source ~/.profile // vai avisar o sistema que houve mudanca neste arquivo.```",
+  
+
+---

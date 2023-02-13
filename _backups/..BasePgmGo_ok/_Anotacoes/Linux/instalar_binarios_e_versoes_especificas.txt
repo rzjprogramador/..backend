@@ -1,0 +1,21 @@
+baixar_binario_programa_e_definir_alias: 
+entrar no site do alvo e procurar or binaries e baixar o 64x
+ex: do binaries dotnet https://dotnet.microsoft.com/en-us/download/dotnet/7.0
+
+rodar o binario : ./dotnet
+
+ver_versao_do_binario: ./dotnet --version
+
+adicionar_alias_apelido: para poder chamar o binario em qualquer lugar do sistema ao inves de colocar o caminho inteiro do binario para executar os comandos coloca numa variavel_alias_apelidada ::  adicione o alias no .bashrc, obs: só coloque alias/apelidos no bashrc que é mais garantido de funcionar.
+  instalacao_semelhante: nova versao dotnet7 nao tinha no apt foi instalado manual assim , serve esta acao para todos programas novos ou que desejar.
+
+
+*****
+apos instalar o binarios adicionar apelido/alias do binario do programa em questao no bashrc
+
+# exemplo de alias
+alias "dotnet= /usr/share/dotnet/dotnet"
+
+#  alias: toda vez que digitar dotnet que coloquei antes da atribuicao - vai executar o binario que adicionei o caminho.
+
+---

@@ -1,0 +1,16 @@
+
+no linux as instalacoes globais via npm ficam em :
+ /usr/local/lib/node
+ ou se tiver o nvm instalado vai para:
+ /home/rzj/.nvm/versions/node/v19.1.0/lib/node_modules/typescript/
+ e o tsc comandos para ::  /home/rzj/.nvm/versions/node/v19.1.0/bin/tsc
+
+localizacao libs externas node_modules,
+que estao instalados os pacotes que tem no npm para usar global no pc:
+/usr/lib/node_modules/
+// por exemplo nela pode estar instalada global o typescript do sistema vindo do npm.
+
+
+# libs externas
+localizar instalados no debian:
+https://ubunlog.com/pt/verificar-instalacion-paquete-ubuntu/#:~:text=Comando%20Apt%2Dcache,-Comando%20apt%20cache&text=Ele%20nos%20mostrar%C3%A1%20se%20o,informa%C3%A7%C3%B5es%20do%20reposit%C3%B3rio%20de%20origem.

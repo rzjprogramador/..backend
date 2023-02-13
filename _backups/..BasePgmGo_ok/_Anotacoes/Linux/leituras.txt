@@ -1,0 +1,2 @@
+
+visualizar_conteudo_de_um_arquivo: cat <arquivo.extensao>

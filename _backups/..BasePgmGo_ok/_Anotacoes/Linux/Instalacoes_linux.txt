@@ -1,0 +1,28 @@
+instalar instalador de pacotes snap:
+doc: https://snapcraft.io/docs/installing-snap-on-ubuntu
+sudo apt update
+sudo apt install snapd
+// Se der erro:
+sudo rm /etc/apt/preferences.d/nosnap.pref
+sudo apt install snapd
+sudo apt update
+
+---
+
+instalar_pacotes_deb:
+detalhe: instalar com sudo apt install ./arquivo.deb 
+```sudo apt install ./Pasta/ARQUIVO.deb```
+
+---
+
+instalar_pacote_zipado:
+  extrair_descompactar:
+    extrair_se_for_xz: "```tar -xJf <NOME_DO_PACOTE>.tar.xz```",
+    extrair_se_for_gz: "```tar -zxvf <NOME_DO_PACOTE>.tar.gz```",
+
+  instalar_extraido: "entrar no extraido na sua pasta bin/ e executar o nome do pacote.sh",
+
+  exemplo: "``` ./studio.sh ```",
+
+ ---
+

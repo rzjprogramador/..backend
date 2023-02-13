@@ -1,0 +1,8 @@
+instalador_snap: sudo apt install snapd
+
+---
+
+player_de_video:
+  nome: haruna,
+  comandos: sudo snap install haruna --candidate // sudo snap refresh haruna
+  tutorial: https://edumotivation.com/install-haruna-video-player-on-ubuntu-20-04/#:~:text=The%20easiest%20way%20to%20install,needed%20to%20run%20the%20application.
