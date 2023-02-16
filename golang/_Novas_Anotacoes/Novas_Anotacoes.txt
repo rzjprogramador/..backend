@@ -1,0 +1,31 @@
+
+
+# pacote fmt :: formatar textos
+
+conceito_tags: "vc tem que mostrar para o formatador o que vc quer prinatr com %<tag>",
+uso: "posso usar o fmt.Metodo apos o return entao estou formatando a saida do texto emsmom com este pacote. fmt é o objeto o metodo que vai dizer a onde pode ser a saida e a formatacao",
+
+conceito_print_console: "Print seja qual for é só para console."
+
+conceito_formatacao_texto_uso_retorno: "Sprint seja qual for retorna a string formatada da pra usar no return o seu retorno."
+
+usar_apos_return: "qualquer um menos .Println"
+uso_para_retornos: 
+erro: ".Errorf("erro foi %s", error)"
+
+link_pacote: "https://pkg.go.dev/fmt",
+qualquerValor: "%v",
+boleano: "%t",
+definindo_numero_de_casas_decimais: "%.2f",
+
+---
+Sprint : "concatena variaveis nao printa , mas retorna o valor das concatenadas"
+Sprintln: "formata a saida da variavel do tipo que ela é para string, È tipo o ToString, só nao da pra passar as variaveis na string só no Sprintf"
+
+Sprintf : da para formatar variaveis no meio das strings representadas por justa posicao em tags.
+exemplo: 
+  var n1, n2 , n3 = 100, 200, 300
+	concatenada := fmt.Sprintf("o valor da 1 é %d - da 2 é %d - da 3 é %d > fim", n1, n2 , n3) 
+	fmt.Println(concatenada)
+
+tag_para_printar_objetos_com_o_nome_das_chaves: "%#v"
