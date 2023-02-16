@@ -1,6 +1,8 @@
 
 
 saida_de_dados: 
+tutorial_doc: {"https://pkg.go.dev/fmt", "log : https://pkg.go.dev/log",  },
+tutorial_aula: "https://www.youtube.com/watch?v=O297teVV25E",
 conceito_geral: "para formatar textos use a lib fmt e os metodos Print ou Sprint"
 
 conceito_tags: "vc tem que mostrar para o formatador o que vc quer prinatr com %<tag>",
@@ -42,7 +44,7 @@ exemplo:
 
 	result := fmt.Sprintf("Dados >> %#v", pessoa1)
 	fmt.Printf(result)
-  
+
 }//
 
 // mostrar_logs: {
