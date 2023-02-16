@@ -9,7 +9,7 @@ type Pessoa struct {
 
 func main() {
 	// Print seja qual for é só para console , Sprint seja qual for retorna a string formatada da pra usar no return o seu retorno.
-	
+
 	// vc tem que expressar com %<tag> a forma que quer formatar
 	// foo := "valorFoo"
 	// fmt.Printf("%vs", foo)
@@ -26,6 +26,7 @@ func main() {
 	// fmt.Println(concatenada)
 	/* *************************************************** */
 	
+	// Recuperando de formatacao de objeto para print
 	pessoa1 := Pessoa{
 		Nome: "Reinaldo",
 		Idade: 45,
