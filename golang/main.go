@@ -10,7 +10,7 @@ func main() {
 	Linha3`
 
 	publicar := fmt.Sprintf("%#v %#v", primeira, pulaLinhas, )
-	// devolveu 2 strings : "primeiro texto" "Linha1\n\tLinha2\n\tLinha3"
+	// #TODO : devolveu 2 strings : "primeiro texto" "Linha1\n\tLinha2\n\tLinha3"
 
 	fmt.Println(publicar)
 
