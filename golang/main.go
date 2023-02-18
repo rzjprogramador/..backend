@@ -11,7 +11,8 @@ func main() {
 
 	publicar := fmt.Sprintf("%#v %#v", primeira, pulaLinhas, )
 	// #TODO : devolveu 2 strings : "primeiro texto" "Linha1\n\tLinha2\n\tLinha3"
+	// fmt.Println(publicar)
 
-	fmt.Println(publicar)
+	
 
 }
