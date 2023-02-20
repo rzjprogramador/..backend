@@ -1,0 +1,21 @@
+# comandos_navegador_2_pontos:
+
+ historico_de_comando: no navegador: seta pra cima
+
+ir_para_inicio_topo: dois ponto 1 ex: :1,
+
+substituicao: 
+  todas_ocorrencias: %s/palavraAlvo/substituirPorEsta/g
+
+sair:
+conceitos: w de write/gravar , q de quit/sair, exclamacao/afirmacao para forçar
+ sair_sem_salvar_alteracao: q
+ salvar_e_sair: wq
+ salvar_forcado: w!
+ salvar_escolhendo_nome_novo_arquivo: w /caminho se tiver, ou  "ponto barra se for salvar no local onde esta" ./ nome_para_novo_arquivo.extensao
+
+pesquisar_determinado_texto: barra /palavraHaPesquisar
+ir_pra_frente: n de next
+ir_para_traz: p de prev
+
+rodar_comandos_do_linux_sem_sair_do_vim: exclamacao comando que seria normal no terminal linux ::ex: !ls // obs: Enter para voltar sem fazer nada. // muito utilma para rodar comando de console que roda arquivos do programa.

@@ -1,0 +1,4 @@
+# modo_de_edicao: 
+
+• submodo_edicao: b ou d vai pro modo visual , aqui podemos selecionar, recortar copiar cortar
+• 
