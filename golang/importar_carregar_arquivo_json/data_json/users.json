@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "name": "nome do User1",
+      "type": "TipoDoUser",
+      "age": 45,
+      "social": {
+        "facebook": "https://facebook.com",
+        "twitter": "https://twitter.com"
+      }
+    },
+    {
+      "name": "NomeUser2",
+      "type": "Author2",
+      "age": 6,
+      "social": {
+        "facebook": "https://facebook.com",
+        "twitter": "https://twitter.com"
+      }
+    },
+    {
+      "name": "NomeUser3",
+      "type": "Author3",
+      "age": 6,
+      "social": {
+        "facebook": "https://facebook.com",
+        "twitter": "https://twitter.com"
+      }
+    }
+
+  ]
+}
