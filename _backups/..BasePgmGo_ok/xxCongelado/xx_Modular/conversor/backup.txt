@@ -1,0 +1,53 @@
+package conversor
+
+import (
+	"bytes"
+	"encoding/json"
+	"fmt"
+	"log"
+)
+
+type Conversor struct{
+	MapearAvisarStructQueVaiReceberTalKeyemJSON string `mapearAvisarStructQueVaiReceberTalKeyemJSON`
+	ReceberemJson string `receberEmJson`
+	ParaObjetoDeStruct string `paraObjetoDeStruct`
+	ParaByte string `paraByte`
+	ParaJson string `paraJson`
+	DeNumeroParaTexto string `deNumeroParaTexto`
+	DeTextoParaNumero string `deTextoParaNumero`
+}
+
+var instanciaDeModeladorStructEmJSONGolang = Conversor{
+		`no campo do struct apos o tipo anotar entre 'crazes' como vai querer em json o nome da key. Podemos usar dentro das crazes a anotacao :: json: "nomeDaKeyMapeada" ou somente dentro de crazes o nome da keyMapeada`,
+		"foo",
+		"foo",
+		"foo",
+		"foo",
+		"foo",
+		"foo",
+}
+
+func transformarEmJSON(c Conversor) (*bytes.Buffer){
+	bytesConversoremJSON, erro := json.Marshal(c)
+	if erro != nil {
+		log.Fatal(erro)
+	}
+	jsonConversoremJSON := bytes.NewBuffer(bytesConversoremJSON)
+	return jsonConversoremJSON
+}
+
+// func addConversor(c Conversor) Conversor{
+// 	return c
+// }
+
+func ExecuteConversor() {
+	// fmt.Println(addConversor(conversor_Golang))
+	// fmt.Println(addConversor(instanciaDeModeladorStructEmJSONGolang))
+	fmt.Println(transformarEmJSON(instanciaDeModeladorStructEmJSONGolang)) // devolve array de []bytes
+}
+
+/*
+RecomendacaoInstanciacaoModeladorTageadoParaJson: "nao fazer um objetoDeEstrutura se o modelador estiver tagado para json fazer um objJSON",
+
+Instanciar_Struct_Ja_Mapeada_As_Keys_Para_Json: "ao instanciar em objeto inserir somente os valores.",
+*/

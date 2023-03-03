@@ -1,0 +1,12 @@
+// Acesso_Items_Singular_e_Compostos_Na_Colecao_em_Javascript ::
+
+const collectionSingular = [ "foo", "bar", "outro" ]
+const collectionCompostoObjetos = [{ Campo1: "foo1", Campo2: "foo2" }]
+
+const acess_singular = collectionSingular[0]
+const acess_Valor_Objeto1 = collectionCompostoObjetos[0]["Campo1"]
+const acess_Valor_Objeto2 = collectionCompostoObjetos[0].Campo1
+
+console.log(acess_singular)
+console.log(acess_Valor_Objeto1)
+console.log(acess_Valor_Objeto2)

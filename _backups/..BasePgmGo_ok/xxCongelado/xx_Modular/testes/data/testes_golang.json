@@ -1,0 +1,9 @@
+{
+  "Testes": {
+    "Args": {
+      "NomeDoArquivo": "tem que ser com o final _test",
+      "Assinatura_DaFuncaoDeTestDa_NativaDaLinguagem": "func TestNomedaFuncao(t *testing.T) {}",
+      "ObrigatoriedadeNoNomeDaFuncao": "tem que ter a palavra Test no inicio."
+    }
+  }
+}

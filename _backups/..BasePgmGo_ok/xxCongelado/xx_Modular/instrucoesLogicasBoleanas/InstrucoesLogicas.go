@@ -1,0 +1,41 @@
+package instrucoesLogicasBoleanas
+
+import "fmt"
+
+type SintaxeUniversal_SintaxeLinguagem struct{
+	SintaxeUniversal string
+	SintaxeLinguagem string
+}
+
+type InstrucoesLogicasBoleanasModel struct{
+	Props_InstrucoesLogicasUniversal Props_InstrucoesLogicasUniversal
+	InstrucoeLogicasPossiveis Args_InstrucoeLogicasPossiveis
+}
+type Props_InstrucoesLogicasUniversal struct{
+	ConceitoInstrucoesLogicas string
+	TipoDeRetornoNoUsoParaTodos string
+}
+type Args_InstrucoeLogicasPossiveis struct{
+	Linguagem string
+	Instrucoes_ParaOperandos_De_Valor_Do_Tipo_Numerico Args_Instrucoes_ParaOperandos_De_Valor_Do_Tipo_Numerico
+	Instrucoes_ParaOperandos_De_Valor_Do_Tipo_TextoEObjeto Args_Instrucoes_ParaOperandos_De_Valor_Do_Tipo_TextoEObjeto
+}
+type Args_Instrucoes_ParaOperandos_De_Valor_Do_Tipo_Numerico struct {
+	MaiorQue SintaxeUniversal_SintaxeLinguagem
+	Menorque SintaxeUniversal_SintaxeLinguagem
+	Incremento_ACadaUso_Aumentar_MaisUm SintaxeUniversal_SintaxeLinguagem
+	Decremento_ACadaUso_Diminuir_MenosUm SintaxeUniversal_SintaxeLinguagem
+}
+type Args_Instrucoes_ParaOperandos_De_Valor_Do_Tipo_TextoEObjeto struct {
+	Igualdade SintaxeUniversal_SintaxeLinguagem
+}
+
+func addInstrucoesLogicasModel(i InstrucoesLogicasBoleanasModel) InstrucoesLogicasBoleanasModel{
+	i.Props_InstrucoesLogicasUniversal.ConceitoInstrucoesLogicas = "Instrucoes logicas sao funcoes que retornam um valor boleano quando utilizada entre/noMeio de 2 operandos/variaveis/instancia/ de um tipo"
+	i.Props_InstrucoesLogicasUniversal.TipoDeRetornoNoUsoParaTodos = "boleano >> verdadeiro ou falso"
+	return i
+}
+
+func Execute_InstrucoesLogicasBoleanas() {
+	fmt.Println(addInstrucoesLogicasModel(Use_Obj_InstrucoesLogicas_Golang))
+}
