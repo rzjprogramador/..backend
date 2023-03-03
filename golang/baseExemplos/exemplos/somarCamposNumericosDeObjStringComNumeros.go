@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 /*
@@ -15,18 +14,13 @@ Fases:
 
 	fase2: "Dizemos que a tipagemEstatica agora dara lugar para um type de interface e nele como campos defino e assim controlamos no type qual será os novos tipos que a variavelParam T representará ..",
 
-
 */ 
 
 type TipoGenericoNumber interface{
 	float64 | uint64
 }
 
-func ArredondarNumero(n float64) float64{
-	return math.Floor(n)
-}
-
-func somaGenerica [T TipoGenericoNumber] (objMap map[string]T) T {
+func somarCamposNumericosDeObjStringComNumeros [T TipoGenericoNumber] (objMap map[string]T) T {
 	var soma T
 	for _, v := range objMap {
 		soma += v
@@ -34,11 +28,8 @@ func somaGenerica [T TipoGenericoNumber] (objMap map[string]T) T {
 	return soma
 }
 
-
-
 func main() {
 	// fmt.Println("Alo generics")
-	res := somaGenerica(map[string]float64{"campo1": 10, "campo2": 20.4, "campo3": 30.5})
+	res := somarCamposNumericosDeObjStringComNumeros(map[string]float64{"campo1": 10, "campo2": 20.4, "campo3": 30.5})
 	fmt.Println(res)
-	fmt.Println(ArredondarNumero(12.3456))
 }
