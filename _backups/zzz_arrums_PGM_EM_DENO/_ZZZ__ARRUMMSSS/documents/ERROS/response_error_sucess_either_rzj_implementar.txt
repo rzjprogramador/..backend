@@ -1,7 +1,0 @@
-/*
-conceito Either: Fail | Sucess:
-
-esquerda 1º param right Right r R == erro Fail responseFail
-direita 2º param left Left l L == sucess Sucess responseSucess
-
-*/

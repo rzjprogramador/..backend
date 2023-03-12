@@ -1,3 +1,0 @@
-{
-  fazer_get_via_terminal: 'http get :8000/  # vai navegar pela porta 8000 como se fosse no navegador // tem que ter no linux instalado o httpie',
-}

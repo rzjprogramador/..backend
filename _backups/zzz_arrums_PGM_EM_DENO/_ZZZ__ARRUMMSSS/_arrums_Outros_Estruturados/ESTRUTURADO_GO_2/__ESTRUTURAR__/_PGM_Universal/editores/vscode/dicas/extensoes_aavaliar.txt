@@ -1,5 +1,0 @@
-extensoes_avaliar_vscode: {
-
-  esconder_textos: ['Hide My Secrets', 'Toggle Secrets'],
-
-}

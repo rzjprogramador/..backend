@@ -1,7 +1,0 @@
-
-comandos_node: {
-  comando_principal: `no lugar de yarn pode usar npx se tiver usando npm`,
-  
-  subir_server_sem_scripts: `./node_modules/.bin/ts-node-dev <ENDERECO ARQUIVO SERVER>
-`
-}

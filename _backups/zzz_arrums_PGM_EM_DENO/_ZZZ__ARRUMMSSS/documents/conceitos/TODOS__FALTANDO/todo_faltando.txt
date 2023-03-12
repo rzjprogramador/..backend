@@ -1,7 +1,0 @@
-no Controller:
-objetivo: como desaclopar do express: 
-- fazer minha requisicao e resposta proprio //request e response propria
-- e meu Response HttpResponse retornando um json sem ser com o express
-
----
-

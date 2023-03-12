@@ -1,3 +1,0 @@
-docs: {
-  graphql: `https://graphql.org/learn/queries/`,
-}

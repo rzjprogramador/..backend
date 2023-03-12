@@ -1,5 +1,0 @@
-
-imprimir_nome_dos_campos_e_valor: 
-  exemplo: %+v\n ,significado: % todos, +v valor, \n pula linha a cada campo , tutorial: https://stackoverflow.com/questions/24512112/how-to-print-struct-variables-in-console
-
----

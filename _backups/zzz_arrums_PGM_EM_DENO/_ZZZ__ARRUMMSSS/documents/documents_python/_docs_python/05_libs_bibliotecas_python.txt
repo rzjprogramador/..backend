@@ -1,4 +1,0 @@
-{
-  lib: `pypdf2`,
-  utilidade: `ler arquivos pdf`,
-}

@@ -1,6 +1,0 @@
-tutoriais_top: [
-    // { contexto: '', forncedor: '', tempo: '', link: '' },
-    
-    { contexto: 'transacao prisma', forncedor: 'rocket e fullCycle',tempo: '54:40', link: 'https://www.youtube.com/watch?v=C8Oc31uk2Hw&t=4253s' },
-
-]

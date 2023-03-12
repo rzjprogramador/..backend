@@ -1,4 +1,0 @@
-hospedar no firebase:
-tutorial: https://gohugo.io/hosting-and-deployment/hosting-on-firebase/
-
----

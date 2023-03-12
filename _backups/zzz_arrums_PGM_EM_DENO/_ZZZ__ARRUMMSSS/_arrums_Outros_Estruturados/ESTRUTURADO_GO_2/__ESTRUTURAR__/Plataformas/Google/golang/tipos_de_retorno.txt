@@ -1,7 +1,0 @@
-
-funcao_como_retorno:
-prometendo uma funcoa como retorno >> func()  exemplo: ```func funcaoClosure() func()```
-
-verdaeiro_ou_falso_como_retorno: bool
-
-texto_como_retorno: string

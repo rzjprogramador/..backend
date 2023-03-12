@@ -1,3 +1,0 @@
-
-atualizar ferramenatas golps
-Ctrl + Shift + P  // pesquise por  Install update golps >> escolha a versao @lastest

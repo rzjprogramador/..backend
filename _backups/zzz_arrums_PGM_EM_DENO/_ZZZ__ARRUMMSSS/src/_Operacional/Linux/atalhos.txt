@@ -1,8 +1,0 @@
-listagens:
-  listar_arquivos: ll
-
-
-
-links_atalhos:
-  atalhos_bodhiLinux: https://semanickz.wordpress.com/2017/04/21/bodhi-linux-2017/
-  

@@ -1,9 +1,0 @@
-# OK
-
-comandos_prisma: {
-  migracao: {
-    comando: `yarn prisma migrate dev --name init <NOME_DA_MIGRACAO>,
-    objetivo: `SOMENTE FAZ A MIGRACAO DE ESTRUTURA DOS MODELS`,
-    detalhes: `OBS: RODA O SEED SÓ CHECA SE ESTA CORRETO, MAS NAO INSERE OS DADOS DO SEED``,
-   ,
-}

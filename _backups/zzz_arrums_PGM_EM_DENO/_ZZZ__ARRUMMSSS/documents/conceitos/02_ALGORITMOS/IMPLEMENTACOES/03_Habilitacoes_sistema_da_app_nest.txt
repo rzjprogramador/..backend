@@ -1,8 +1,0 @@
-habilitacoes: {
-  arquivos_env: {
-    contexto: 'HABILITAR USO DE ARQUIVOS ENV REGISTRADOS --PARA USAR SUAS VARIAVEIS GLOBALMENTE ',
-    local: 'appRootModuloPrincipal',
-    configurador: 'ConfigModule.forRoot({  // em >> envFilePath',
-    exemplo: 'envFilePath: ['.env', '.env_exemplo1', '.env.test'], // HABILITAR ARQUIVOS ENV'
-  }
-}

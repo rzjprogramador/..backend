@@ -1,9 +1,0 @@
-dev_links: {
-    cores: {
-        nome: 'Html Color Codes', link: 'https://htmlcolorcodes.com/',
-
-        nome: 'Colors Picker', link: 'https://www.w3schools.com/colors/colors_picker.asp',
-
-        nome: 'color Picker Google', link: 'https://www.google.com.br/search?q=color+picker&btnK=Pesquisa+Google&sxsrf=APq-WBvfIuQQthJvppA4lC-ct_6WcpCwTA%3A1649335988848&source=hp&ei=tN5OYp-0Ma_g1sQPzMWRyAg&iflsig=AHkkrS4AAAAAYk7sxIk8MMK4N2c-4daT2yz9Keb2Vt0m&ved=0ahUKEwif3umt_4H3AhUvsJUCHcxiBIkQ4dUDCAc&uact=5&oq=google+keep&gs_lcp=Cgdnd3Mtd2l6EAMyCwgAEIAEELEDEIMBMgsIABCABBCxAxCDATIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgcIIxDqAhAnOgQIIxAnOg4ILhCABBCxAxDHARCjAjoOCC4QgAQQsQMQxwEQ0QM6EQguEIAEELEDEIMBEMcBEKMCOggILhCABBCxAzoOCC4QgAQQsQMQxwEQrwE6CwguEIAEELEDEIMBOhEILhCABBCxAxCDARDHARCvAToHCCMQsQIQJzoGCAAQBxAeOgoIABCxAxCDARAKOgcIABCxAxAKOggIABAHEB4QEzoECAAQClCTAliUMmDRNWgBcAB4AIABlQeIAdoZkgEJMC43LjIuNi0ymAEAoAEBsAEK&sclient=gws-wiz',
-    }
-}

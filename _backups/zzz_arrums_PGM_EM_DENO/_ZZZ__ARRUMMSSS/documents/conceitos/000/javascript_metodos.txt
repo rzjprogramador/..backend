@@ -1,5 +1,0 @@
-escapa_caracteres_invertidos: encodeURIComponent('<Caractere Alvo>')
-
-transformar_em_json: JSON.parse( <ALVO> )
-
-transformar_json_em_string: JSON.stringify( <ALVO>, null, 2 <Este 2 é o espaco pra melhor visualizar> )

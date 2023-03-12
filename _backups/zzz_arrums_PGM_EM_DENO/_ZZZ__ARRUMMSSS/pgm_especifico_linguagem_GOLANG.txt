@@ -1,5 +1,0 @@
-
-pacotes:
-pacotes sao objetos e neles temso os comprotamentos/funcoes.
-
----

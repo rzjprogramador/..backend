@@ -1,3 +1,0 @@
-module _PGM_ESTRUTURADO_GO
-
-go 1.13

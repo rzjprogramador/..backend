@@ -1,5 +1,0 @@
-rodar_tests: go test
-
-pacotes: é apenas 1 arquivo dentro da pasta ...a unica excessao é arquivo de _test  entao dentro de cada pasta de pacote pode ter o arquivo do pacote e o do _test somente.
-
-arquivos_de_test : nomeacao obrigatoria :: final com _test.go  ... o testing procura os arquivos com final _test.go para ler os tests.

@@ -1,7 +1,0 @@
-
-circuferencia de uma area: 
-area = PI * raio * raio
-# obs o valor de raio é passado e guardado em variavel area ..usamos a area
-
----
-

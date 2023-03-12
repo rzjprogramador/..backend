@@ -1,7 +1,0 @@
-# PROTOTYPE
-
-modelo_de_funcao_aceita_para_prototype:
-Posso adicionar no prototype uma referencia para uma funcao .... mas esta funcao adicionada tem que ser uma function declaration ... para funcionar o this e conseguir acessar props do objeto entidade Pai. nao pode ser uma arow function a funcao de prototype.
-obs: pode ser passada só a referencia nao precisa executar
-
----

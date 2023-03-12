@@ -1,6 +1,0 @@
-
-
-classe para modelar o objeto.
-
-construtor para inicializar as props que o objeto vai ter.
-

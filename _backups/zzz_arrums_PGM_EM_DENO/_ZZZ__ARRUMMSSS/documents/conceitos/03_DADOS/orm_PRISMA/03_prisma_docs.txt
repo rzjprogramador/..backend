@@ -1,5 +1,0 @@
-prisma_docs: {
-
-  instancia_unica: `https://www.prisma.io/docs/support/help-articles/nextjs-prisma-client-dev-practices`,
-
-}

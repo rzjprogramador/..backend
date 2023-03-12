@@ -1,5 +1,0 @@
-
-interface EntityMaker extends ObjProto1 {
-    ({ nome, idade }: Entity): Entity // ESTE É O METODO DA FUNCAO
-    // ObjProto1 É O OBJETO QUE ESTA FUNCAO VAI HERDAR E INSEIRI O QUE ELE TEM  NO SEU PROTO.
-}

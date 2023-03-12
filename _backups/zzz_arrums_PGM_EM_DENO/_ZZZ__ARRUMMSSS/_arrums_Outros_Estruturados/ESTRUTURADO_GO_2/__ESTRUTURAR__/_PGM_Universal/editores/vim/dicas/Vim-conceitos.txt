@@ -1,4 +1,0 @@
-comandos:
-  ```vim arquivoNovo.extensao``` 
-  exemplo: vim main.go  // senao existir ainda oa rquivo ele vai criar e abror com o vim
-

@@ -1,8 +1,0 @@
-01 - usoClient:  "o que o Client vai usar" :: { rota } >> para usar o casoDeUso.
-
-02 - rotaVaiPrecisar: caso de uso já que é o que ela vai dar ao Client: 
-  oQueOClientVaiFazerNaRota: "acao do Client >> Add Item no Cart", 
-  objetivoDesteCase: ClassMethod que adiciona item : AddItemCart
-    >> é a injecao dela que a rotaHttp vai usar.
-
-03 - 

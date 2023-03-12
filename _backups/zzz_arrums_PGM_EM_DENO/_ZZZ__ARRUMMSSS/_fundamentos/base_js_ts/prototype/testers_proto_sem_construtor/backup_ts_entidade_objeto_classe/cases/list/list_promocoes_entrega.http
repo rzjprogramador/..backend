@@ -1,8 +1,0 @@
-###
-
-GET {{host}}/api/list-modalidades-entrega
-Content-Type: application/json
-
-
-###
-

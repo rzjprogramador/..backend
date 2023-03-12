@@ -1,7 +1,0 @@
-# STRINGS TEXTOS
-
-interpolacao_strings:
- fmt.Printf (" %v " , variavel ) // %v mostra o valor da variavel
-
-fmt.Printf (" %T " , variavel ) // %T mostra o tipo da variavel
-

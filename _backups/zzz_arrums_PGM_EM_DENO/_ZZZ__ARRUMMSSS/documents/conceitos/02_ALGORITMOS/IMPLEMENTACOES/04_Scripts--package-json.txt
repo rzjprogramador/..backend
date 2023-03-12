@@ -1,3 +1,0 @@
-scripts_rodar_app_nest : {
-  forcar_reset_banco_em_tests: `"pretest": "yarn dotenv-cli -e .env.test -- yarn prisma migrate reset --force --skip-generate --preview-feature",`
-}

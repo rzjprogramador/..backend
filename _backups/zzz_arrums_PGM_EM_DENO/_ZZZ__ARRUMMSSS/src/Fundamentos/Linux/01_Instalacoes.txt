@@ -1,7 +1,0 @@
-# INSTALACOES PACOTES LINUX DEBIAN
-
-sudo apt install <pacote>
-
-exemplos:
-sudo apt install wget  // wget = instalador via url
-

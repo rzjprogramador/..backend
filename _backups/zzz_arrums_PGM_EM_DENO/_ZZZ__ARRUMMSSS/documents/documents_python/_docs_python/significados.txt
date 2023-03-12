@@ -1,4 +1,0 @@
-shebang: 'exemplo: #!python3   :: shebang traducao: a coisa a casa o assunto ::  vai executar com python3 ao inves do python2 que vem apdrao no sistema da maquina',
-
-built_in: 'traducao contruida em :: sao funcoes prontas do python... 
-exemplos: funcao de potencia pow() ||  __name__ || __package__ || __main__',

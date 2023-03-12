@@ -1,5 +1,0 @@
-
-apos instalar vim e plugin:
-copiar e executar no terminal o comando apos instalation complete:
-```vim +PlugInstall +qall```
-

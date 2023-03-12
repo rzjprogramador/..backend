@@ -1,5 +1,0 @@
-# IMPLEMENTACAO RZJ TEST ECOMMERCE
-
-1 - comecar pelo repositorio: (test, contrato, concrete )
- -- contexto: carrinho -- preciso de um array de items pra encher o carrinho ..comeco pelo repo pra ter o array.
-

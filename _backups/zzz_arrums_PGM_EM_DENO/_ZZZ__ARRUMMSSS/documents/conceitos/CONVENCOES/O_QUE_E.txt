@@ -1,3 +1,0 @@
-O_QUE_E = {
-  sgbd: `Sistema de Gerenciamento de Banco de Dados`
-}

@@ -1,7 +1,0 @@
-USANDO_DEBUGGER:
-
-- marca o breakpoint na linha da variavel alvo
-- clica na barata >> Run and Debugger 
-- no play : Launch Program - que é o Start Debugger
-- em VARIABLES :: vai mostrar o valor de todas variaveis
-- em Watch :: vai observar o valor da variavel ou objeto que vc determinar ali.

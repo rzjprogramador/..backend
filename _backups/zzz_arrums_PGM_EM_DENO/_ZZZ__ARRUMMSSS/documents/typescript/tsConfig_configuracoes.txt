@@ -1,3 +1,0 @@
-// configurar :
-
-"strictPropertyInitialization": false, // poder criar prop em classe sem inicializar

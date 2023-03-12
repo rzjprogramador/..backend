@@ -1,4 +1,0 @@
-buscar unica por id
-no prisma para mongo db a diferenca que o id é do tipo objetoentao apra fazer uma busca unica tem que passar um objeto id exemplo : where: { id }
-
----

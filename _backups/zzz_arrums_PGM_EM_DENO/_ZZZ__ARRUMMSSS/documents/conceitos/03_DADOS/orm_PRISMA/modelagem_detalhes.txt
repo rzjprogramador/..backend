@@ -1,3 +1,0 @@
-tem_que_ter_um_campo_unico: [
-  'Clientes', 
-]

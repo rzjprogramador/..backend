@@ -1,2 +1,0 @@
-Em funcionamento repositorio em memoria de produtos:
-- para retornar a busca de produtoByCep no addItem do carrinho tem que criar produto via http no produto create()

@@ -1,5 +1,0 @@
-ver hash dos commits
-git log --decorate --oneline
-
-voltar marretadamente ao estado de um commit
-git reset --hard <HASH DO COMMIT ALVO QUE QUER VOLTAR A ESTE ESTADO>

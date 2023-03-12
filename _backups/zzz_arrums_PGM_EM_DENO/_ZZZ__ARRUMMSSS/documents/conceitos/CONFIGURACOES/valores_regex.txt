@@ -1,6 +1,0 @@
-
-sintaxe: {
-  regex: {
-    todos_arquivos_dentro_da_pasta_com_a_extensao: `"pastaAlvo/**/*.ts"`,
-  }
-}

@@ -1,9 +1,0 @@
-# print telas:
-configurar para tirar print // 
-inicializador / configuracoes / painel de inicializacao / entrada / associacao teclado / marcar "PRINT" de um lado e "obter captura de tela" do outro lado e "aplicar" para funcionar depois pode apertar a tecla PrtSc de print screen que vai dar print/ 
-obs: vai salvar as imagens de print na pasta user/desktop.
-
-tutorial: https://edustorage.net/entry/how-to-run-flameshot-on-printscreen-button-in-bodhi-linux
-
----
-

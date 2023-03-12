@@ -1,7 +1,0 @@
-podemos recuperar um valor enviado pelo client de 2 maneiras : via req. params (parametro via url da rota e jogar numa variavel) || via midleware que pega o valor enviado pelos headers
-
-para recuperar uma consulta onde o dado virá por parametro de rota, 
-no endereco da rota o utilizador envia o valor de consulta
-na applicacao recuperamos no endereco da rota com recurso/:id ou qualquer nome de parametro
-e na implementacao recuperamos extraindo a variavel que capturou o valor apssado pelo clientex: const { id } = req.params 
-// agora temos a variavel id com o valor passado pelo client

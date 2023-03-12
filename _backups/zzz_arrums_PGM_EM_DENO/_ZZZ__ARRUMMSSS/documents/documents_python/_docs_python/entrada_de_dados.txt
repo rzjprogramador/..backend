@@ -1,1 +1,0 @@
-entrada_de_dados_via_console: 'input('texto')  :: funcao input('mensagem') captura no console dados enviados'

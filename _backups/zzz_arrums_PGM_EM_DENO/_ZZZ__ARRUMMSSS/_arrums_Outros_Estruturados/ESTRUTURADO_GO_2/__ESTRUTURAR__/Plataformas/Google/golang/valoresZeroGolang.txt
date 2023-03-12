@@ -1,5 +1,0 @@
-# Valores Zero Golang
-
-para_struct: EntityStruc{}
-
-para_string: ""

@@ -1,6 +1,0 @@
-
-descobrir_tipo_do_dado: 
-no dart descobrimos o tipo do dado desencadeando do dado alvo a propriedade "runtimeType" : traducao: tipo de tempo de execução
-
-exemplo: 
-variavel.runtimeType // vai retornar o tipo da variavel

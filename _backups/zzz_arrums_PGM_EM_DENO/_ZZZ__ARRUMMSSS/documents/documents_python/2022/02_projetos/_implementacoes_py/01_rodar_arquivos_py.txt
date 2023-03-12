@@ -1,7 +1,0 @@
-# rodar arquivo python com ipython
-
-entrar na pasta do arquivo pelo terminal :
-ipython -i arquivo.py
-## vai abrir o console em modo interativo executando tipo watch o arquivo ..ai posso chamar as funcionalidades disponiveis nele
-
----

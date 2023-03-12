@@ -1,8 +1,0 @@
-uso: 
-from pydantic import BaseModel
-
-na_classe: ### ela herda o BaseModel 
- class ClasseTal(BaseModel)
-
-uso: 
-# CLASSE BASEMODEL NAO PRECISO INSTANCIAR - USA COMO MODELO DE OBJ EMPACOTADO EM FUNCAO QUE VAI RECEBER OS DADOS ::

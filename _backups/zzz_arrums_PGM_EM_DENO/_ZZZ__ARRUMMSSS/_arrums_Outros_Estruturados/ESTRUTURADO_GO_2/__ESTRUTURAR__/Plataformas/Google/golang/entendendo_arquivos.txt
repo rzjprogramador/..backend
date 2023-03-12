@@ -1,2 +1,0 @@
-go.sum : 
-é tipo o lock que diz a versao exatada das minhas dependencias usadas....se for usar em outro lugar vai mostrar o espelho da versao exata das dependencias que to usando no projeto.

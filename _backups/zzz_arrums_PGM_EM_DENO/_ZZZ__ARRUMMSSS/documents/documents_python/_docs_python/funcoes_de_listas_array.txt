@@ -1,6 +1,0 @@
-
-importante: 'OBS: ALGUMAS FUNCIONALIDADES QUE FUNCIONAM NAS LISTAS TAMBEM FUNCIONAM EM TUPLAS',
-
-adicionar_novo_elemento_na_lista: 'append()  SINTAXE: lista.append(<NOVO_ITEM>)'',
-
-ver_tamanho_do_agrupador: 'len() SINTAXE: len(<TARGET>)'

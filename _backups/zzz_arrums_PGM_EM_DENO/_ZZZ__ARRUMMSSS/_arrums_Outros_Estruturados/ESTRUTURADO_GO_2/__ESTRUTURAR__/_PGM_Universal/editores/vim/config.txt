@@ -1,5 +1,0 @@
-config: 
-  personalizar:
-  vim_bootstrap: https://vim-bootstrap.com/
-
-  editor_vim_para_golang: https://blog.logrocket.com/using-vim-go-development/#:~:text=vim%2Dgo%20offers%20most%20of,using%20%3AGoRun%20%2C%20and%20more.&text=Next%2C%20you%27ll%20need%20to,binaries%20using%20the%20%3AGoInstallBinaries%20command.

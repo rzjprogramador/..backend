@@ -1,5 +1,0 @@
-
-# COMANDOS PARA TEST:
-```yarn prisma migrate dev --name <NOME MIGRACAO>```
-```yarn test```
-```yarn test:cov```

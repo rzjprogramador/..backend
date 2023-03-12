@@ -1,4 +1,0 @@
-
-tipos_de_dados:
-
-  nulo: nil | null , quer dizer que o recipiente existe mas nao tem nenhum valor dentro dele.

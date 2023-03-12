@@ -1,5 +1,0 @@
-# ACOES
-
-acao: range,  traducao: variar / interagir
-acao: bind, traducao: vincular / ligar
-acao: append, traducao: acrescentar / anexar

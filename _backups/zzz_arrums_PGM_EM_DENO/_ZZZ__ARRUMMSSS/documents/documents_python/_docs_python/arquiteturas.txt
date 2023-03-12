@@ -1,8 +1,0 @@
-# ARQUITETURA SIMPLES MODULAR
-conceito: tudo no mesmo nivel, desde o main ate as pastas de modulos.
-
-nivel_um: Um main.py centralizador do projeto -- para mostrar o resultado de todos modulos
-nivel_um_modular: pastaModularProjeto + pastaModulosHelpersAuxiliares tudo no emsmo nivel 
-
----
-

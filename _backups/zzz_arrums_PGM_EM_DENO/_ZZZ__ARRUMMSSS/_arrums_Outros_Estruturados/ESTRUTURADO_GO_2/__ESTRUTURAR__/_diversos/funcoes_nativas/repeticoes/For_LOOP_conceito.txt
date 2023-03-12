@@ -1,9 +1,0 @@
-
-for_loop :
-  aplicabilidades_possiveis: [ 
-    1_repeticoes_De_TrechosCodgo : neste em dart e js usamos o for,
-    2_iteracao_Percorrer_Listas : neste em js e dart usamos for in e forEach
-  ]
-
-  for :
-    sintaxe_em_Dart: for ( inicioVarIterador; condicaoAteQuandoRodar; passosIteradorAcadaLoop)

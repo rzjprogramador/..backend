@@ -1,7 +1,0 @@
-instalar: {
-
-  `yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser`,
-
-  `yarn add -D prettier eslint-config-prettier eslint-plugin-prettier`,
-
-}

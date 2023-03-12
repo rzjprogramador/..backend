@@ -1,9 +1,0 @@
-
-criar_arquivo:
-arquivo.go
-
-criar_modulo:
-go mod init <ONDE QUER COMPARTILHAR PROJETO EX: github.com/rzjprogramador/<NomeProjeto> >
-
-importacoes_de_pacotes_locais:
-" nomeDoProjeto / nomePastaDoPacoteLocal " // obs: esta nomePastaDoModulo sera o objeto para encadear o metodo dentro dela.

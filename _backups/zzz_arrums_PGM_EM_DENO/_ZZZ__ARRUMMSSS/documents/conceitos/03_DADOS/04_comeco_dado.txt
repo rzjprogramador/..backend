@@ -1,7 +1,0 @@
-# Comeco Estrutura dado
-- Tudo começa em uma #Estrutura_Entidade_Geradora:
-- Model no prisma / Modulo / Classe TS-Graph / Tabela BancoDados
-
-pensamento: {
-  estuturas: ´Quero este objeto - Entao vou criar modelo e classe neste formato que preciso pra ter o objeto.´,
-}

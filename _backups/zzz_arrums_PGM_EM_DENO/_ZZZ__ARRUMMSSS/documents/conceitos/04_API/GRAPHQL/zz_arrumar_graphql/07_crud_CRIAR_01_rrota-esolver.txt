@@ -1,7 +1,0 @@
-crud_criar_com_prisma_metodos_da_rota-resolver = {
-
-  decoracao_em_metodos_graphql: `
-  @Mutation(returns => EntidadeQueVaiRetornar)  
-  - de from '@nestjs/graphql'`
-}
-

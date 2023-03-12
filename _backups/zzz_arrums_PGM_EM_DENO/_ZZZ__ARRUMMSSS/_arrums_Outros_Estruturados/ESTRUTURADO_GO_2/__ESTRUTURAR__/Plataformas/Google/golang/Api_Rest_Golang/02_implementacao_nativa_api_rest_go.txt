@@ -1,9 +1,0 @@
-# implementacao_nativa_api_rest
-
-pacote nativo net/http usar o objeto http dele a funcao HandleFunc ( nela o 1º a entrar é a url URI/ url que o cliente vai usar, em 2º entra a funcao que vai lidar com o que vem de pedido da Uri preparamos 2 params req para pegar a requisicao/pedido este tem que seer um ponteiro, e res para enviar nossa resposta
-
-	respostas:
-	se quiser escrever uma resposta usa o param de resposta e ela tem que ser uma colecao de byte()
-
-acessando a busca GET no navegador:
-http://localhost:5000/home

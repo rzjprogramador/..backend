@@ -1,5 +1,0 @@
-# Respostas para error:
-
-fmt.Errorf ("Mensagem") // fmt.Errorf posso renderizar var de erro e a funcao que promete dar um erro aceita ele como resposta do erro, antes tenho que retornar um valor vazio para a resposta do erro
-
----

@@ -1,4 +1,0 @@
-gerenciador_pacotes = {
-  comando_inicial_gerenciador: `yarn || npx || npm`,
-  contexto: `no lugar de yarn pode usar npx se tiver usando npm`,
-}

@@ -1,1 +1,0 @@
-usar_terminal_no_vim: https://www.vivaolinux.com.br/dica/Emulador-de-terminal-no-Vim

@@ -1,6 +1,0 @@
-
-descobrir em outras linguegens:
-- como pular linhas em valor de string no dotnet no js é só usar crazes
-- como interpolar string no valor de variavel , para interpolar valor de atributo de objeto.
-- como interpolar string em retorno de funcao que retorna uma string.
-- como escrever codigo/code interpolado na string no js usamos 3 crazes ex: ```codigo```,

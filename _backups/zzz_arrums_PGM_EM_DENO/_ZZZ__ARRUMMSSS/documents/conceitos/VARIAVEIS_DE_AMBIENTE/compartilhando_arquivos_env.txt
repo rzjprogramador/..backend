@@ -1,5 +1,0 @@
-Existe um pacote chamado env-cmd , que permite usar um arquivo .js como um arquivo .env. O arquivo simplesmente precisa exportar um objeto com as chaves sendo seus nomes de variáveis ​​de ambiente e os valores sendo, bem, os valores. Isso agora permite que você execute javascript antes que as variáveis ​​de ambiente sejam exportadas e, assim, use variáveis ​​de ambiente para definir outras.
-
-link: 'https://www.npmjs.com/package/env-cmd'
-
----

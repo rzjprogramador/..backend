@@ -1,4 +1,0 @@
-poo:
-- para ver se um atributo de uma classe esta protegido tente visualizalo ou altera-lo fora dela
-- montar como public readonly voce consegue ver mas nao modificar fora é o ideal..só que tera que instanciar a classe ..pode ser default que ja te da o objeto em ts ex: export default new Loops();  // recuperar :: console.log(Loops.conceito_loops_universais_while_e_for);
-
